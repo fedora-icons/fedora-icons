@@ -10,12 +10,12 @@
     "duocolor",
     "duotone"
   ],
-  "iconCount": 1228,
+  "iconCount": 1234,
   "source": {
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "exportedOn": "2026-11-10",
-    "componentPairs": 1233,
+    "componentPairs": 1239,
     "excludedBrands": [
       "chrome-cast",
       "figma",
@@ -1019,10 +1019,10 @@
         "duotone": "icons/duotone/alert-hexagon.svg"
       },
       "sha256": {
-        "regular": "d080cf1b6a0b1bd6577cf319f52449054dea8553050057ce95c9f4a2cf429037",
-        "filled": "a499c547bcea3378d29f97de3ee2803f71ddb980c3005819946e5a2b8c9e8b07",
-        "duocolor": "cba30b794cf48323174c6546dd5a1e758993915a6bcfd5faedb85b3fadbc1459",
-        "duotone": "e57181885f8f21bdb48704771143ae95604df8f9f98d01092ce9dac05c0cd8aa"
+        "regular": "a10b1d190f3e8781effc247a0a5c871013413477076a1a707ac580e9edbffe07",
+        "filled": "ba6b70843de4ccbdc068fba7cf7de48e07edc4ca18821822af0b3ab60b10aba8",
+        "duocolor": "a099b52a7ca5d7c40dfac760bb30ad217ae3cab2cbc1227df77e798e39788f5a",
+        "duotone": "fa84e594c732695b01a356db568488818c33070301053861f2ad10b0fdf179d3"
       },
       "duoAuthoring": {
         "version": 2,
@@ -16657,6 +16657,63 @@
       }
     },
     {
+      "name": "content-replace-sparkles",
+      "category": "Workspace",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "replace content with ai",
+        "generative replace",
+        "rewrite content",
+        "ai content"
+      ],
+      "componentSet": "54:71746",
+      "source": {
+        "regular": "54:71716",
+        "filled": "54:71723",
+        "duocolor": "54:71732",
+        "duotone": "54:71739"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "files": {
+        "regular": "icons/regular/content-replace-sparkles.svg",
+        "filled": "icons/filled/content-replace-sparkles.svg",
+        "duocolor": "icons/duocolor/content-replace-sparkles.svg",
+        "duotone": "icons/duotone/content-replace-sparkles.svg"
+      },
+      "sha256": {
+        "regular": "452b198da222ff6aaf05919f8ea1dbd542237324e353423070225aea170238c7",
+        "filled": "31b36bf476776356cfbff9b31bd2f1b04a6cafde9d6a4083fdb8450fde0460a6",
+        "duocolor": "5beeafaa093423fdca8d4adc166dfdd7792cdadd81112d0480ea7a5a48212753",
+        "duotone": "4027fbd371defa89eeb8eab7a2d19a7d12485e1ac44a85ba9bcbd411964ba1d5"
+      }
+    },
+    {
       "name": "contrast",
       "category": "Workspace",
       "tags": [],
@@ -21297,9 +21354,12 @@
         "AI",
         "artificial-intelligence",
         "sparkles",
-        "generative"
+        "generative",
+        "editing"
       ],
-      "aliases": [],
+      "aliases": [
+        "ai edit"
+      ],
       "componentSet": "45:43946",
       "source": {
         "regular": "34:95929",
@@ -21321,10 +21381,10 @@
         "duotone": "icons/duotone/edit-sparkles.svg"
       },
       "sha256": {
-        "regular": "9d1b5e6f24d3540770db0f11eef6e9e1e6ca84a3281b57ed6c3c443f212af552",
-        "filled": "ff5a642f70f7f799fc10f60a1c941ec689fb2e78d32c6c40f01dcb83933bbefd",
-        "duocolor": "6ae0f21dc7579ff7daf5e4f3a44a40f62dca0882da6a1af3e60261b52c2b9933",
-        "duotone": "b2377ee8d0a0d9180bbbedb0fbd7038541619880e9330366539f90fd5ae1f4ef"
+        "regular": "080ea08e4478576fba4eb357911a81681584e56e7724cf39292a2cc8beee116c",
+        "filled": "6ffcada9dda0c4dabeffcdc43ba5726a94f0c16d5cab507750e5edc870c71934",
+        "duocolor": "261b59bcb2e7cf5619298e673ebfce8f3a9c3136b931be2f8cee7d85c5d7a55e",
+        "duotone": "06f31c3667a8c5b3e59f9de42a05872f4ebb8f1fc2fe4c77c03d49d071995c5f"
       },
       "duoAuthoring": {
         "version": 2,
@@ -21367,10 +21427,10 @@
         "duotone": "icons/duotone/edit-square.svg"
       },
       "sha256": {
-        "regular": "976a61677be0e4753345369d3e48cb30379e5ec4c9be7904328c08572f87587d",
-        "filled": "c3815bfc9124a24e694213bd65f3b7f87f7d7d6c21185a6fe792477e6f81f55c",
-        "duocolor": "5009b567b4006c6c8c37068bb379cf79bdcbfdbfdb8e95f39154b80225c20730",
-        "duotone": "f2263aa174c9d3c29fcae715fe74a88b013e3e067fb026aa13a0f57beaff7268"
+        "regular": "5fbbb6b01e21140fa75c140881d85c96c07e1e15f283a2347edf0061ad7901f9",
+        "filled": "28ca7c7f80059f0faf65ebdb12fbb78e8395d2d923ebf37de55b5efcac8e40b5",
+        "duocolor": "c6523da5c58783501512ecf2045ddc8002c99a8c47822eb711e0dcd90d016094",
+        "duotone": "c6523da5c58783501512ecf2045ddc8002c99a8c47822eb711e0dcd90d016094"
       },
       "duoAuthoring": {
         "version": 2,
@@ -21893,10 +21953,10 @@
         "duotone": "icons/duotone/eye-off.svg"
       },
       "sha256": {
-        "regular": "c9099bedf71a5232df37926196fc511eb63c6ed1bf433391897ff0541c423f76",
-        "filled": "a9eb38b5530461fe687cf1393a06b7a5879351adfe1f2a96e21cd8519f1e85b4",
-        "duocolor": "b354e5d53ab052876b9a8166a0c1e860de8ef5b1780d29272a466165f22ffeae",
-        "duotone": "2993cbadf49e095e6fe03400cc352383d680d422d636a53f61c5cd9e6aab780b"
+        "regular": "91c44a5fe8acfe642bae634ace7d4f11377ffc505787c4f1bdb1c21b0acb2765",
+        "filled": "fc7e2416309ae33277ba9e7439b9b63a53385e0a5e69b52bac6450e55b0a3778",
+        "duocolor": "ce191d2ea141ccf12e0b9cdca28d9feac755d20a3003708a4c6882f95a3b3591",
+        "duotone": "ce191d2ea141ccf12e0b9cdca28d9feac755d20a3003708a4c6882f95a3b3591"
       },
       "duoAuthoring": {
         "version": 2,
@@ -28856,10 +28916,10 @@
         "duotone": "icons/duotone/heart-hexagon.svg"
       },
       "sha256": {
-        "regular": "61f3fddb0effd9a372f6f4e4714e770b6fd8829c904edbdaaec6f730a02737a9",
-        "filled": "3bb5544b95c6cde083bc84ab274c8ac59c4940b99278a68d0d4a15638c497af8",
-        "duocolor": "76d72d781a2ad98618b59f9a68cc370ad143dbd99d28ba4314413c7916b85375",
-        "duotone": "3c052352671a8807fc3d6e5ffdbbb15380a45b28cc909a9f5aed675373ca5c8e"
+        "regular": "14124c4b95f31eb2f3fef03cb1d9bf21c97d41a118d22bccb6d7139c3570bb7e",
+        "filled": "a9d26d0660cb6e3f8a16c9a60fac854af8088802e87f5085a8f1fc6a091d80ef",
+        "duocolor": "13a2b31d0d8ac32cacd0eb1f4158e3b19da1b90122232eeb8312a4d5dc1465f6",
+        "duotone": "82801651f130baf1ce03e7554b36987fe7a03026d984fe5de1af6a6eb77db79d"
       },
       "duoAuthoring": {
         "version": 2,
@@ -28953,10 +29013,10 @@
         "duotone": "icons/duotone/heart-octagon.svg"
       },
       "sha256": {
-        "regular": "b003886761d3cb8bab23fae0106fa4558fbf25a584ce61010c5dfd964234eab8",
-        "filled": "6855474aa77c49e96d8273743491dedc9a621863c4391a8934c2a439c6c6726d",
-        "duocolor": "0143dbee2077e1b64ae6427d9aaadcb131257eecff53fa34aab3ac56273c6eaf",
-        "duotone": "85a9961e5c2a381df85f074c9dd70b1914d3b7c02f14f00fe1c5ab49ee7e0ffe"
+        "regular": "d0e900a496fa2822d8442a4a9ab6b4b20e2fe7addb2db737ee102941d164be32",
+        "filled": "2323eab00315968cd71b9ac56d26cc76d28c465c2dd1a6d626612d4bd44cf1aa",
+        "duocolor": "f338f74829dc916d01f468466ce06c76d7b12caf0798a6e202d106c3fdcb92ca",
+        "duotone": "201775e691ca83be6a6f60264b002d89d86ad0386befd05f62ac1ecb0fe3c3ae"
       },
       "duoAuthoring": {
         "version": 2,
@@ -29191,10 +29251,10 @@
         "duotone": "icons/duotone/help.svg"
       },
       "sha256": {
-        "regular": "f071f308a9647905ead972792011bd526a17f71402508037559fb961172b4d46",
-        "filled": "7817062a085b174a243094f5f651a875e5a22edc3ed7945b53f71738f5e43862",
-        "duocolor": "7b1295f4058387b6df32236c893d4b9f07b3a36c13676818b6bc82e12ad41f30",
-        "duotone": "bc036ab1f545662d84006d4378eeec357a40c4c6d8b649c739fcfe1ad8bdd396"
+        "regular": "0a9d0e8d8f8be2fd53fc4dd4df2130b4cc25084c0aebc4fadb42da2e7cb580fd",
+        "filled": "72fa4af2ed0e633c41de61759e622613ecebb51c41ec3052bfdf87a35c0295c3",
+        "duocolor": "462970911e3dcdb748597eb9768a2798e47341161c7a5e709efcce315477cd0e",
+        "duotone": "d45e876bb65e4e54127f8e773b4109d8d2c5aeaca086453c493150abf1a9ea95"
       },
       "duoAuthoring": {
         "version": 2,
@@ -29283,10 +29343,10 @@
         "duotone": "icons/duotone/help-hexagon.svg"
       },
       "sha256": {
-        "regular": "631c6c7c51dd53cfc9961c8d118efa54f0c931f09dbc6575ed398e5d798a9484",
-        "filled": "12a2bbb6ee213c9717922534c8a501293853dfc994c4c53adda188c5b7717834",
-        "duocolor": "401ddffb2e158a37d2fd3e6239a8b745ed17f2762f89a9b8074c8f255e39845e",
-        "duotone": "6728ded38230ecce9b43e56f7f4444922d6956ac63dbb3922dc7b768885d386c"
+        "regular": "8dcbe2c025bcd680a01fc64da42267c25a857b49d3a4579dcee55e5754fbaa7d",
+        "filled": "96d20f72cbb609aaf453c5fa7e9ab23a071120c2148e23725304c7abc3a24235",
+        "duocolor": "3b54cffe6f2b3e45c29a389c2f1d080816c6d77f3eebdd4d4ad93fb151d964a0",
+        "duotone": "681bbe9d339155cdd1e469f15f66e23d86387a0c2d84774cc7c7215a8481896f"
       },
       "duoAuthoring": {
         "version": 2,
@@ -29329,10 +29389,10 @@
         "duotone": "icons/duotone/help-octagon.svg"
       },
       "sha256": {
-        "regular": "d2796aed9632907f6d75570a6f2425ab5daf415dc52d2a2f5f311217b70a6c54",
-        "filled": "2d81afc45a33ab86de3b0c04f458629a56b2a32c997986033a977d50a32e6f32",
-        "duocolor": "648326cc7a4f906fd4a6da5c65a22cad5a6dc6b2bc01c7d3032e5cd429b0f5bc",
-        "duotone": "3280e9ab6ed8459536580ee0d5fcf85053048d364b5539cfd01ae742ff57bbe5"
+        "regular": "5a10776c8864c5b48b6df6983e440b220feed0b6432d70df0a0222c08fcb349f",
+        "filled": "079b9961c973f2c2a1c7fbb24220d4618d52ccac9f038b21786d0cbdfd251f23",
+        "duocolor": "19586e51a738c694a56ed12d7d6c3a6ee20a4b2646e5f7e5aaf62f57fe4b5814",
+        "duotone": "f8436e42d735e7b796357919727bba1efd816a54eb15c2a04941a4a934de73ef"
       },
       "duoAuthoring": {
         "version": 2,
@@ -30647,6 +30707,63 @@
       }
     },
     {
+      "name": "image-hd-sparkles",
+      "category": "Media & devices",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "upscale",
+        "enhance resolution",
+        "hd enhancement",
+        "super resolution"
+      ],
+      "componentSet": "54:71684",
+      "source": {
+        "regular": "54:71656",
+        "filled": "54:71663",
+        "duocolor": "54:71668",
+        "duotone": "54:71675"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "files": {
+        "regular": "icons/regular/image-hd-sparkles.svg",
+        "filled": "icons/filled/image-hd-sparkles.svg",
+        "duocolor": "icons/duocolor/image-hd-sparkles.svg",
+        "duotone": "icons/duotone/image-hd-sparkles.svg"
+      },
+      "sha256": {
+        "regular": "af428bb0506984ef1153134597f66f6a36c59bd02b1903ed019fc24f6bd0208f",
+        "filled": "5e966b88059b76d159a5bf9d15eec42daccc8d1a55d94135dfbbe1da15e2b495",
+        "duocolor": "7720dd47d9754b1a1e3ff2df6d444d82d1031fc90acebdb99c9c7390dcbb06d2",
+        "duotone": "3886fc6a2b85a9c6b61a9dd0c36f04edb1f7c67fe1a0124baf788dbd89cb5ded"
+      }
+    },
+    {
       "name": "image-indent-left",
       "category": "Workspace",
       "tags": [],
@@ -30883,9 +31000,12 @@
         "AI",
         "artificial-intelligence",
         "sparkles",
-        "generative"
+        "generative",
+        "editing"
       ],
-      "aliases": [],
+      "aliases": [
+        "ai image"
+      ],
       "componentSet": "45:43984",
       "source": {
         "regular": "34:96310",
@@ -30907,10 +31027,10 @@
         "duotone": "icons/duotone/image-sparkles.svg"
       },
       "sha256": {
-        "regular": "431f3ced422ef7da8ebb4a95f8c79a5f1b985f673ff33335e4bda924fb481c15",
-        "filled": "00e14b32634db6eca4dc40fc2289b682a91c995976e775aecec47f68915c2ee4",
-        "duocolor": "fe96a3d78f2f4bb79963dde300a7a2de81705ef6adb10d0d80651daec38468c3",
-        "duotone": "ac1704980b1972df04cc081e62b841e1488ca4ef0dadd2e26d9ab13573bc6aab"
+        "regular": "d0c7d20836ce5e55a7edad47e150d561d7de44b64164a9c2aaa38894953e71e8",
+        "filled": "1bc7cb2b363813bdb7320bc8078d704c98790d7ee2f1ecec1844e2d61a6f4770",
+        "duocolor": "a58192f09d4e8dd86536dc676f8cd12ba39281d6b9c14cef76469d25238c74b6",
+        "duotone": "6344cf47eb78c3b3fdba728eea6fc593b4bf23994eae30232f0d9ea16ca6f008"
       },
       "duoAuthoring": {
         "version": 2,
@@ -31247,6 +31367,62 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "image-user-sparkles",
+      "category": "Media & devices",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "ai portrait",
+        "reference image",
+        "portrait reference"
+      ],
+      "componentSet": "54:71655",
+      "source": {
+        "regular": "54:71616",
+        "filled": "54:71625",
+        "duocolor": "54:71635",
+        "duotone": "54:71644"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "files": {
+        "regular": "icons/regular/image-user-sparkles.svg",
+        "filled": "icons/filled/image-user-sparkles.svg",
+        "duocolor": "icons/duocolor/image-user-sparkles.svg",
+        "duotone": "icons/duotone/image-user-sparkles.svg"
+      },
+      "sha256": {
+        "regular": "6c6f28ffb6a074f3430203f0f4535067518a821c6a66c868187fa8ad86022ddb",
+        "filled": "8409f1806bc9eb7a26f39b32ecd5616670a54cc2ed3f6d9ec22f343221e75e63",
+        "duocolor": "4c7f8dd742c3f1a31059f4ed6107591dce99b9b8e49f36e0be8f8f9df071f2b8",
+        "duotone": "7f4821f4cae2d0cdd0f64dad380053e8b95475cdbd8502761e273918e10cde33"
       }
     },
     {
@@ -32609,10 +32785,10 @@
         "duotone": "icons/duotone/layers.svg"
       },
       "sha256": {
-        "regular": "41e22a84e5aea33e64b3cb4a0420edbb0d958a90a2a291bc0dce86e075b84210",
-        "filled": "369d5ae28ef9dfd9b92488c9dadd711ce063d3105e0a06440586b73a7accb652",
-        "duocolor": "25ab84b43b88ec6a432f927cb5b5895323802bf0884d888b05c95414b106bc79",
-        "duotone": "c8e0fc18b1bf46bd351caf99b977ff7de13889a3f25968f850d0030a3bf7eafc"
+        "regular": "fc4a75222cbbb0982c71e2ec169cb04708718ab549b042f2fb80fe9323de2adf",
+        "filled": "a55f5d9e5352d6370cf92a7608c60166e672d4046814de4c34be1e635afa9410",
+        "duocolor": "c12ac6b562664b29c3c1b1f6f97063b60bbe5507f25627c83af2c1940463c1d5",
+        "duotone": "d66760aaadc87291445aca477ba048820546c4a5b6e44fdef60f2d4901971b5e"
       },
       "duoAuthoring": {
         "version": 2,
@@ -32657,10 +32833,10 @@
         "duotone": "icons/duotone/layers-offset.svg"
       },
       "sha256": {
-        "regular": "030edca09908f8e670d6a2592e99c90cbe6f3ac4c8d95251fd8773eac18846c1",
-        "filled": "a9853ff14944d0e266b521e9901af912f4ed6941d35559d2f344e04854f71ad7",
-        "duocolor": "76c4c32a52d20896714ffa9a000d86ac9b68d41a9db983909d542161ee93c3d8",
-        "duotone": "e8ec27259290cfa63529c6be392f81f89b51035bd2b23142959adcec30f92698"
+        "regular": "dd69cb331ac6b2717cffd8318032bc0456a332f51cbcba9609e9cf1c751d8fba",
+        "filled": "90e6f5551690681c4c103b067f54cb1edfc3c648493051547afe08c71bc047ae",
+        "duocolor": "aaf73885f69fdae06d2bc1d948d4b64680484d719b50da2a079504c6acb1152b",
+        "duotone": "bb9a0e7a696ea70ad5188069227a09ab3c941ba613ad254be885c98cf8e40292"
       },
       "duoAuthoring": {
         "version": 2,
@@ -32675,6 +32851,63 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "layers-rename-sparkles",
+      "category": "Workspace",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "rename layers",
+        "ai rename",
+        "auto name",
+        "layer naming"
+      ],
+      "componentSet": "54:71715",
+      "source": {
+        "regular": "54:71685",
+        "filled": "54:71692",
+        "duocolor": "54:71701",
+        "duotone": "54:71708"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "files": {
+        "regular": "icons/regular/layers-rename-sparkles.svg",
+        "filled": "icons/filled/layers-rename-sparkles.svg",
+        "duocolor": "icons/duocolor/layers-rename-sparkles.svg",
+        "duotone": "icons/duotone/layers-rename-sparkles.svg"
+      },
+      "sha256": {
+        "regular": "a2de5b373736ebda22b71e0b3d6397e09c91f3f02896c221e39d5b1c1b5040e4",
+        "filled": "2b198b1da624da3136cbe1555e89016f4edc38e7cffd8281e599f58294cb712d",
+        "duocolor": "04afbe66867b9d35165991ecc19744b94fc4ddd01d66765d218e4edb48efec18",
+        "duotone": "0c1d261e1b5c42ff3fa911e797fe2eaddb20862190620cd8011f70313a6c071d"
       }
     },
     {
@@ -45964,6 +46197,63 @@
       }
     },
     {
+      "name": "scissors-sparkles",
+      "category": "Workspace",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "ai cut",
+        "smart cut",
+        "generative cut",
+        "ai scissors"
+      ],
+      "componentSet": "54:71779",
+      "source": {
+        "regular": "54:71747",
+        "filled": "54:71754",
+        "duocolor": "54:71763",
+        "duotone": "54:71770"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "files": {
+        "regular": "icons/regular/scissors-sparkles.svg",
+        "filled": "icons/filled/scissors-sparkles.svg",
+        "duocolor": "icons/duocolor/scissors-sparkles.svg",
+        "duotone": "icons/duotone/scissors-sparkles.svg"
+      },
+      "sha256": {
+        "regular": "d393fd119ad3216cd2bb3cc3139bfd2437347ab70ab786f1be4e73d9d788a1d0",
+        "filled": "256b6a8e6d322dcc109abacd7174e75c1def91770196c7b9438809a39a21f505",
+        "duocolor": "e3b987304bc4989bd350e82d9f5a6ccbd0d8607568d9be1b43d5c5503768b1d0",
+        "duotone": "942214eaf9bb81ade9027620da30112a306ba50a3035ee22da07a6e68ce02e69"
+      }
+    },
+    {
       "name": "scooter",
       "category": "Transport & space",
       "tags": [
@@ -53492,9 +53782,12 @@
         "AI",
         "artificial-intelligence",
         "sparkles",
-        "generative"
+        "generative",
+        "editing"
       ],
-      "aliases": [],
+      "aliases": [
+        "ai translate"
+      ],
       "componentSet": "45:43960",
       "source": {
         "regular": "34:96084",
@@ -53516,10 +53809,10 @@
         "duotone": "icons/duotone/translate-sparkles.svg"
       },
       "sha256": {
-        "regular": "8c73c6fdab219ba56294b2e10186e3ff25ccf2744f64615f91a12896239051da",
-        "filled": "a91a4fcddffd22335c6c68341a88af2f67e732c108af885ac203f66eebadd545",
-        "duocolor": "e3e38efdcca76727147b667a3bd2158004c63aa3d8aa8a3a74dc7c57dd0a97fd",
-        "duotone": "178b74efe0418a6145504af305258723e943e04e676f9aa7e881f3846261fa9a"
+        "regular": "d98b8fa5b1288de97d6b9176466d85e30becaafeb6c261fedc6980466574e79d",
+        "filled": "ce52dc0b44904dc9289f071007b32dc37d5277b90f0a6575677b793a89094c12",
+        "duocolor": "626ddc530dc3582d417524a84efd300fc0d5357e816346b40bcc1748c21cbf49",
+        "duotone": "618662083ab57409822a031042245812558f9b9934a25a37f6dc8a88a1bce9d7"
       },
       "duoAuthoring": {
         "version": 2,
@@ -57131,6 +57424,63 @@
           "opacity": 0.16,
           "policy": "explicit-closed-contours"
         }
+      }
+    },
+    {
+      "name": "wand-sparkles",
+      "category": "AI & agents",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "magic wand",
+        "ai editing",
+        "generative edit",
+        "enhance"
+      ],
+      "componentSet": "54:71824",
+      "source": {
+        "regular": "54:71780",
+        "filled": "54:71791",
+        "duocolor": "54:71800",
+        "duotone": "54:71811"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      },
+      "files": {
+        "regular": "icons/regular/wand-sparkles.svg",
+        "filled": "icons/filled/wand-sparkles.svg",
+        "duocolor": "icons/duocolor/wand-sparkles.svg",
+        "duotone": "icons/duotone/wand-sparkles.svg"
+      },
+      "sha256": {
+        "regular": "23940d5e7c62d070d95d68548b9f24662225f75c8bcdef1c3f26a61d1dd414ec",
+        "filled": "216bfb256b4f53031099531b9c4c3c610a2c577a68fb07ba463ed5fa96e938a9",
+        "duocolor": "69d258d78dad53916e2842ab5c386616bb2d5b45874d015e7469af3fc9e0fc44",
+        "duotone": "dea17f9febcd59e946611f5546ce3d6101f5d5e2c289490941d3f90cad3a070b"
       }
     },
     {

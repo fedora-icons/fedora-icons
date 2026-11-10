@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-10",
+  "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+  "page": "52:56838",
+  "section": "54:76874",
+  "frame": "54:76875",
+  "name": "Get started / Figma quick-start",
+  "scope": "Figma only",
+  "referencePreserved": "54:75636",
+  "placement": { "x": 1856, "y": 0, "width": 1536, "height": 3603 },
+  "sections": [
+    { "id": "54:76876", "name": "Introduction" },
+    { "id": "54:76893", "name": "Choose a style" },
+    { "id": "54:76964", "name": "Use an instance" },
+    { "id": "54:76979", "name": "Colors and themes" },
+    { "id": "54:77033", "name": "Stroke and size" },
+    { "id": "54:77076", "name": "Modifiers" },
+    { "id": "54:77130", "name": "Export and use" },
+    { "id": "54:77142", "name": "Guide footer" }
+  ],
+  "verification": {
+    "originalFedoraContent": true,
+    "linkedInstances": 35,
+    "stylePageLinks": 4,
+    "liveWarmThemeSamples": 6,
+    "strokePresetSamples": 3,
+    "layoutOverflow": 0,
+    "visualInspection": true
+  },
+  "notes": [
+    "Uses the existing Funnel Display / Asta Sans typography and Fedora color variables.",
+    "Stroke examples remain 24px to distinguish stroke presets from actual optical sizes.",
+    "Reference prose and branding were not reused.",
+    "No React instructions or placeholder sections."
+  ]
+}

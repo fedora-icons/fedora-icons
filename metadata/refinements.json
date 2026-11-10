@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-10",
+  "proof": {
+    "section": "54:73557",
+    "frame": "54:73558"
+  },
+  "records": [
+    {
+      "name": "alert-hexagon",
+      "ids": [
+        "33:20126",
+        "33:38830",
+        "49:56996",
+        "49:57002"
+      ]
+    },
+    {
+      "name": "edit-square",
+      "ids": [
+        "1:1064",
+        "33:38476",
+        "49:55737",
+        "49:55745"
+      ]
+    },
+    {
+      "name": "eye-off",
+      "ids": [
+        "1:1076",
+        "33:38484",
+        "49:55797",
+        "49:55804"
+      ]
+    },
+    {
+      "name": "heart-hexagon",
+      "ids": [
+        "33:19736",
+        "33:38782",
+        "49:56804",
+        "49:56810"
+      ]
+    },
+    {
+      "name": "heart-octagon",
+      "ids": [
+        "33:19769",
+        "33:38788",
+        "49:56828",
+        "49:56834"
+      ]
+    },
+    {
+      "name": "help",
+      "ids": [
+        "1:1097",
+        "33:38494",
+        "49:55862",
+        "49:55866"
+      ]
+    },
+    {
+      "name": "help-hexagon",
+      "ids": [
+        "33:19961",
+        "33:38800",
+        "49:56876",
+        "49:56882"
+      ]
+    },
+    {
+      "name": "help-octagon",
+      "ids": [
+        "33:19994",
+        "33:38806",
+        "49:56900",
+        "49:56906"
+      ]
+    }
+  ],
+  "descriptions": {
+    "format": "Keyword: fedora-icon;\nMetaphor: <name>, <relevant synonyms>.",
+    "sets": 1239,
+    "componentsAndSets": 6185,
+    "synonyms": {
+      "copy": [
+        "duplicate",
+        "clipboard",
+        "paste"
+      ],
+      "edit": [
+        "pencil",
+        "modify"
+      ],
+      "edit-square": [
+        "edit",
+        "pencil",
+        "compose"
+      ],
+      "eye": [
+        "view",
+        "show",
+        "visibility"
+      ],
+      "eye-off": [
+        "hide",
+        "hidden",
+        "visibility off"
+      ],
+      "help": [
+        "question",
+        "support"
+      ],
+      "help-circle": [
+        "question",
+        "support"
+      ],
+      "help-square": [
+        "question",
+        "support"
+      ],
+      "help-hexagon": [
+        "question",
+        "support"
+      ],
+      "help-octagon": [
+        "question",
+        "support"
+      ],
+      "alert-hexagon": [
+        "warning",
+        "attention"
+      ],
+      "alert-circle": [
+        "warning",
+        "attention"
+      ],
+      "alert-square": [
+        "warning",
+        "attention"
+      ],
+      "alert-octagon": [
+        "warning",
+        "attention"
+      ],
+      "alert-triangle": [
+        "warning",
+        "attention"
+      ],
+      "heart": [
+        "love",
+        "favorite"
+      ],
+      "heart-hexagon": [
+        "love",
+        "favorite"
+      ],
+      "heart-octagon": [
+        "love",
+        "favorite"
+      ],
+      "search": [
+        "find",
+        "lookup"
+      ],
+      "settings": [
+        "preferences",
+        "options"
+      ],
+      "trash": [
+        "delete",
+        "remove"
+      ],
+      "check": [
+        "confirm",
+        "done"
+      ],
+      "close": [
+        "dismiss",
+        "cancel"
+      ],
+      "plus": [
+        "add",
+        "create"
+      ],
+      "minus": [
+        "subtract",
+        "remove"
+      ],
+      "download": [
+        "save",
+        "export"
+      ],
+      "upload": [
+        "import",
+        "send"
+      ],
+      "lock": [
+        "secure",
+        "private"
+      ],
+      "unlock": [
+        "open",
+        "access"
+      ],
+      "user": [
+        "person",
+        "account"
+      ],
+      "users": [
+        "people",
+        "team"
+      ],
+      "folder": [
+        "directory",
+        "files"
+      ],
+      "file": [
+        "document"
+      ],
+      "home": [
+        "house",
+        "start"
+      ],
+      "mail": [
+        "email",
+        "message"
+      ],
+      "calendar": [
+        "date",
+        "schedule"
+      ],
+      "clock": [
+        "time",
+        "history"
+      ],
+      "refresh": [
+        "reload",
+        "sync"
+      ],
+      "menu": [
+        "navigation",
+        "list"
+      ],
+      "image": [
+        "picture",
+        "photo"
+      ],
+      "play": [
+        "start",
+        "resume"
+      ],
+      "pause": [
+        "hold",
+        "stop temporarily"
+      ],
+      "content-replace-sparkles": [
+        "replace content",
+        "AI editing"
+      ],
+      "layers-rename-sparkles": [
+        "rename layers",
+        "AI editing"
+      ],
+      "image-hd-sparkles": [
+        "upscale",
+        "image enhancement"
+      ],
+      "image-user-sparkles": [
+        "portrait",
+        "reference image"
+      ],
+      "wand-sparkles": [
+        "magic",
+        "generative editing"
+      ],
+      "scissors-sparkles": [
+        "smart cut",
+        "AI editing"
+      ]
+    }
+  },
+  "verification": {
+    "lightDark24And48": true,
+    "coreDescriptionsClean": true,
+    "allSourceIdsPreserved": true
+  },
+  "excludedBrandFix": {
+    "name": "google-chrome",
+    "sources": [
+      "33:19672",
+      "33:38771"
+    ],
+    "change": "Trimmed inner stroke to outer ring and removed Solid protrusion; remains excluded from core exports"
+  }
+}

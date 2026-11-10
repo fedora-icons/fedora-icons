@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-576 -2048)"><g>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-128 -32)"><g>
 <g>
-<path d="M588.507 2051.13H581.919C579.892 2051.13 578.878 2052.15 578.878 2054.17V2066.33C578.878 2068.36 579.892 2069.38 581.919 2069.38H594.081C596.108 2069.38 597.122 2068.36 597.122 2066.33V2059.24H588.507V2051.13Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M581.412 2065.32L584.959 2061.27L588 2064.31L590.534 2061.77L595.095 2066.33" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M584.453 2056.2C584.453 2056.76 583.999 2057.21 583.439 2057.21C582.88 2057.21 582.426 2056.76 582.426 2056.2C582.426 2055.64 582.88 2055.19 583.439 2055.19C583.999 2055.19 584.453 2055.64 584.453 2056.2Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M594.081 2050.62C594.628 2053.12 594.628 2053.12 597.122 2053.67C594.628 2054.21 594.628 2054.21 594.081 2056.71C593.534 2054.21 593.534 2054.21 591.041 2053.67C593.534 2053.12 593.534 2053.12 594.081 2050.62Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M140.506 35.1318H133.918C131.891 35.1318 130.878 36.1453 130.878 38.1723V50.3345C130.878 52.3615 131.891 53.375 133.918 53.375H146.081C148.108 53.375 149.121 52.3615 149.121 50.3345V43.2399H140.506V35.1318Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M133.412 49.3209L136.959 45.2669L140 48.3074L142.534 45.7736L147.095 50.3345" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M136.452 40.1993C136.452 40.7591 135.998 41.2128 135.438 41.2128C134.879 41.2128 134.425 40.7591 134.425 40.1993C134.425 39.6396 134.879 39.1858 135.438 39.1858C135.998 39.1858 136.452 39.6396 136.452 40.1993Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M146.081 34.625C146.628 37.1182 146.628 37.1182 149.121 37.6655C146.628 38.2128 146.628 38.2128 146.081 40.7061C145.533 38.2128 145.533 38.2128 143.04 37.6655C145.533 37.1182 145.533 37.1182 146.081 34.625Z" fill="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
 </g>
 </g>
 </g></svg>

@@ -5,7 +5,10 @@ async function exportFedoraDuo() {
   const presetState = JSON.parse((await figma.getNodeByIdAsync("49:47102")).getPluginData("namedPresetMigration"));
   const presetNames = new Set(presetState.records.map(r => r.name));
   const sets = core.findAll(n => n.type === "COMPONENT_SET" && n.getPluginData("duoExpansion"));
-  if (sets.length !== 1228) throw new Error("Incomplete native expansion");
+  const expansion = JSON.parse(core.getPluginData("fourStyleExpansion") || "null");
+  if (!expansion || expansion.done !== expansion.total || sets.length !== expansion.total) {
+    throw new Error("Incomplete native expansion");
+  }
   const roles = { primary: "#123456", secondary: "#654321" };
   const section = figma.createSection();
   (await figma.getNodeByIdAsync("35:142772")).appendChild(section);

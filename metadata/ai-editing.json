@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "added": [
+    {
+      "name": "image-user-sparkles",
+      "category": "Media & devices",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "ai portrait",
+        "reference image",
+        "portrait reference"
+      ],
+      "componentSet": "54:71655",
+      "source": {
+        "regular": "54:71616",
+        "filled": "54:71625",
+        "duocolor": "54:71635",
+        "duotone": "54:71644"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "image-hd-sparkles",
+      "category": "Media & devices",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "upscale",
+        "enhance resolution",
+        "hd enhancement",
+        "super resolution"
+      ],
+      "componentSet": "54:71684",
+      "source": {
+        "regular": "54:71656",
+        "filled": "54:71663",
+        "duocolor": "54:71668",
+        "duotone": "54:71675"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "layers-rename-sparkles",
+      "category": "Workspace",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "rename layers",
+        "ai rename",
+        "auto name",
+        "layer naming"
+      ],
+      "componentSet": "54:71715",
+      "source": {
+        "regular": "54:71685",
+        "filled": "54:71692",
+        "duocolor": "54:71701",
+        "duotone": "54:71708"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "content-replace-sparkles",
+      "category": "Workspace",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "replace content with ai",
+        "generative replace",
+        "rewrite content",
+        "ai content"
+      ],
+      "componentSet": "54:71746",
+      "source": {
+        "regular": "54:71716",
+        "filled": "54:71723",
+        "duocolor": "54:71732",
+        "duotone": "54:71739"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 1,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 0,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "scissors-sparkles",
+      "category": "Workspace",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "ai cut",
+        "smart cut",
+        "generative cut",
+        "ai scissors"
+      ],
+      "componentSet": "54:71779",
+      "source": {
+        "regular": "54:71747",
+        "filled": "54:71754",
+        "duocolor": "54:71763",
+        "duotone": "54:71770"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "wand-sparkles",
+      "category": "AI & agents",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "magic wand",
+        "ai editing",
+        "generative edit",
+        "enhance"
+      ],
+      "componentSet": "54:71824",
+      "source": {
+        "regular": "54:71780",
+        "filled": "54:71791",
+        "duocolor": "54:71800",
+        "duotone": "54:71811"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "authored-solid-ai-sparkles"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    }
+  ],
+  "updated": [
+    {
+      "name": "image-sparkles",
+      "category": "Media & devices",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "ai image"
+      ],
+      "componentSet": "45:43984",
+      "source": {
+        "regular": "34:96310",
+        "filled": "34:96311",
+        "duocolor": "49:85671",
+        "duotone": "49:85681"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "edit-sparkles",
+      "category": "Essentials",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "ai edit"
+      ],
+      "componentSet": "45:43946",
+      "source": {
+        "regular": "34:95929",
+        "filled": "34:95930",
+        "duocolor": "49:57088",
+        "duotone": "49:57093"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 3,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 2,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "translate-sparkles",
+      "category": "Essentials",
+      "tags": [
+        "AI",
+        "artificial-intelligence",
+        "sparkles",
+        "generative",
+        "editing"
+      ],
+      "aliases": [
+        "ai translate"
+      ],
+      "componentSet": "45:43960",
+      "source": {
+        "regular": "34:96084",
+        "filled": "34:96085",
+        "duocolor": "49:57126",
+        "duotone": "49:57136"
+      },
+      "keyline": {
+        "key": "Squircle",
+        "width": 20,
+        "height": 20,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 7,
+          "accents": 5,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    }
+  ],
+  "sparklePolicy": "Solid AI sparkle accents in all four styles; standalone sparkle/sparkles and unrelated artwork unchanged.",
+  "clarifiedActions": {
+    "layers-rename-sparkles": "Rename layers with AI",
+    "content-replace-sparkles": "Replace content with AI"
+  },
+  "proof": "54:72020",
+  "catalogs": [
+    {
+      "schemaVersion": 2,
+      "style": "regular",
+      "coreCount": 1234,
+      "totalGalleryEntries": 1239,
+      "originalInstancesPreserved": 1233,
+      "added": [
+        {
+          "name": "image-user-sparkles",
+          "source": "54:71616"
+        },
+        {
+          "name": "image-hd-sparkles",
+          "source": "54:71656"
+        },
+        {
+          "name": "layers-rename-sparkles",
+          "source": "54:71685"
+        },
+        {
+          "name": "content-replace-sparkles",
+          "source": "54:71716"
+        },
+        {
+          "name": "scissors-sparkles",
+          "source": "54:71747"
+        },
+        {
+          "name": "wand-sparkles",
+          "source": "54:71780"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 2,
+      "style": "filled",
+      "coreCount": 1234,
+      "totalGalleryEntries": 1239,
+      "originalInstancesPreserved": 1233,
+      "added": [
+        {
+          "name": "image-user-sparkles",
+          "source": "54:71625"
+        },
+        {
+          "name": "image-hd-sparkles",
+          "source": "54:71663"
+        },
+        {
+          "name": "layers-rename-sparkles",
+          "source": "54:71692"
+        },
+        {
+          "name": "content-replace-sparkles",
+          "source": "54:71723"
+        },
+        {
+          "name": "scissors-sparkles",
+          "source": "54:71754"
+        },
+        {
+          "name": "wand-sparkles",
+          "source": "54:71791"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 2,
+      "style": "duotone",
+      "coreCount": 1234,
+      "totalGalleryEntries": 1234,
+      "originalInstancesPreserved": 1228,
+      "added": [
+        {
+          "name": "image-user-sparkles",
+          "source": "54:71644"
+        },
+        {
+          "name": "image-hd-sparkles",
+          "source": "54:71675"
+        },
+        {
+          "name": "layers-rename-sparkles",
+          "source": "54:71708"
+        },
+        {
+          "name": "content-replace-sparkles",
+          "source": "54:71739"
+        },
+        {
+          "name": "scissors-sparkles",
+          "source": "54:71770"
+        },
+        {
+          "name": "wand-sparkles",
+          "source": "54:71811"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 2,
+      "style": "duocolor",
+      "coreCount": 1234,
+      "totalGalleryEntries": 1234,
+      "originalInstancesPreserved": 1228,
+      "added": [
+        {
+          "name": "image-user-sparkles",
+          "source": "54:71635"
+        },
+        {
+          "name": "image-hd-sparkles",
+          "source": "54:71668"
+        },
+        {
+          "name": "layers-rename-sparkles",
+          "source": "54:71701"
+        },
+        {
+          "name": "content-replace-sparkles",
+          "source": "54:71732"
+        },
+        {
+          "name": "scissors-sparkles",
+          "source": "54:71763"
+        },
+        {
+          "name": "wand-sparkles",
+          "source": "54:71800"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "sourceIDsPreserved": true,
+    "originalGalleryInstancesPreserved": true,
+    "coreCount": 1234,
+    "added": 6,
+    "refined": 3,
+    "styles": 4,
+    "themes": 2,
+    "proofInstances": 144,
+    "restoredOutlinedUnits": 7,
+    "originalComponentSetsPreserved": 1233,
+    "proofBoundsNoOverlap": true,
+    "catalogBounds": [
+      {
+        "root": "29:4984",
+        "categories": 20,
+        "icons": 1239,
+        "noCategoryOverlap": true,
+        "allGlyphsInBounds": true
+      },
+      {
+        "root": "33:38436",
+        "categories": 20,
+        "icons": 1239,
+        "noCategoryOverlap": true,
+        "allGlyphsInBounds": true
+      },
+      {
+        "root": "50:130987",
+        "categories": 20,
+        "icons": 1234,
+        "noCategoryOverlap": true,
+        "allGlyphsInBounds": true
+      },
+      {
+        "root": "50:143735",
+        "categories": 20,
+        "icons": 1234,
+        "noCategoryOverlap": true,
+        "allGlyphsInBounds": true
+      }
+    ]
+  }
+}

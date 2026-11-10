@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-10",
+  "scope": "Rounded stacked-line bends; existing top boxes and diamond contours retained.",
+  "styles": ["regular", "filled", "duocolor", "duotone"],
+  "records": [
+    {
+      "name": "layers",
+      "componentSet": "45:39107",
+      "source": {
+        "regular": "31:5412",
+        "filled": "33:40363",
+        "duocolor": "49:66476",
+        "duotone": "49:66483"
+      },
+      "centerlineRadius": 1.5
+    },
+    {
+      "name": "layers-offset",
+      "componentSet": "45:39114",
+      "source": {
+        "regular": "31:5416",
+        "filled": "33:40366",
+        "duocolor": "49:66494",
+        "duotone": "49:66502"
+      },
+      "cornerMatch": {
+        "liveCenterlineRadius": 1.875,
+        "liveOuterRadius": 2.5,
+        "solidCenterlineRadius": 1.4723926678733683,
+        "solidOuterRadius": 2.4539877598979083
+      },
+      "spacing": {
+        "liveCenterlineStep": 2.8125,
+        "liveHorizontalClearGaps": [1.5625, 1.5625],
+        "solidHorizontalClearGaps": [1.165543556213379, 1.165543556213379],
+        "solidBottomTranslation": {
+          "x": -0.3676919937133789,
+          "y": -0.5522298812866211
+        },
+        "maximumSolidTopCoordinateDelta": 9.5367431640625e-7
+      }
+    }
+  ],
+  "verification": {
+    "nativeVisualInspectionAllFourStyles": true,
+    "topShapesPreserved": true,
+    "roundCaps": true,
+    "strokeBindingsPreserved": true,
+    "defaultStroke": 1.25,
+    "strokeVariable": "VariableID:54:75989"
+  }
+}

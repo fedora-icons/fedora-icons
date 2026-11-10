@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-10",
+  "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+  "collection": {
+    "id": "VariableCollectionId:54:75988",
+    "name": "Fedora / Stroke",
+    "defaultModeId": "54:5"
+  },
+  "variable": {
+    "id": "VariableID:54:75989",
+    "name": "icon/stroke-width",
+    "type": "FLOAT",
+    "scope": "STROKE_FLOAT",
+    "binding": "strokeWeight"
+  },
+  "modes": [
+    { "id": "54:6", "name": "16 px", "value": 1 },
+    { "id": "54:5", "name": "24 px", "value": 1.25 },
+    { "id": "54:7", "name": "32 px", "value": 1.5 }
+  ],
+  "bindings": {
+    "Regular": 2659,
+    "Duocolor": 4776,
+    "Duotone": 2659,
+    "total": 10094,
+    "excludes": ["Filled", "filled details", "legacy brands"]
+  },
+  "opticalFitNormalization": {
+    "name": "users-plus",
+    "baseInstances": ["49:49022", "49:49067", "49:49091"],
+    "geometryScale": 0.7,
+    "baseSize": 16.8,
+    "instanceScaleFactor": 1,
+    "reason": "Normalize nested instance scale without changing the optical fit, so bound stroke values remain literal rather than being multiplied by 0.7.",
+    "duotoneTintConstraintsSource": "49:47371",
+    "maximumGeometryDeltaPx": 0.000537,
+    "visualProofComponentSet": "45:42180"
+  },
+  "verification": {
+    "allEligibleStrokesBound": true,
+    "allDefaultWeightsEqual1_25": true,
+    "solidAndFilledDetailsExcluded": true,
+    "legacyBrandsExcluded": true,
+    "consumerModesResolveToConfiguredValues": true,
+    "duotoneConsumersCheckedInAllModes": true,
+    "temporary32PresetEdit": 1.75,
+    "restored32Preset": 1.5,
+    "nativeRegularExportRetains1_25": true,
+    "nativeSolidExportHasNoStroke": true
+  },
+  "proof": {
+    "frame": "54:76875",
+    "samples": [
+      { "frame": "54:77041", "mode": "54:6", "canvasSize": 24 },
+      { "frame": "54:77052", "mode": "54:5", "canvasSize": 24 },
+      { "frame": "54:77063", "mode": "54:7", "canvasSize": 24 }
+    ]
+  },
+  "limitations": [
+    "Stroke presets do not resize icons.",
+    "Current masters are authored at 24px, not separate 16px and 32px optical sizes.",
+    "Solid silhouettes and filled details do not change weight.",
+    "Native SVG exports resolve the selected appearance; they do not carry the Figma binding.",
+    "Checked-in SVGs retain default weights; no runtime stroke property has been introduced."
+  ]
+}

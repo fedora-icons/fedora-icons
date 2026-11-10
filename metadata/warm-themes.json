@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "themeCollection": "VariableCollectionId:1:1427",
+  "themeModes": {
+    "light": "54:0",
+    "dark": "54:1"
+  },
+  "paletteCollection": "VariableCollectionId:54:71283",
+  "paletteModes": {
+    "Ivory": "54:2",
+    "Sand": "54:3",
+    "Stone": "54:4"
+  },
+  "roles": [
+    "background",
+    "surface",
+    "surface-raised",
+    "border",
+    "foreground",
+    "foreground-secondary",
+    "duo-primary",
+    "duo-secondary"
+  ],
+  "palettes": {
+    "Ivory": {
+      "light": {
+        "background": "#F3F1EB",
+        "surface": "#FAF9F5",
+        "surface-raised": "#FFFDF8",
+        "border": "#DED9CF",
+        "foreground": "#292720",
+        "foreground-secondary": "#6E685F",
+        "duo-primary": "#353127",
+        "duo-secondary": "#82745E"
+      },
+      "dark": {
+        "background": "#1D1B17",
+        "surface": "#25221D",
+        "surface-raised": "#302B24",
+        "border": "#514A3F",
+        "foreground": "#F3EDE2",
+        "foreground-secondary": "#BFB5A5",
+        "duo-primary": "#E8DDC6",
+        "duo-secondary": "#BAA789"
+      }
+    },
+    "Sand": {
+      "light": {
+        "background": "#F2ECE1",
+        "surface": "#FAF5EC",
+        "surface-raised": "#FFFBF4",
+        "border": "#DCD1BF",
+        "foreground": "#30291F",
+        "foreground-secondary": "#746754",
+        "duo-primary": "#57432E",
+        "duo-secondary": "#92754F"
+      },
+      "dark": {
+        "background": "#211C16",
+        "surface": "#2B241C",
+        "surface-raised": "#352D22",
+        "border": "#574A38",
+        "foreground": "#F7EDDB",
+        "foreground-secondary": "#C6B497",
+        "duo-primary": "#EBD3AA",
+        "duo-secondary": "#BE9B69"
+      }
+    },
+    "Stone": {
+      "light": {
+        "background": "#F0EDE8",
+        "surface": "#F8F5F0",
+        "surface-raised": "#FFFCF8",
+        "border": "#D8D1C8",
+        "foreground": "#302B27",
+        "foreground-secondary": "#71675F",
+        "duo-primary": "#4F433A",
+        "duo-secondary": "#8B7565"
+      },
+      "dark": {
+        "background": "#201B18",
+        "surface": "#29221E",
+        "surface-raised": "#352B25",
+        "border": "#57473C",
+        "foreground": "#F3E8DF",
+        "foreground-secondary": "#C3AFA0",
+        "duo-primary": "#E7CEC0",
+        "duo-secondary": "#B98E74"
+      }
+    }
+  },
+  "variables": {
+    "light/background": "VariableID:54:71284",
+    "light/surface": "VariableID:54:71285",
+    "light/surface-raised": "VariableID:54:71286",
+    "light/border": "VariableID:54:71287",
+    "light/foreground": "VariableID:54:71288",
+    "light/foreground-secondary": "VariableID:54:71289",
+    "light/duo-primary": "VariableID:54:71290",
+    "light/duo-secondary": "VariableID:54:71291",
+    "dark/background": "VariableID:54:71292",
+    "dark/surface": "VariableID:54:71293",
+    "dark/surface-raised": "VariableID:54:71294",
+    "dark/border": "VariableID:54:71295",
+    "dark/foreground": "VariableID:54:71296",
+    "dark/foreground-secondary": "VariableID:54:71297",
+    "dark/duo-primary": "VariableID:54:71298",
+    "dark/duo-secondary": "VariableID:54:71299"
+  },
+  "semanticVariables": {
+    "color/background": "VariableID:1:1428",
+    "color/foreground": "VariableID:1:1429",
+    "color/foreground-secondary": "VariableID:1:1430",
+    "color/validation-canvas": "VariableID:31:11861",
+    "color/header-background": "VariableID:31:11862",
+    "color/header-foreground": "VariableID:31:11863",
+    "color/header-secondary": "VariableID:31:11864",
+    "color/header-muted": "VariableID:31:11865",
+    "color/subtitle-badge-background": "VariableID:35:142210",
+    "color/duo-primary": "VariableID:48:36636",
+    "color/duo-secondary": "VariableID:48:36637",
+    "color/surface": "VariableID:54:71300",
+    "color/surface-raised": "VariableID:54:71301",
+    "color/border": "VariableID:54:71302",
+    "color/catalog-background": "VariableID:54:71303"
+  },
+  "contrast": {
+    "minimumText": 4.687010697279514,
+    "minimumIcon": 3.6603034194140975
+  },
+  "proof": "54:71304",
+  "verification": {
+    "originalValuesUnchanged": 40,
+    "originalDefaultModeUnchanged": true,
+    "aliasChecks": 48,
+    "linkedInstances": 48
+  }
+}

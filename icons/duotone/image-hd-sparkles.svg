@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-224 0)"><g>
+<g opacity="0.16">
+<path d="M232 4H242.5C244.167 4 245 4.83333 245 6.5V13.5C245 15.1667 244.167 16 242.5 16H232C230.333 16 229.5 15.1667 229.5 13.5V6.5C229.5 4.83333 230.333 4 232 4Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+<g>
+<path d="M232 4H242.5C244.167 4 245 4.83333 245 6.5V13.5C245 15.1667 244.167 16 242.5 16H232C230.333 16 229.5 15.1667 229.5 13.5V6.5C229.5 4.83333 230.333 4 232 4Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+<g>
+<path d="M233.25 7.5V10M233.25 10V12.5M233.25 10H236.25M236.25 10V7.5M236.25 10V12.5M239.25 7.5V12.5H240.75C244 12.5 244 7.5 240.75 7.5H239.25Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+<g>
+<path d="M228 16.25C228.467 18.5325 228.467 18.5325 230.75 19C228.467 19.4675 228.467 19.4675 228 21.75C227.533 19.4675 227.533 19.4675 225.25 19C227.533 18.5325 227.533 18.5325 228 16.25Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+</g>
+</g></svg>

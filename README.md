@@ -1,7 +1,7 @@
 # Fedora Icons
 
-1,228 icons in Regular, Filled, Duocolor, and Duotone styles: **4,912 SVGs**,
-drawn on a 24 x 24 grid. Line styles use 1.25px strokes. Negative space and
+1,234 icons in Regular, Filled, Duocolor, and Duotone styles: **4,936 SVGs**,
+drawn on a 24 x 24 grid. Line styles default to 1.25px strokes. Negative space and
 modifier clearances are transparent.
 
 Fedora's goal is to help people find the right icon quickly and ship it
@@ -47,6 +47,15 @@ colors, edit `color/custom/primary` and `color/custom/secondary` and alias the
 duo variables to that pair. Individual vector fills and strokes can also use
 the palette variables. Duotone retains its 16% interior fill.
 
+Optional full warm-neutral themes are available in Figma: **Ivory, Sand, and
+Stone**, with backgrounds, surfaces, borders, text, and matching icon colors.
+Select **Warm Light** or **Warm Dark** in **Fedora / Theme**, then choose the
+palette in **Fedora / Warm palette**. Original Light/Dark values and blue
+defaults are unchanged. `metadata/warm-themes.json` records the editable
+variables, native mode IDs, colors, and contrast verification. These are Figma
+theme presets; SVG defaults remain blue. For warm inline SVGs, use the matching
+primary/secondary values with `--fedora-primary` and `--fedora-secondary`.
+
 Duocolor accents separate details. Single-contour icons without a separate
 detail stay primary-only; continuous outlines are not split just to force
 two colors.
@@ -56,6 +65,15 @@ variants from native Regular geometry. Contour length distinguishes dominant
 structure from smaller details, without arbitrarily recoloring equal repeated
 strokes. Duotone tints explicitly closed contours at 16% with NORMAL isolation;
 open-only symbols do not get invented interior regions.
+
+AI editing includes `image-user-sparkles` (portrait/reference),
+`image-hd-sparkles` (resolution enhancement), `layers-rename-sparkles`,
+`content-replace-sparkles`, `scissors-sparkles`, and `wand-sparkles`.
+These six additions and the existing `image-sparkles`, `edit-sparkles`, and
+`translate-sparkles` use solid AI sparkle accents in all four styles.
+Standalone `sparkle`/`sparkles` style choices remain unchanged.
+`metadata/ai-editing.json` records native sources, action meanings, and
+Light/Dark proof verification.
 
 Modifiers compose a base icon with a reusable glyph rather than requiring a
 separate drawing for every combination. The chooser will group actions
@@ -87,6 +105,38 @@ export should reflect the selected style, colors, modifier, and position. The
 supported XAML dialect still needs to be established.
 
 ## Use
+
+### Figma
+
+The **Get Started** page contains an original Figma quick-start with linked
+instances, style-page navigation, live warm-theme samples, and editable stroke
+examples. It covers styles, instances, themes, modifiers, and native exports.
+The supplied reference guide remains alongside it.
+
+**Fedora / Stroke** exposes the FLOAT variable `icon/stroke-width` for Regular,
+Duocolor, and Duotone. Select a frame or instance and apply a collection mode:
+
+| Stroke preset | Default value |
+| --- | --- |
+| 16 px | 1px |
+| 24 px (default) | 1.25px |
+| 32 px | 1.5px |
+
+Edit a mode's value in local variables to customize its weight. All 10,094 live
+core outline strokes are bound; Solid silhouettes, filled accents, and legacy
+brands are excluded. The default 24px appearance is preserved.
+
+Modes change stroke weight, **not icon dimensions**. Current masters are
+authored at 24px; the other presets are not separately authored optical sizes.
+Resize separately and check at the final size. SVG exports resolve the current
+appearance rather than retaining Figma variable bindings; the checked-in SVGs
+keep their default strokes. `metadata/stroke-variables.json` records native
+bindings and verification, and `metadata/get-started.json` identifies the guide.
+
+Component descriptions contain the icon name and relevant metaphors/synonyms,
+without pixel-grid or drawing-specification boilerplate.
+
+### SVG
 
 Copy SVGs from `icons/regular/`, `icons/filled/`, `icons/duocolor/`, or
 `icons/duotone/`. There is no runtime
@@ -199,7 +249,7 @@ print(matches)
 ## Figma source
 
 The core library in the Fedora Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`)
-contains 1,233 native component sets. The 1,228 core sets have
+contains 1,239 native component sets. The 1,234 core sets have
 `Style=Regular/Filled/Duocolor/Duotone` and `Size=24`, with original
 Regular/Filled component IDs preserved. Five excluded brand sets retain their
 original two styles. Source catalogs and native/4x validation tiles remain
