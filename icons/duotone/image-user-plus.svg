@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-608 -2720)"><g>
+<g opacity="0.16">
+<path d="M620 2724.46C627.203 2724.46 628.375 2725.52 628.375 2732C628.375 2738.48 627.203 2739.54 620 2739.54C612.797 2739.54 611.625 2738.48 611.625 2732C611.625 2725.52 612.797 2724.46 620 2724.46Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+<path d="M618.158 2729.83C618.158 2730.67 617.483 2731.34 616.65 2731.34C615.818 2731.34 615.143 2730.67 615.143 2729.83C615.143 2729 615.818 2728.33 616.65 2728.33C617.483 2728.33 618.158 2729 618.158 2729.83Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+<path d="M613.541 2735.77C613.541 2731.53 619.759 2731.53 619.759 2735.77H613.541Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+<path d="M620 2724.46C627.202 2724.46 628.375 2725.52 628.375 2732C628.375 2738.48 627.202 2739.54 620 2739.54C612.797 2739.54 611.625 2738.48 611.625 2732C611.625 2725.52 612.797 2724.46 620 2724.46Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M618.158 2729.83C618.158 2730.67 617.483 2731.34 616.65 2731.34C615.818 2731.34 615.143 2730.67 615.143 2729.83C615.143 2729 615.818 2728.33 616.65 2728.33C617.483 2728.33 618.158 2729 618.158 2729.83Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M613.541 2735.77C613.541 2731.53 619.759 2731.53 619.759 2735.77H613.541Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M621.989 2733.67H624.188M624.188 2733.67H626.386M624.188 2733.67V2731.48M624.188 2733.67V2735.87" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

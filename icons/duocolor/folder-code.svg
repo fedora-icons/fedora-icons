@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-576 -2016)"><g>
+<path d="M579.625 2023.35V2021.95C579.625 2020.71 580.245 2020.09 581.486 2020.09H585.208L587.535 2022.42H594.514C595.755 2022.42 596.375 2023.04 596.375 2024.28V2034.05C596.375 2035.29 595.755 2035.91 594.514 2035.91H581.486C580.245 2035.91 579.625 2035.29 579.625 2034.05V2023.35Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M585.383 2026.72L582.766 2029.86L585.383 2033" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M590.617 2026.72L593.234 2029.86L590.617 2033" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M589.047 2025.67L586.953 2034.05" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+</g>
+</g></svg>

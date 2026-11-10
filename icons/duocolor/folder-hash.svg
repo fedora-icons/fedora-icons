@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-512 -1984)"><g>
+<path d="M515.625 1991.35V1989.95C515.625 1988.71 516.245 1988.09 517.486 1988.09H521.073C521.16 1988.09 521.243 1988.12 521.304 1988.19L523.439 1990.32C523.5 1990.38 523.583 1990.42 523.67 1990.42H530.514C531.755 1990.42 532.375 1991.04 532.375 1992.28V2002.05C532.375 2003.29 531.755 2003.91 530.514 2003.91H517.486C516.245 2003.91 515.625 2003.29 515.625 2002.05V1991.35Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M522.138 1994.14L521.848 1996.47" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M521.849 1996.47L521.441 1999.72" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M521.848 1996.47H519.812" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M521.848 1996.47H526.5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M521.441 1999.72L521.208 2001.58" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M521.441 1999.72H519.348" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M521.441 1999.72H526.094" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M526.501 1996.47L526.792 1994.14" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M526.501 1996.47L526.094 1999.72" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M526.501 1996.47H528.653" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M526.094 1999.72L525.861 2001.58" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M526.094 1999.72H528.187" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+</g>
+</g></svg>

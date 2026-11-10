@@ -6,10 +6,12 @@ import json
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from duo import DUO_STYLES
 
 ROOT = Path(__file__).resolve().parents[1]
 SVG = "http://www.w3.org/2000/svg"
 STYLES = ("regular", "filled")
+ALL_STYLES = (*STYLES, *DUO_STYLES)
 ALLOWED = {
     "svg", "g", "path", "circle", "ellipse", "rect", "line",
     "polyline", "polygon", "defs", "clipPath", "mask", "use",
@@ -37,10 +39,19 @@ def validate_svg(text, style):
     visible_paints = 0
     geometry = 0
 
-    def visit(node, definition=False):
+    def visit(node, definition=False, stroke_scale=1.0):
         nonlocal visible_paints, geometry
         tag = node.tag.rsplit("}", 1)[-1]
         definition = definition or tag in {"defs", "mask", "clipPath"}
+        if tag == "svg" and node is not root:
+            try:
+                box = [float(value) for value in node.get("viewBox", "").split()]
+                stroke_scale *= min(
+                    float(node.get("width")) / box[2],
+                    float(node.get("height")) / box[3],
+                )
+            except (TypeError, ValueError, IndexError, ZeroDivisionError):
+                errors.append("Invalid nested SVG viewport")
         if tag not in ALLOWED or not node.tag.startswith(f"{{{SVG}}}"):
             errors.append(f"Unsupported SVG element: {tag}")
         if not definition and tag in {"path", "circle", "ellipse", "rect", "line", "polyline", "polygon"}:
@@ -60,17 +71,20 @@ def validate_svg(text, style):
                 else:
                     errors.append("External href")
             if attr in {"fill", "stroke"} and not definition:
-                if value not in {"none", "currentColor"}:
+                secondary = style in DUO_STYLES and re.fullmatch(
+                    r"var\(--fedora-secondary, #[0-9A-Fa-f]{6}\)", value,
+                )
+                if value not in {"none", "currentColor"} and not secondary:
                     errors.append(f"Non-themable {attr}: {value}")
-                visible_paints += value == "currentColor"
-            if attr == "stroke-width" and style == "regular" and not definition:
+                visible_paints += value == "currentColor" or bool(secondary)
+            if attr == "stroke-width" and style in ("regular", *DUO_STYLES) and not definition:
                 try:
-                    if abs(float(value) - 1.25) > 0.001:
-                        errors.append(f"Regular stroke is not 1.25px: {value}")
+                    if abs(float(value) * stroke_scale - 1.25) > 0.001:
+                        errors.append(f"{style.title()} stroke is not 1.25px: {value}")
                 except ValueError:
                     errors.append(f"Invalid stroke width: {value}")
         for child in node:
-            visit(child, definition)
+            visit(child, definition, stroke_scale)
 
     visit(root)
     if not geometry or not visible_paints:
@@ -89,7 +103,8 @@ def validate_library(root):
     icons = manifest.get("icons", [])
     if manifest.get("schemaVersion") != 1 or manifest.get("grid") != 24:
         errors.append("Unsupported manifest schema/grid")
-    if manifest.get("styles") != list(STYLES) or manifest.get("license") != "MIT":
+    styles = manifest.get("styles", [])
+    if styles not in (list(STYLES), list(ALL_STYLES)) or manifest.get("license") != "MIT":
         errors.append("Unexpected styles/license")
     if manifest.get("iconCount") != len(icons):
         errors.append("Icon count does not match manifest")
@@ -110,7 +125,7 @@ def validate_library(root):
             errors.append(f"Missing category/component set: {name}")
         if not isinstance(row.get("tags"), list) or not isinstance(row.get("aliases"), list):
             errors.append(f"Invalid search metadata: {name}")
-        for style in STYLES:
+        for style in styles:
             relative = f"icons/{style}/{name}.svg"
             expected.add(relative)
             if row.get("files", {}).get(style) != relative:
@@ -147,4 +162,5 @@ if __name__ == "__main__":
         print("\n".join(failures))
         raise SystemExit(1)
     count = len(json.loads((args.root / "manifest.json").read_text())["icons"])
-    print(f"PASS: {count} pairs / {count * 2} SVGs; XML, themes, links, metadata and SHA-256")
+    styles = json.loads((args.root / "manifest.json").read_text())["styles"]
+    print(f"PASS: {count} icons / {count * len(styles)} SVGs; XML, themes, links, metadata and SHA-256")

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-544 -1952)"><g>
+<g opacity="0.16">
+<path d="M553.603 1955.47H558.397C559.11 1955.47 559.688 1956.05 559.688 1956.76V1957.87C559.688 1958.58 559.11 1959.16 558.397 1959.16H553.603C552.89 1959.16 552.312 1958.58 552.312 1957.87V1956.76C552.312 1956.05 552.89 1955.47 553.603 1955.47Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+<path d="M552.312 1956.86H550.469C549.24 1956.86 548.625 1957.47 548.625 1958.7V1970.68C548.625 1971.91 549.24 1972.53 550.469 1972.53H561.531C562.76 1972.53 563.375 1971.91 563.375 1970.68V1958.7C563.375 1957.47 562.76 1956.86 561.531 1956.86H559.687" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M553.603 1955.47H558.397C559.11 1955.47 559.688 1956.05 559.688 1956.76V1957.87C559.688 1958.58 559.11 1959.16 558.397 1959.16H553.603C552.89 1959.16 552.312 1958.58 552.312 1957.87V1956.76C552.312 1956.05 552.89 1955.47 553.603 1955.47Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M552.312 1962.39H559.688M552.312 1966.07H559.688M552.312 1969.76H559.688" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

@@ -55,6 +55,24 @@ class SvgPackageTests(unittest.TestCase):
             extract_icon(ET.fromstring(SHEET.replace('id="clip1"', 'id="other"')),
                          row["positions"]["regular"], "sample")
 
+    def test_extract_keeps_nested_masks_and_their_literal_paints(self):
+        sheet = ET.fromstring('''<svg xmlns="http://www.w3.org/2000/svg">
+          <g id="icon"><mask id="local"><rect width="24" height="24" fill="#FFFFFF"/></mask>
+          <g mask="url(#local)" clip-path="url(#external)">
+          <path d="M2 2H22V22H2Z" stroke="#123456" stroke-width="1.25"/></g></g>
+          <defs><clipPath id="external"><rect width="24" height="24" fill="white"/>
+          </clipPath></defs></svg>''')
+        for style in ("regular", "duocolor"):
+            result = extract_icon(
+                sheet, {"id": "icon", "x": 0, "y": 0}, "nested", style=style,
+                paint_roles={"primary": "#123456", "secondary": "#654321"},
+            )
+            self.assertIn('fill="#FFFFFF"', result)
+            self.assertIn('stroke="currentColor"', result)
+            self.assertNotIn('url(#local)', result)
+            self.assertNotIn('url(#external)', result)
+            self.assertEqual(validate_svg(result, style), [])
+
     def test_import_rejects_duplicate_and_excluded_names(self):
         for name in ("sample", "google-chrome"):
             data = payload()

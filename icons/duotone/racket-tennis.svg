@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-160 -1280)"><g>
+<g opacity="0.16">
+<path d="M178.446 1292.77C176.115 1295.75 172.144 1296.55 169.575 1294.54C167.006 1292.53 166.813 1288.49 169.144 1285.5C171.474 1282.52 175.446 1281.73 178.015 1283.74C180.584 1285.74 180.777 1289.79 178.446 1292.77Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+<path d="M166.815 1296.06C166.959 1295.88 167.226 1295.85 167.411 1295.99L168.692 1296.99C168.877 1297.13 168.91 1297.4 168.765 1297.59L166.096 1301C165.706 1301.5 165.185 1301.5 164.535 1300.99C163.885 1300.48 163.755 1299.98 164.146 1299.48L166.815 1296.06Z" fill="currentColor" />
+</g>
+<path d="M178.446 1292.77C176.115 1295.75 172.144 1296.55 169.575 1294.54C167.006 1292.53 166.813 1288.49 169.144 1285.5C171.474 1282.52 175.446 1281.73 178.015 1283.74C180.584 1285.74 180.777 1289.79 178.446 1292.77Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M168.002 1292.22L167.076 1295.73M172.203 1295.51L169.027 1297.25" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M175.72 1283.74L169.02 1292.31" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M178.571 1285.96L171.87 1294.54" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M171.645 1284.56L178.759 1290.12" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M168.831 1288.16L175.945 1293.72" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M166.815 1296.06C166.959 1295.88 167.226 1295.85 167.411 1295.99L168.692 1296.99C168.877 1297.13 168.91 1297.4 168.765 1297.59L166.096 1301C165.706 1301.5 165.185 1301.5 164.535 1300.99C163.885 1300.48 163.755 1299.98 164.146 1299.48L166.815 1296.06Z" fill="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

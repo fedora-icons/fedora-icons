@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-448 -2016)"><g>
+<path d="M451.625 2023.35V2021.95C451.625 2020.71 452.245 2020.09 453.486 2020.09H457.208L459.535 2022.42H466.514C467.755 2022.42 468.375 2023.04 468.375 2024.28V2034.05C468.375 2035.29 467.755 2035.91 466.514 2035.91H453.486C452.245 2035.91 451.625 2035.29 451.625 2034.05V2023.35Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M460 2024.79C461.454 2025.51 462.763 2025.95 463.926 2026.09V2028.49C463.926 2031.11 462.181 2032.42 460 2033.29C457.819 2032.42 456.074 2031.11 456.074 2028.49V2026.09C457.237 2025.95 458.546 2025.51 460 2024.79Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+</g>
+</g></svg>

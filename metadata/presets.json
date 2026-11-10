@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "type": "figma",
+    "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+    "section": "49:47102",
+    "exportedOn": "2026-11-10"
+  },
+  "audit": {
+    "presets": 21,
+    "styles": 4,
+    "themes": 2,
+    "scales": [
+      1,
+      4
+    ],
+    "previews": 504,
+    "bases": [
+      "briefcase",
+      "user",
+      "users"
+    ],
+    "canonicalIdsPreserved": true,
+    "modifierSemanticsDistinct": true,
+    "automaticConflictHandling": false,
+    "canonicalSourcesChecked": 42,
+    "compositionsChecked": 84,
+    "errors": [],
+    "visuallyChecked": [
+      "native",
+      "4x",
+      "Light",
+      "Dark"
+    ],
+    "tintBlendMode": "NORMAL"
+  },
+  "baseSources": {
+    "briefcase": {
+      "regular": "31:5916",
+      "filled": "33:41328",
+      "duocolor": "49:47337",
+      "duotone": "49:47343"
+    },
+    "user": {
+      "regular": "31:5095",
+      "filled": "33:40000",
+      "duocolor": "49:47352",
+      "duotone": "49:47356"
+    },
+    "users": {
+      "regular": "31:5077",
+      "filled": "33:39985",
+      "duocolor": "49:47363",
+      "duotone": "49:47367"
+    }
+  },
+  "presets": [
+    {
+      "name": "briefcase-lock",
+      "base": "briefcase",
+      "modifier": "lock",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:6229",
+        "filled": "33:38647",
+        "duocolor": "48:36960",
+        "duotone": "48:36998"
+      },
+      "before": {
+        "regular": "49:47518",
+        "filled": "49:47540",
+        "duocolor": "49:47552",
+        "duotone": "49:47574"
+      },
+      "componentSet": "45:40210"
+    },
+    {
+      "name": "user-add",
+      "base": "user",
+      "modifier": "add",
+      "position": "top-left",
+      "fit": {
+        "scale": 0.8333333333333334,
+        "x": 5.75,
+        "y": 2.5
+      },
+      "source": {
+        "regular": "31:5013",
+        "filled": "33:39939",
+        "duocolor": "48:36842",
+        "duotone": "48:36876"
+      },
+      "before": {
+        "regular": "49:47962",
+        "filled": "49:47987",
+        "duocolor": "49:48008",
+        "duotone": "49:48038"
+      },
+      "componentSet": "45:38576"
+    },
+    {
+      "name": "user-block",
+      "base": "user",
+      "modifier": "block",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:5019",
+        "filled": "33:39944",
+        "duocolor": "49:48108",
+        "duotone": "49:48123"
+      },
+      "before": {
+        "regular": "49:48074",
+        "filled": "49:48094"
+      },
+      "componentSet": "45:38585"
+    },
+    {
+      "name": "user-check",
+      "base": "user",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:5026",
+        "filled": "33:39950",
+        "duocolor": "49:48172",
+        "duotone": "49:48186"
+      },
+      "before": {
+        "regular": "49:48141",
+        "filled": "49:48159"
+      },
+      "componentSet": "45:38593"
+    },
+    {
+      "name": "user-down",
+      "base": "user",
+      "modifier": "arrow-down",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21039",
+        "filled": "33:40062",
+        "duocolor": "49:48234",
+        "duotone": "49:48248"
+      },
+      "before": {
+        "regular": "49:48203",
+        "filled": "49:48221"
+      },
+      "componentSet": "45:42101"
+    },
+    {
+      "name": "user-edit",
+      "base": "user",
+      "modifier": "edit",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:5045",
+        "filled": "33:39966",
+        "duocolor": "49:48296",
+        "duotone": "49:48310"
+      },
+      "before": {
+        "regular": "49:48265",
+        "filled": "49:48283"
+      },
+      "componentSet": "45:38618"
+    },
+    {
+      "name": "user-left",
+      "base": "user",
+      "modifier": "arrow-left",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21075",
+        "filled": "33:40069",
+        "duocolor": "49:48358",
+        "duotone": "49:48372"
+      },
+      "before": {
+        "regular": "49:48327",
+        "filled": "49:48345"
+      },
+      "componentSet": "45:42109"
+    },
+    {
+      "name": "user-lock",
+      "base": "user",
+      "modifier": "lock",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:5068",
+        "filled": "33:38587",
+        "duocolor": "49:48420",
+        "duotone": "49:48433"
+      },
+      "before": {
+        "regular": "49:48389",
+        "filled": "49:48408"
+      },
+      "componentSet": "45:38649"
+    },
+    {
+      "name": "user-minus",
+      "base": "user",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:5089",
+        "filled": "33:39995",
+        "duocolor": "49:48480",
+        "duotone": "49:48494"
+      },
+      "before": {
+        "regular": "49:48449",
+        "filled": "49:48467"
+      },
+      "componentSet": "45:38673"
+    },
+    {
+      "name": "user-remove",
+      "base": "user",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:5039",
+        "filled": "33:39961",
+        "duocolor": "49:48542",
+        "duotone": "49:48556"
+      },
+      "before": {
+        "regular": "49:48511",
+        "filled": "49:48529"
+      },
+      "componentSet": "45:38610"
+    },
+    {
+      "name": "user-right",
+      "base": "user",
+      "modifier": "arrow-right",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21111",
+        "filled": "33:40076",
+        "duocolor": "49:48604",
+        "duotone": "49:48618"
+      },
+      "before": {
+        "regular": "49:48573",
+        "filled": "49:48591"
+      },
+      "componentSet": "45:42117"
+    },
+    {
+      "name": "user-up",
+      "base": "user",
+      "modifier": "arrow-up",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21146",
+        "filled": "33:40083",
+        "duocolor": "49:48666",
+        "duotone": "49:48680"
+      },
+      "before": {
+        "regular": "49:48635",
+        "filled": "49:48653"
+      },
+      "componentSet": "45:42125"
+    },
+    {
+      "name": "users-check",
+      "base": "users",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21180",
+        "filled": "33:40089",
+        "duocolor": "49:48729",
+        "duotone": "49:48743"
+      },
+      "before": {
+        "regular": "49:48697",
+        "filled": "49:48716"
+      },
+      "componentSet": "45:42134"
+    },
+    {
+      "name": "users-down",
+      "base": "users",
+      "modifier": "arrow-down",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21217",
+        "filled": "33:40096",
+        "duocolor": "49:48792",
+        "duotone": "49:48806"
+      },
+      "before": {
+        "regular": "49:48760",
+        "filled": "49:48779"
+      },
+      "componentSet": "45:42143"
+    },
+    {
+      "name": "users-edit",
+      "base": "users",
+      "modifier": "edit",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21255",
+        "filled": "33:40104",
+        "duocolor": "49:48856",
+        "duotone": "49:48870"
+      },
+      "before": {
+        "regular": "49:48823",
+        "filled": "49:48843"
+      },
+      "componentSet": "45:42153"
+    },
+    {
+      "name": "users-left",
+      "base": "users",
+      "modifier": "arrow-left",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21292",
+        "filled": "33:40111",
+        "duocolor": "49:48919",
+        "duotone": "49:48933"
+      },
+      "before": {
+        "regular": "49:48887",
+        "filled": "49:48906"
+      },
+      "componentSet": "45:42162"
+    },
+    {
+      "name": "users-minus",
+      "base": "users",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21330",
+        "filled": "33:40119",
+        "duocolor": "49:48982",
+        "duotone": "49:48996"
+      },
+      "before": {
+        "regular": "49:48950",
+        "filled": "49:48969"
+      },
+      "componentSet": "45:42171"
+    },
+    {
+      "name": "users-plus",
+      "base": "users",
+      "modifier": "add",
+      "position": "top-left",
+      "fit": {
+        "scale": 0.7,
+        "x": 3.5,
+        "y": 9.5
+      },
+      "source": {
+        "regular": "33:21366",
+        "filled": "33:40126",
+        "duocolor": "49:49063",
+        "duotone": "49:49087"
+      },
+      "before": {
+        "regular": "49:49013",
+        "filled": "49:49042"
+      },
+      "componentSet": "45:42180"
+    },
+    {
+      "name": "users-right",
+      "base": "users",
+      "modifier": "arrow-right",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21403",
+        "filled": "33:40133",
+        "duocolor": "49:49149",
+        "duotone": "49:49163"
+      },
+      "before": {
+        "regular": "49:49117",
+        "filled": "49:49136"
+      },
+      "componentSet": "45:42189"
+    },
+    {
+      "name": "users-up",
+      "base": "users",
+      "modifier": "arrow-up",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21441",
+        "filled": "33:40141",
+        "duocolor": "49:49212",
+        "duotone": "49:49226"
+      },
+      "before": {
+        "regular": "49:49180",
+        "filled": "49:49199"
+      },
+      "componentSet": "45:42198"
+    },
+    {
+      "name": "users-x",
+      "base": "users",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:21477",
+        "filled": "33:40148",
+        "duocolor": "49:49275",
+        "duotone": "49:49289"
+      },
+      "before": {
+        "regular": "49:49243",
+        "filled": "49:49262"
+      },
+      "componentSet": "45:42207"
+    }
+  ]
+}

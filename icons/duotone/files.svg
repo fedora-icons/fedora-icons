@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-160 -1984)"><g>
+<g opacity="0.16">
+<path d="M171.163 1992.65H177.863C179.25 1992.65 180.375 1993.78 180.375 1995.16V2001.86C180.375 2003.25 179.25 2004.38 177.863 2004.38H171.163C169.775 2004.38 168.65 2003.25 168.65 2001.86V1995.16C168.65 1993.78 169.775 1992.65 171.163 1992.65Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+<path d="M163.625 1998.51V1989.3C163.625 1988.18 164.183 1987.62 165.3 1987.62H174.512M166.137 2001.02V1991.81C166.137 1990.7 166.696 1990.14 167.812 1990.14H177.025" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M171.163 1992.65H177.863C179.25 1992.65 180.375 1993.78 180.375 1995.16V2001.86C180.375 2003.25 179.25 2004.38 177.863 2004.38H171.163C169.775 2004.38 168.65 2003.25 168.65 2001.86V1995.16C168.65 1993.78 169.775 1992.65 171.163 1992.65Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M171.162 1996H177.862M171.162 1999.35H177.862" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

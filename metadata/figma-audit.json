@@ -32,8 +32,47 @@
     ],
     "method": "Live Figma SVG sheet, split into standalone 24px files"
   },
+  "duoExpansion": {
+    "date": "2026-11-10",
+    "coreSets": 1228,
+    "styles": ["regular", "filled", "duocolor", "duotone"],
+    "svgCount": 4912,
+    "approvedPairsReused": 30,
+    "generatedGeometryComparisons": 2396,
+    "maximumCoordinateDeviationPx": 0.0009701118142402265,
+    "geometryTolerancePx": 0.005,
+    "strokedVectorsChecked": 7268,
+    "nonUnitSourceGroups": 0,
+    "sharedSeamsDeduplicated": 1,
+    "sharedSeamNote": "Lotus has two closed contours sharing one opaque primary edge; compare unique physical edges, not graph multiplicity.",
+    "namedPresetSourceChecks": 84,
+    "paletteThemeRoleValuesChecked": 48,
+    "fullSheetReimport": {
+      "icons": 1228,
+      "svgCount": 4912,
+      "validationPassed": true,
+      "namesAndSourceIdsPreserved": true
+    },
+    "visualProofs": [
+      {
+        "section": "49:57704",
+        "icons": 128,
+        "sizes": [24],
+        "themes": ["Light", "Dark"]
+      },
+      {
+        "section": "49:108260",
+        "icons": 28,
+        "families": 20,
+        "sizes": [24, 96],
+        "themes": ["Light", "Dark"]
+      }
+    ],
+    "issues": []
+  },
   "limits": [
     "Does not certify accessibility or third-party redistribution rights",
-    "Official social/Microsoft logo import remains unfinished"
+    "Official social/Microsoft logo import remains unfinished",
+    "Duo visual review is sampled; generated source geometry is compared across the complete expansion"
   ]
 }

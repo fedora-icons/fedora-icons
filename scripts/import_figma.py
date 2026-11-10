@@ -8,6 +8,7 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import date
 from pathlib import Path
+from duo import DUO_STYLES, SECONDARY, apply_colors
 
 SVG = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG)
@@ -43,7 +44,7 @@ def references(element):
     return result
 
 
-def extract_icon(sheet, position, prefix):
+def extract_icon(sheet, position, prefix, *, style="regular", paint_roles=None):
     matches = [
         node for node in sheet.iter() if node.get("id") == position["id"]
     ]
@@ -55,7 +56,8 @@ def extract_icon(sheet, position, prefix):
         for node in defs:
             if node.get("id"):
                 definitions[node.get("id")] = node
-    required = references(group)
+    available = {node.get("id") for node in group.iter() if node.get("id")}
+    required = references(group) - available
     selected = {}
     while required:
         key = required.pop()
@@ -64,7 +66,9 @@ def extract_icon(sheet, position, prefix):
         if key not in definitions:
             raise ValueError(f"Missing SVG definition: {key}")
         selected[key] = copy.deepcopy(definitions[key])
-        required.update(references(selected[key]) - selected.keys())
+        available.update(node.get("id") for node in selected[key].iter() if node.get("id"))
+        required.update(references(selected[key]) - available)
+        required.difference_update(available)
     icon = ET.Element(
         f"{{{SVG}}}svg",
         width="24",
@@ -94,15 +98,46 @@ def extract_icon(sheet, position, prefix):
                 if attr.rsplit("}", 1)[-1] == "href" and value == f"#{old}":
                     value = f"#{new}"
             node.set(attr, value)
-    for node in wrapper.iter():
+    duo = style in DUO_STYLES
+    roles = {}
+    if duo:
+        if not isinstance(paint_roles, dict) or set(paint_roles) != {"primary", "secondary"}:
+            raise ValueError("Duo exports require explicit primary/secondary paint roles")
+        for role, value in paint_roles.items():
+            if not isinstance(value, str) or not re.fullmatch(r"#[0-9A-Fa-f]{6}", value):
+                raise ValueError("Invalid duo paint role sentinel")
+            roles[value.upper()] = "currentColor" if role == "primary" else SECONDARY
+        if len(roles) != 2:
+            raise ValueError("Duo paint role sentinels must be distinct")
+
+    def normalize(node, definition=False):
+        definition = definition or node.tag.rsplit("}", 1)[-1] in {"defs", "mask", "clipPath"}
         for attr in ("fill", "stroke"):
             value = node.get(attr)
-            if value and re.fullmatch(r"#[0-9a-fA-F]{3,8}", value):
-                node.set(attr, "currentColor")
+            if value and re.fullmatch(r"#[0-9a-fA-F]{3,8}", value) and not definition:
+                if duo and value.upper() not in roles:
+                    raise ValueError(f"Unmapped duo {attr}: {value}")
+                node.set(attr, roles[value.upper()] if duo else "currentColor")
+        for child in node:
+            normalize(child, definition)
+
+    normalize(wrapper)
+    if duo:
+        apply_colors(icon)
     return ET.tostring(icon, encoding="unicode") + "\n"
 
 
 def import_sheet(payload, output):
+    styles = payload.get("styles", ["regular", "filled"])
+    if styles not in (["regular", "filled"], ["regular", "filled", *DUO_STYLES]):
+        raise ValueError("Expected the two-style or complete four-style library")
+    previous = output / "manifest.json"
+    if previous.exists() and len(json.loads(previous.read_text())["styles"]) > len(styles):
+        raise ValueError("A two-style snapshot cannot replace a four-style library")
+    presets_path = output / "metadata/presets.json"
+    preset_names = {
+        row["name"] for row in json.loads(presets_path.read_text())["presets"]
+    } if presets_path.exists() else set()
     records = payload["records"]
     names = [row["name"] for row in records]
     if len(names) != len(set(names)) or set(names) & set(BRANDS):
@@ -114,7 +149,7 @@ def import_sheet(payload, output):
         "license": "MIT",
         "grid": 24,
         "regularStrokeWidth": 1.25,
-        "styles": ["regular", "filled"],
+        "styles": styles,
         "iconCount": len(records),
         "source": {
             "type": "figma",
@@ -132,8 +167,13 @@ def import_sheet(payload, output):
         record["files"], record["sha256"] = {}, {}
         for style in manifest["styles"]:
             relative = f"icons/{style}/{row['name']}.svg"
+            record["files"][style] = relative
+            if style in DUO_STYLES and row["name"] in preset_names:
+                record["sha256"][style] = ""
+                continue
             svg = extract_icon(
-                sheet, row["positions"][style], f"{row['name']}-{style}"
+                sheet, row["positions"][style], f"{row['name']}-{style}",
+                style=style, paint_roles=payload.get("paintRoles"),
             )
             data = svg.encode("utf-8")
             path = output / relative
@@ -145,6 +185,10 @@ def import_sheet(payload, output):
     (output / "manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
+    if (output / "metadata/presets.json").exists():
+        from build_presets import build_presets
+        build_presets(output)
+        manifest = json.loads((output / "manifest.json").read_text(encoding="utf-8"))
     return manifest
 
 
@@ -155,4 +199,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     payload = unwrap(json.loads(args.snapshot.read_text(encoding="utf-8")))
     manifest = import_sheet(payload, args.output)
-    print(f"Imported {manifest['iconCount']} Regular/Filled pairs")
+    print(f"Imported {manifest['iconCount']} icons in {len(manifest['styles'])} styles")

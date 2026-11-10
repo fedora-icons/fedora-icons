@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-448 -2080)"><g>
+<path d="M456.378 2084.98H454.568C453.36 2084.98 452.757 2085.59 452.757 2086.79V2098.56C452.757 2099.77 453.36 2100.38 454.568 2100.38H465.433C466.64 2100.38 467.243 2099.77 467.243 2098.56V2086.79C467.243 2085.59 466.64 2084.98 465.433 2084.98H463.622" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M457.646 2083.62H462.355C463.055 2083.62 463.622 2084.19 463.622 2084.89V2085.98C463.622 2086.68 463.055 2087.25 462.355 2087.25H457.646C456.946 2087.25 456.379 2086.68 456.379 2085.98V2084.89C456.379 2084.19 456.946 2083.62 457.646 2083.62Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M458.189 2094.04L460.905 2091.32C463.621 2088.61 466.337 2092.23 463.621 2094.94L460 2098.56C457.283 2101.28 453.662 2097.66 456.378 2094.94L460.905 2090.42" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

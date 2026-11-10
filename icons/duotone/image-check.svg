@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-608 -2688)"><g>
+<g opacity="0.16">
+<path d="M620 2692.46C627.203 2692.46 628.375 2693.52 628.375 2700C628.375 2706.48 627.203 2707.54 620 2707.54C612.797 2707.54 611.625 2706.48 611.625 2700C611.625 2693.52 612.797 2692.46 620 2692.46Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+<path d="M616.65 2695.81C616.65 2696.28 616.275 2696.65 615.812 2696.65C615.35 2696.65 614.975 2696.28 614.975 2695.81C614.975 2695.35 615.35 2694.98 615.812 2694.98C616.275 2694.98 616.65 2695.35 616.65 2695.81Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+<path d="M620 2692.46C627.202 2692.46 628.375 2693.52 628.375 2700C628.375 2706.48 627.202 2707.54 620 2707.54C612.797 2707.54 611.625 2706.48 611.625 2700C611.625 2693.52 612.797 2692.46 620 2692.46Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M616.65 2695.81C616.65 2696.28 616.275 2696.65 615.812 2696.65C615.35 2696.65 614.975 2696.28 614.975 2695.81C614.975 2695.35 615.35 2694.98 615.812 2694.98C616.275 2694.98 616.65 2695.35 616.65 2695.81Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M612.463 2704.19L616.65 2700L619.163 2702.51" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M620.785 2700L622.617 2701.83L626.281 2697.8" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

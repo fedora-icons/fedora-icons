@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-32 -1856)"><g>
+<g opacity="0.16">
+<path d="M53.375 1868C53.375 1873.18 49.1777 1877.38 44 1877.38C38.8223 1877.38 34.625 1873.18 34.625 1868C34.625 1862.82 38.8223 1858.62 44 1858.62C49.1777 1858.62 53.375 1862.82 53.375 1868Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+<path d="M46.4272 1868C46.4272 1869.34 45.3408 1870.43 44.0007 1870.43C42.6606 1870.43 41.5742 1869.34 41.5742 1868C41.5742 1866.66 42.6606 1865.57 44.0007 1865.57C45.3408 1865.57 46.4272 1866.66 46.4272 1868Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+<path d="M53.375 1868C53.375 1873.18 49.1777 1877.38 44 1877.38C38.8223 1877.38 34.625 1873.18 34.625 1868C34.625 1862.82 38.8223 1858.62 44 1858.62C49.1777 1858.62 53.375 1862.82 53.375 1868Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M46.4272 1868C46.4272 1869.34 45.3408 1870.43 44.0007 1870.43C42.6606 1870.43 41.5742 1869.34 41.5742 1868C41.5742 1866.66 42.6606 1865.57 44.0007 1865.57C45.3408 1865.57 46.4272 1866.66 46.4272 1868Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M46.4258 1868H52.8228" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M45.7158 1869.72L50.2392 1874.24" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M44 1870.43V1876.82" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M42.2841 1869.72L37.7607 1874.24" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M41.5728 1868H35.1758" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M42.2841 1866.28L37.7607 1861.76" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M44 1865.57V1859.18" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M45.7158 1866.28L50.2392 1861.76" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

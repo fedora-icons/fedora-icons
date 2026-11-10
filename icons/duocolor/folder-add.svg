@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-128 -2016)"><g>
+<path d="M131.625 2023.35V2021.95C131.625 2020.71 132.245 2020.09 133.486 2020.09H137.073C137.16 2020.09 137.243 2020.12 137.304 2020.19L139.439 2022.32C139.5 2022.38 139.583 2022.42 139.67 2022.42H146.514C147.755 2022.42 148.375 2023.04 148.375 2024.28V2034.05C148.375 2035.29 147.755 2035.91 146.514 2035.91H133.486C132.245 2035.91 131.625 2035.29 131.625 2034.05V2023.35Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M137.767 2029.86H140" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M140 2029.86H142.233" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M140 2029.86V2027.63" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M140 2029.86V2032.09" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+</g>
+</g></svg>

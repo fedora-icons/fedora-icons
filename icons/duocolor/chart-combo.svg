@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-192 -2784)"><g>
+<path d="M195.625 2787.62V2803.74C195.625 2804.09 195.91 2804.37 196.262 2804.37H212.375" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M198.417 2793.91L203.745 2788.58C203.903 2788.42 204.133 2788.36 204.35 2788.41L212.375 2790.42" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M210.197 2801.58H211.76C212.1 2801.58 212.375 2801.31 212.375 2800.97V2794.52C212.375 2794.18 212.1 2793.91 211.76 2793.91H210.197C209.858 2793.91 209.583 2794.18 209.583 2794.52V2800.97C209.583 2801.31 209.858 2801.58 210.197 2801.58Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M204.614 2801.58H206.177C206.517 2801.58 206.792 2801.31 206.792 2800.97V2796.61C206.792 2796.27 206.517 2796 206.177 2796H204.614C204.275 2796 204 2796.27 204 2796.61V2800.97C204 2801.31 204.275 2801.58 204.614 2801.58Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+<path d="M201.209 2800.97V2799.41C201.209 2799.07 200.934 2798.79 200.594 2798.79H199.031C198.692 2798.79 198.417 2799.07 198.417 2799.41V2800.97C198.417 2801.31 198.692 2801.58 199.031 2801.58H200.594C200.934 2801.58 201.209 2801.31 201.209 2800.97Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
+</g>
+</g></svg>

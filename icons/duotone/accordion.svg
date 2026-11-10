@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-352 -1792)"><g>
+<g opacity="0.16">
+<path d="M355.625 1799.81H358.67V1810.47H355.625V1799.81ZM369.33 1798.29H372.375V1808.95H369.33V1798.29Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+<path d="M369.88 1808.95H371.825C372.129 1808.95 372.375 1808.7 372.375 1808.4V1798.84C372.375 1798.54 372.129 1798.29 371.825 1798.29H369.88C369.576 1798.29 369.33 1798.54 369.33 1798.84V1808.4C369.33 1808.7 369.576 1808.95 369.88 1808.95ZM356.175 1810.47H358.12C358.424 1810.47 358.67 1810.23 358.67 1809.92V1800.36C358.67 1800.06 358.424 1799.81 358.12 1799.81H356.175C355.871 1799.81 355.625 1800.06 355.625 1800.36V1809.92C355.625 1810.23 355.871 1810.47 356.175 1810.47Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M360.955 1799.05V1809.71M364.001 1798.29V1808.95M367.046 1797.53V1808.19" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M356.387 1802.86H357.909M356.387 1806.66H357.909M370.091 1802.1H371.614M370.091 1805.9H371.614" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

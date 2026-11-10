@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-352 -2912)"><g>
+<g opacity="0.16">
+<path d="M364 2917.44C372.062 2917.44 373.375 2918.36 373.375 2924C373.375 2929.64 372.062 2930.56 364 2930.56C355.938 2930.56 354.625 2929.64 354.625 2924C354.625 2918.36 355.938 2917.44 364 2917.44Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+<path d="M362.758 2928.34L363.484 2925.79L366.754 2922.52L368.57 2924.34L365.301 2927.61L362.758 2928.34Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
+</g>
+<path d="M364 2917.44C372.063 2917.44 373.375 2918.36 373.375 2924C373.375 2929.64 372.063 2930.56 364 2930.56C355.937 2930.56 354.625 2929.64 354.625 2924C354.625 2918.36 355.937 2917.44 364 2917.44Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M355 2921.19H373" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+<path d="M362.758 2928.34L363.484 2925.79L366.754 2922.52L368.57 2924.34L365.301 2927.61L362.758 2928.34Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
+</g>
+</g></svg>

@@ -20,7 +20,7 @@ async function exportFedoraIcons(manifest) {
     sheet.fills = [];
     sheet.clipsContent = false;
     const columns = 20;
-    const height = Math.ceil(manifest.icons.length * 2 / columns) * 32;
+    const height = Math.ceil(manifest.icons.length * manifest.styles.length / columns) * 32;
     sheet.resize(columns * 32, height);
     section.resizeWithoutConstraints(columns * 32 + 32, height + 32);
     const records = [];
@@ -41,6 +41,7 @@ async function exportFedoraIcons(manifest) {
         if (style === "regular") {
           record.keyline = JSON.parse(source.getPluginData("keyline24"));
         }
+        if (["duocolor", "duotone"].includes(style) && icon.composition) continue;
         const clone = source.clone();
         sheet.appendChild(clone);
         clone.name = `export--${style}--${icon.name}`;
@@ -48,6 +49,23 @@ async function exportFedoraIcons(manifest) {
         clone.y = Math.floor(index / columns) * 32;
         index++;
         record.positions[style] = { x: clone.x, y: clone.y, id: clone.name };
+        if (["duocolor", "duotone"].includes(style)) {
+          for (const node of [clone, ...clone.findAll(n => "fills" in n || "strokes" in n)]) {
+            for (const field of ["fills", "strokes"]) {
+              if (!Array.isArray(node[field])) continue;
+              node[field] = node[field].map(paint => {
+                if (paint.type !== "SOLID" || paint.visible === false || paint.opacity === 0) return paint;
+                const variable = paint.boundVariables?.color?.id;
+                const color = variable === "VariableID:48:36636" ? "#123456" :
+                  variable === "VariableID:48:36637" ? "#654321" : null;
+                if (!color) throw new Error(`Unknown duo paint: ${icon.name}/${style}`);
+                const channels = color.slice(1).match(/../g).map(x => parseInt(x, 16) / 255);
+                const { boundVariables, ...literal } = paint;
+                return { ...literal, color: { r: channels[0], g: channels[1], b: channels[2] } };
+              });
+            }
+          }
+        }
       }
       records.push(record);
     }
@@ -63,6 +81,8 @@ async function exportFedoraIcons(manifest) {
     return {
       records,
       svg,
+      styles: manifest.styles,
+      paintRoles: { primary: "#123456", secondary: "#654321" },
       componentPairs,
       exportedOn: new Date().toISOString().slice(0, 10),
     };
