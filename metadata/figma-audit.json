@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-10",
+  "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+  "pairs": 1233,
+  "sets": 1233,
+  "sources": 2466,
+  "validationLinks": 4932,
+  "catalogLinks": 2466,
+  "foregroundPaintBindings": 4293,
+  "issues": [],
+  "postExportIssues": [],
+  "checks": [
+    "Unique canonical names and native Style/Size properties",
+    "24px source frames and preserved component identities",
+    "Centered rendered bounds, keyline sizing and 2px padding",
+    "Regular 1.25px strokes and foreground variable bindings",
+    "Native and 4x preview links",
+    "Catalog replacement-instance links",
+    "Native component-set containment and non-overlap",
+    "Workspace catalog non-overlap after adding intersect-circle",
+    "Temporary export section removed"
+  ],
+  "export": {
+    "corePairs": 1228,
+    "svgCount": 2456,
+    "excludedBrands": [
+      "chrome-cast",
+      "figma",
+      "framer",
+      "google-chrome",
+      "youtube"
+    ],
+    "method": "Live Figma SVG sheet, split into standalone 24px files"
+  },
+  "limits": [
+    "Does not certify accessibility or third-party redistribution rights",
+    "Official social/Microsoft logo import remains unfinished"
+  ]
+}
