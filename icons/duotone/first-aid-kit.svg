@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-608 -1536)"><g>
-<g opacity="0.16">
-<path d="M612.463 1543.81H627.538V1556.38H612.463V1543.81Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
-</g>
-<path d="M613.013 1556.37H626.988C627.292 1556.37 627.538 1556.13 627.538 1555.82V1544.36C627.538 1544.06 627.292 1543.81 626.988 1543.81H613.013C612.709 1543.81 612.463 1544.06 612.463 1544.36V1555.82C612.463 1556.13 612.709 1556.37 613.013 1556.37Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M616.65 1541.3V1539.76C616.65 1539.69 616.713 1539.62 616.79 1539.62H623.211C623.288 1539.62 623.35 1539.69 623.35 1539.76V1541.3" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M616.65 1549.68H620M620 1549.68H623.35M620 1549.68V1546.33M620 1549.68V1553.03" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-608 -1536)"><path fill="currentColor" fill-rule="evenodd" d="M612.463 1543.81H627.538V1556.38H612.463V1543.81Z" clip-rule="evenodd" opacity="0.16"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M613.013 1556.37H626.988C627.292 1556.37 627.538 1556.13 627.538 1555.82V1544.36C627.538 1544.06 627.292 1543.81 626.988 1543.81H613.013C612.709 1543.81 612.463 1544.06 612.463 1544.36V1555.82C612.463 1556.13 612.709 1556.37 613.013 1556.37Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M616.65 1541.3V1539.76C616.65 1539.69 616.713 1539.62 616.79 1539.62H623.211C623.288 1539.62 623.35 1539.69 623.35 1539.76V1541.3"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M616.65 1549.68H620M620 1549.68H623.35M620 1549.68V1546.33M620 1549.68V1553.03"/></g></svg>

@@ -1,0 +1,17 @@
+{
+  "name": "fedora-icons-tooling",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "optimize": "node scripts/optimize.mjs --write",
+    "optimize:check": "node scripts/optimize.mjs --check",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "svgo": "4.1.0"
+  }
+}

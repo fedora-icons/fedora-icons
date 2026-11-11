@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(0 -1952)"><g>
-<g>
-<path d="M12 1955.62C19.2025 1955.62 20.375 1956.8 20.375 1964C20.375 1971.2 19.2025 1972.37 12 1972.37C4.7975 1972.37 3.625 1971.2 3.625 1964C3.625 1956.8 4.7975 1955.62 12 1955.62Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<g>
-<g>
-<path d="M12.0002 1968.13C10.1635 1966.3 7.63818 1964.69 7.63818 1962.16C7.63818 1959.41 10.7145 1958.95 12.0002 1961.25C13.2858 1958.95 16.3621 1959.41 16.3621 1962.16C16.3621 1964.69 13.8368 1966.3 12.0002 1968.13Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(0 -1952)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12 1955.62C19.2025 1955.62 20.375 1956.8 20.375 1964C20.375 1971.2 19.2025 1972.37 12 1972.37C4.7975 1972.37 3.625 1971.2 3.625 1964C3.625 1956.8 4.7975 1955.62 12 1955.62Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M12.0002 1968.13C10.1635 1966.3 7.63818 1964.69 7.63818 1962.16C7.63818 1959.41 10.7145 1958.95 12.0002 1961.25C13.2858 1958.95 16.3621 1959.41 16.3621 1962.16C16.3621 1964.69 13.8368 1966.3 12.0002 1968.13Z"/></g></svg>

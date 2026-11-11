@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-192 -1888)"><g>
-<g>
-<path d="M197.687 1908.38H206.419C206.613 1908.38 206.794 1908.27 206.893 1908.1C213.832 1896.39 212.245 1889.35 197.583 1892.29C197.328 1892.34 197.137 1892.57 197.137 1892.83V1907.83C197.137 1908.13 197.383 1908.38 197.687 1908.38Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M200.335 1894.78V1905.98M203.533 1894.78V1905.98M206.731 1895.58V1903.58" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-192 -1888)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M197.687 1908.38H206.419C206.613 1908.38 206.794 1908.27 206.893 1908.1C213.832 1896.39 212.245 1889.35 197.583 1892.29C197.328 1892.34 197.137 1892.57 197.137 1892.83V1907.83C197.137 1908.13 197.383 1908.38 197.687 1908.38Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M200.335 1894.78V1905.98M203.533 1894.78V1905.98M206.731 1895.58V1903.58"/></g></svg>

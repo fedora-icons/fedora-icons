@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-32 -3264)"><g>
-<g opacity="0.16">
-<path d="M47.75 3276C47.75 3278.07 46.0711 3279.75 44 3279.75C41.9289 3279.75 40.25 3278.07 40.25 3276C40.25 3273.93 41.9289 3272.25 44 3272.25C46.0711 3272.25 47.75 3273.93 47.75 3276Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
-</g>
-<path d="M34.625 3276H40.25M47.75 3276H53.375" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M47.75 3276C47.75 3278.07 46.0711 3279.75 44 3279.75C41.9289 3279.75 40.25 3278.07 40.25 3276C40.25 3273.93 41.9289 3272.25 44 3272.25C46.0711 3272.25 47.75 3273.93 47.75 3276Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-32 -3264)"><path fill="currentColor" fill-rule="evenodd" d="M47.75 3276C47.75 3278.07 46.0711 3279.75 44 3279.75C41.9289 3279.75 40.25 3278.07 40.25 3276C40.25 3273.93 41.9289 3272.25 44 3272.25C46.0711 3272.25 47.75 3273.93 47.75 3276Z" clip-rule="evenodd" opacity="0.16"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M34.625 3276H40.25M47.75 3276H53.375"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M47.75 3276C47.75 3278.07 46.0711 3279.75 44 3279.75C41.9289 3279.75 40.25 3278.07 40.25 3276C40.25 3273.93 41.9289 3272.25 44 3272.25C46.0711 3272.25 47.75 3273.93 47.75 3276Z"/></g></svg>

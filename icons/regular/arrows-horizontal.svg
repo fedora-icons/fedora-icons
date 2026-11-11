@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-320 -320)"><g>
-<g>
-<path d="M322.625 332C328.875 330.75 335.125 330.75 341.375 332" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M327.478 328.215C325.698 328.719 324.081 329.981 322.625 332C324.081 334.019 325.698 335.281 327.478 335.785" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M336.522 335.785C338.301 335.281 339.919 334.019 341.375 332C339.919 329.981 338.301 328.719 336.522 328.215" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-320 -320)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M322.625 332C328.875 330.75 335.125 330.75 341.375 332"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M327.478 328.215C325.698 328.719 324.081 329.981 322.625 332C324.081 334.019 325.698 335.281 327.478 335.785"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M336.522 335.785C338.301 335.281 339.919 334.019 341.375 332C339.919 329.981 338.301 328.719 336.522 328.215"/></g></svg>

@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from import_figma import SVG
-from import_modifiers import GLYPH_PAINT, POSITIONS, namespace_ids
+from import_modifiers import GLYPH_PAINT, POSITIONS, allowed_positions, namespace_ids
 from duo import DUO_STYLES, apply_colors
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -111,6 +111,11 @@ def compose_svg(
         position = glyph["defaultPosition"]
     if position not in POSITIONS:
         raise ValueError(f"Choose an explicit corner for the {modifier} modifier")
+    if position not in allowed_positions(glyph):
+        raise ValueError(
+            f"The {modifier} modifier only supports "
+            + ", ".join(allowed_positions(glyph))
+        )
     presets_path = root / "metadata/presets.json"
     if base_fit is None and presets_path.exists():
         presets = json.loads(presets_path.read_text(encoding="utf-8"))["presets"]

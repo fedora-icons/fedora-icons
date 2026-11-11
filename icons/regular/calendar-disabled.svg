@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-256 -672)"><g>
-<g>
-<path d="M268 676.599C275.638 676.599 276.882 677.773 276.882 684.987C276.882 692.201 275.638 693.375 268 693.375C260.362 693.375 259.119 692.201 259.119 684.987C259.119 677.773 260.362 676.599 268 676.599Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M263.56 674.625V678.572M272.441 674.625V678.572M259.612 681.533H276.389" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M264.053 690.908L271.947 683.013" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M271.947 686.961C271.947 689.141 270.18 690.908 268 690.908C265.82 690.908 264.053 689.141 264.053 686.961C264.053 684.78 265.82 683.013 268 683.013C270.18 683.013 271.947 684.78 271.947 686.961Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-256 -672)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M268 676.599C275.638 676.599 276.882 677.773 276.882 684.987C276.882 692.201 275.638 693.375 268 693.375C260.362 693.375 259.119 692.201 259.119 684.987C259.119 677.773 260.362 676.599 268 676.599Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M263.56 674.625V678.572M272.441 674.625V678.572M259.612 681.533H276.389"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M264.053 690.908L271.947 683.013"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M271.947 686.961C271.947 689.141 270.18 690.908 268 690.908C265.82 690.908 264.053 689.141 264.053 686.961C264.053 684.78 265.82 683.013 268 683.013C270.18 683.013 271.947 684.78 271.947 686.961Z"/></g></svg>

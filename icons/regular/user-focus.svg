@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-512 -3712)"><g>
-<g>
-<path d="M514.625 3719.83V3716.71C514.625 3715.32 515.319 3714.62 516.708 3714.62H519.833M528.167 3714.62H531.292C532.681 3714.62 533.375 3715.32 533.375 3716.71V3719.83M533.375 3728.17V3731.29C533.375 3732.68 532.681 3733.38 531.292 3733.38H528.167M519.833 3733.38H516.708C515.319 3733.38 514.625 3732.68 514.625 3731.29V3728.17" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<g>
-<path d="M526.188 3720.35C526.188 3721.56 525.208 3722.54 524 3722.54C522.792 3722.54 521.812 3721.56 521.812 3720.35C521.812 3719.15 522.792 3718.17 524 3718.17C525.208 3718.17 526.188 3719.15 526.188 3720.35Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M518.531 3730.56C518.531 3723.27 529.469 3723.27 529.469 3730.56H518.531Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(0 0)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M2.625 7.83333V5.125C2.625 3.74429 3.74429 2.625 5.125 2.625H7.83333M16.1667 2.625H18.875C20.2557 2.625 21.375 3.74429 21.375 5.125V7.83333M21.375 16.1667V18.875C21.375 20.2557 20.2557 21.375 18.875 21.375H16.1667M7.83333 21.375H5.125C3.74429 21.375 2.625 20.2557 2.625 18.875V16.1667"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.1875 8.35352C14.1875 9.56164 13.2081 10.541 12 10.541C10.7919 10.541 9.8125 9.56164 9.8125 8.35352C9.8125 7.14539 10.7919 6.16602 12 6.16602C13.2081 6.16602 14.1875 7.14539 14.1875 8.35352Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M6.53125 18.5625C6.53125 11.2708 17.4688 11.2708 17.4688 18.5625H6.53125Z"/></g></svg>

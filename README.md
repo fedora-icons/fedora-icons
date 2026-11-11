@@ -1,8 +1,10 @@
 # Fedora Icons
 
-1,234 icons in Regular, Filled, Duocolor, and Duotone styles: **4,936 SVGs**,
+1,252 icons in Regular, Filled, Duocolor, and Duotone styles: **5,008 SVGs**,
 drawn on a 24 x 24 grid. Line styles default to 1.25px strokes. Negative space and
 modifier clearances are transparent.
+
+See [CHANGELOG.md](CHANGELOG.md) for unreleased changes.
 
 Fedora's goal is to help people find the right icon quickly and ship it
 consistently, from design to code. Icon count is not the success metric.
@@ -34,8 +36,10 @@ or a claim that every planned capability has shipped.
 
 ## Planned workflow
 
-A React package and a searchable website are planned. The core SVG package
-contains all four styles, with reusable modifiers and a Python composition tool.
+The React component package is maintained separately in
+`fedora-icons/react-fedora`; a searchable website is planned. The core SVG
+package contains all four styles, with reusable modifiers and a Python
+composition tool.
 The versioned core source release is `v0.1.0`.
 
 The duo styles default to blue, with 12 editable Figma color presets:
@@ -75,13 +79,18 @@ Standalone `sparkle`/`sparkles` style choices remain unchanged.
 `metadata/ai-editing.json` records native sources, action meanings, and
 Light/Dark proof verification.
 
+`dataflow-vertical` adds top-to-bottom flow alongside the existing horizontal
+`dataflow`. Rounded shopping contours, evenly spaced coin rings, and the curved
+wallet flap are recorded in `metadata/commerce-refinements.json`.
+
 Modifiers compose a base icon with a reusable glyph rather than requiring a
 separate drawing for every combination. The chooser will group actions
 (Add, Delete, Remove, Block, Edit, and four directional arrows), statuses
 (Warning, Check), access/identity (Key, Lock, User, Clip), and file-type labels.
-All nineteen are reusable Figma components and SVG assets.
-Glyphs remain solid independently of the base style: Key, Lock, User, and Clip
-have no colored backplate.
+All twenty-five are reusable Figma components and SVG assets, including
+Sparkle, Download, Upload, Refresh, Search, and Shield.
+Glyphs remain solid independently of the base style. The six new glyphs,
+Key, Lock, User, and Clip have no colored backplate.
 
 Add (`+`) defaults to the top-left corner; Delete (a cross) defaults to the
 bottom-right. An explicit corner can override the default. The Add/Delete Figma
@@ -136,6 +145,15 @@ bindings and verification, and `metadata/get-started.json` identifies the guide.
 Component descriptions contain the icon name and relevant metaphors/synonyms,
 without pixel-grid or drawing-specification boilerplate.
 
+Named icon instances expose their nested **Modifier** controls in the properties
+panel; there is no need to drill into the layers. The credit-card actions,
+`settings-user`, `mail-sparkles`, and `message-sparkles` share a chooser with
+21 action glyphs and four corner positions. Existing user/briefcase presets
+retain their modifier-family choices. The two optically fitted Add presets
+expose the nested Badge's **Glyph** (Add/Delete), not a Position control.
+Credit-card modifiers match the base foreground in Regular and Solid (black in
+Light mode); duo styles retain their semantic green, red, and other accent colors.
+
 ### SVG
 
 Copy SVGs from `icons/regular/`, `icons/filled/`, `icons/duocolor/`, or
@@ -176,7 +194,8 @@ python3 scripts/compose_svg.py home-smile --modifier key --position bottom-right
 
 Available modifiers: `add`, `delete`, `warning`, `check`, `key`, `lock`, `user`,
 `clip`, `pdf`, `svg`, `eps`, `psd`, `remove`, `block`, `edit`, `arrow-up`,
-`arrow-down`, `arrow-left`, and `arrow-right`. `auto` uses the approved Add/Delete and
+`arrow-down`, `arrow-left`, `arrow-right`, `sparkle`, `download`, `upload`,
+`refresh`, `search`, and `shield`. `auto` uses the approved Add/Delete and
 file-type defaults. Other modifiers require an explicit `--position`:
 `top-left`, `top-right`, `bottom-left`, or `bottom-right`.
 
@@ -202,15 +221,22 @@ conflict rules have not shipped.
 
 ### Compatible named presets
 
-Twenty-one existing icons now use reusable compositions: `briefcase-lock`,
-the eleven `user` action/status variants, and the nine `users` action variants.
-Their names, paths, and original Regular/Filled component IDs are unchanged.
+The original thirty-seven reusable compositions include `briefcase-lock`,
+the eleven `user` action/status variants, the nine `users` action variants,
+the thirteen `credit-card` action variants, `settings-user`, `mail-sparkles`,
+and `message-sparkles`. Their names, paths, and canonical component IDs are unchanged.
 `user-circle`, `user-square`, `user-focus`, `user-identity`, and `user-badge`
 retain their structural artwork.
 
+The catalog now contains **92 named presets**, including the paper/file families,
+`palette-sparkles`, and `scissors-sparkles`. Native family-specific wrappers keep
+the selected corner while switching host styles, without pinning the old base
+style. The palette and scissors families pass 128 override-then-style checks.
+
 `metadata/presets.json` records each base, modifier, explicit corner, and any
-deliberate optical fit. Add is top-left; these presets explicitly place the other
-actions bottom-right without inventing new automatic defaults. The two Add
+deliberate optical fit. Add is top-left; Sparkle is explicitly top-right;
+the other actions are explicitly bottom-right without inventing new automatic
+defaults. The two optically fitted Add
 presets fit their base around the badge without cutting through a head, while
 retaining the 1.25px Regular stroke. This is authored placement, not automatic
 conflict detection. The composer also uses that fit when the selected base,
@@ -248,11 +274,13 @@ print(matches)
 
 ## Figma source
 
-The core library in the Fedora Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`)
-contains 1,239 native component sets. The 1,234 core sets have
+The Fedora Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) contains 1,258 native
+icon component sets. The 1,252 core sets on the Components page have
 `Style=Regular/Filled/Duocolor/Duotone` and `Size=24`, with original
-Regular/Filled component IDs preserved. Five excluded brand sets retain their
-original two styles. Source catalogs and native/4x validation tiles remain
+Regular/Filled component IDs preserved. The separate Brands page contains the
+Fedora Icons mark and five existing third-party sets, with Regular/Filled only
+and an ownership disclaimer. Brand drawings remain outside the four-style SVG
+core. Source catalogs and native/4x validation tiles remain
 linked. Select a catalog or verification board and change its **Fedora / Theme**
 mode to switch Light/Dark.
 
@@ -262,9 +290,13 @@ official-logo import. The Figma source is not included as a `.fig` archive.
 
 ## Validate and re-export
 
-Python 3.10+ is sufficient; no third-party Python packages are needed.
+Validation uses Python 3.10+ without third-party Python packages. SVG optimization
+additionally uses Node.js 20+ and the pinned development dependencies:
 
 ```sh
+npm ci
+npm test
+npm run optimize:check
 python3 -m unittest discover -s tests
 python3 scripts/validate.py
 ```
@@ -279,6 +311,7 @@ snapshot JSON (including `styles` and `paintRoles`) outside the repository, then
 
 ```sh
 python3 scripts/import_figma.py /path/to/figma-export.json
+npm run optimize
 python3 scripts/validate.py
 ```
 
@@ -304,11 +337,12 @@ outside the repository, then run:
 ```sh
 python3 scripts/import_modifiers.py /path/to/modifier-export.json
 python3 scripts/build_presets.py
+npm run optimize
 python3 -m unittest discover -s tests
 ```
 
 The modifier importer preserves the core; the preset builder updates only the
-21 declared named compositions. `exportFedoraPresets()` in the same JavaScript
+92 declared named compositions. `exportFedoraPresets()` in the same JavaScript
 file exports the live preset definitions after checking their nested sources.
 Import an updated preset snapshot with
 `python3 scripts/build_presets.py --snapshot /path/to/preset-export.json`.
@@ -322,6 +356,32 @@ stencils, optical fits, deterministic regeneration, shared-glyph updates,
 preserved names/IDs, and core re-imports. Duo tests cover explicit paint roles,
 theme/custom colors, palette persistence, transparent composition, original
 asset preservation, and rejection without partial writes.
+
+### Conservative SVG optimization
+
+Run `npm run optimize` after native imports or preset regeneration. The explicit
+SVGO configuration removes redundant markup without rewriting path coordinates,
+numeric precision, authored strokes, color roles, IDs, transforms, dimensions, or
+viewBoxes. It processes all canonical icons and reusable modifier SVGs, then
+refreshes their SHA-256 metadata. Composition remains dependency-free at runtime.
+
+Before writing, every changed asset must render identically at 24px and 48px
+in Light, Dark, and custom colors. The pinned resvg renderer resolves CSS paint
+roles for this comparison only; the distributed SVGs retain their variables.
+Regression fixtures cover masks, transparent cutouts, namespaced references,
+16% tints, and nested optical-fit viewports. Optimization must be idempotent.
+`npm run optimize:check` detects SVG or hash drift without writing; CI runs it
+alongside the Node and Python tests.
+
+Finish the pipeline by synchronizing the separate React checkout from these
+optimized assets, then run its tests and package build:
+
+```sh
+cd ../react-fedora
+npm run sync -- --source ../fedora-icons
+npm test
+npm pack --silent
+```
 
 The November 10, 2026 source audit is recorded in
 [metadata/figma-audit.json](metadata/figma-audit.json).

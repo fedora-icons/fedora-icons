@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-64 -960)"><g>
-<path d="M83.2044 980.375C82.9643 977.631 82.9643 974.886 83.2044 972.142C83.2044 966.997 73.9424 966.997 68.7969 966.997" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M73.1191 963.625C71.5343 964.075 70.0936 965.198 68.7969 966.996C70.0936 968.794 71.5343 969.918 73.1191 970.368" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-64 -960)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M83.2044 980.375C82.9643 977.631 82.9643 974.886 83.2044 972.142C83.2044 966.997 73.9424 966.997 68.7969 966.997"/><path stroke="var(--fedora-secondary, #5B87B7)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M73.1191 963.625C71.5343 964.075 70.0936 965.198 68.7969 966.996C70.0936 968.794 71.5343 969.918 73.1191 970.368"/></g></svg>

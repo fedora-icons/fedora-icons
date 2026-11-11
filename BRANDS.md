@@ -1,8 +1,31 @@
-# Third-party brands
+# Brand icons
+
+The Figma **Brands** page keeps brand artwork separate from the core icon
+catalogs and components. It uses Regular and, where applicable, Filled (Solid)
+styles only, without Duocolor or Duotone variants.
+
+The page displays: "All brand icons belong to their respective owners."
+
+Its catalog follows the main Regular catalog (`29:4984`): a 1440px frame,
+96px outer margins, the shared header and category styling, and 24px icons on
+a 60px-column, 56px-row grid without individual captions.
+
+The first-party `fedora-icons` mark is adapted from the supplied F Symbol,
+preserving its interlocking contours and proportions. Its native component set
+is `71:151203`, with Regular `71:151173` and Filled `71:151178`. It is a separate
+Figma companion, not a four-style core SVG or React export.
+
+The supplied Social icon set (`71:151402`) is a reference for recognizable
+silhouettes and proportions. Its color and hover variants are not imported into
+the Fedora collection.
+
+## Third-party brands
 
 No third-party brand SVGs are included in this package.
 
-The design file contains five existing brand-specific drawings. They are
+The Brands page contains five existing third-party drawings, including Figma
+and Framer. Their original masters and linked catalog instances were moved
+without changing their source IDs or artwork. They are
 excluded from the MIT core, not presented as official artwork, and have not been
 replaced or redistributed here:
 

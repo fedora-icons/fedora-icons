@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-576 -1952)"><g>
-<g>
-<path d="M588 1955.62L595.253 1959.81V1968.19L588 1972.37L580.747 1968.19V1959.81L588 1955.62Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M588 1955.62L595.253 1959.81V1968.19L588 1972.37L580.747 1968.19V1959.81L588 1955.62Z" transform="translate(-576 -1952)"/></svg>

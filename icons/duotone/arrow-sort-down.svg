@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-288 -992)"><g>
-<path d="M294.291 995.625C294.911 1001.21 294.911 1006.79 294.291 1012.37" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M291.751 1009.12C292.09 1010.31 292.936 1011.4 294.291 1012.37C295.646 1011.4 296.493 1010.31 296.832 1009.12" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M300.805 997.486H308.249M300.805 1004H305.457M300.805 1010.51H303.596" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-288 -992)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M294.291 995.625C294.911 1001.21 294.911 1006.79 294.291 1012.37"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M291.751 1009.12C292.09 1010.31 292.936 1011.4 294.291 1012.37C295.646 1011.4 296.493 1010.31 296.832 1009.12"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M300.805 997.486H308.249M300.805 1004H305.457M300.805 1010.51H303.596"/></g></svg>

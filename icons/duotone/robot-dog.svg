@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-416 -3488)"><g>
-<g opacity="0.16">
-<path d="M422.74 3496.11H431.887L433.716 3492.45H437.374V3497.03H434.63L432.801 3501.6H422.74V3496.11Z" fill="currentColor" />
-</g>
-<g>
-<path d="M422.741 3496.11H431.888L433.717 3492.45H437.375V3497.03H434.631L432.802 3501.6H422.741V3496.11Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M420.912 3497.94L418.625 3495.66M424.113 3503.43L422.741 3506.17L423.655 3508.92M430.515 3503.43L432.802 3506.17L431.887 3508.92M434.631 3492.45V3491.08" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M435.82 3495.29C436.123 3495.29 436.369 3495.04 436.369 3494.74C436.369 3494.44 436.123 3494.19 435.82 3494.19C435.517 3494.19 435.271 3494.44 435.271 3494.74C435.271 3495.04 435.517 3495.29 435.82 3495.29Z" fill="currentColor" />
-<path d="M424.57 3498.86H429.601" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-416 -3488)"><path fill="currentColor" d="M422.74 3496.11H431.887L433.716 3492.45H437.374V3497.03H434.63L432.801 3501.6H422.74V3496.11Z" opacity="0.16"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M422.741 3496.11H431.888L433.717 3492.45H437.375V3497.03H434.631L432.802 3501.6H422.741V3496.11Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M420.912 3497.94L418.625 3495.66M424.113 3503.43L422.741 3506.17L423.655 3508.92M430.515 3503.43L432.802 3506.17L431.887 3508.92M434.631 3492.45V3491.08"/><path fill="currentColor" d="M435.82 3495.29C436.123 3495.29 436.369 3495.04 436.369 3494.74C436.369 3494.44 436.123 3494.19 435.82 3494.19C435.517 3494.19 435.271 3494.44 435.271 3494.74C435.271 3495.04 435.517 3495.29 435.82 3495.29Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M424.57 3498.86H429.601"/></g></svg>

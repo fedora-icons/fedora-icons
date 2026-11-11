@@ -16,6 +16,15 @@ GLYPH_PAINT = "var(--fedora-glyph-color, #FFFFFF)"
 ET.register_namespace("", SVG)
 
 
+def allowed_positions(record):
+    positions = record.get("allowedPositions", POSITIONS)
+    if not isinstance(positions, (list, tuple)) or not positions or any(
+        position not in POSITIONS for position in positions
+    ) or len(set(positions)) != len(positions):
+        raise ValueError(f"Invalid allowed positions: {record['name']}")
+    return tuple(positions)
+
+
 def namespace_ids(root, prefix):
     mapping = {
         node.get("id"): f"{prefix}-{index}"
@@ -77,9 +86,10 @@ def import_modifiers(payload, output):
         if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", name) or name in names:
             raise ValueError(f"Invalid or duplicate modifier name: {name}")
         names.add(name)
-        if set(row["positions"]) != set(POSITIONS):
+        allowed = allowed_positions(row)
+        if set(row["positions"]) != set(allowed):
             raise ValueError(f"Missing explicit corner: {name}")
-        if row["defaultPosition"] not in (None, *POSITIONS):
+        if row["defaultPosition"] not in (None, *allowed):
             raise ValueError(f"Invalid automatic position: {name}")
         for position in row["positions"].values():
             if not position["clearance"] or any(

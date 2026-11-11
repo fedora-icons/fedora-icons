@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(0 -2112)"><g>
-<path d="M21.375 2123.31C21.375 2113.94 2.625 2110.81 2.625 2123.31C2.625 2131.64 9.91667 2133.73 14.0833 2132.69L21.375 2125.39V2123.31Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M14.084 2132.69V2127.48C14.084 2126.09 14.7784 2125.39 16.1673 2125.39H21.3757" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(0 0)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M21.375 11.311C21.375 1.93597 2.625 -1.18903 2.625 11.311C2.625 19.6443 9.91667 21.7276 14.0833 20.686L21.375 13.3943V11.311Z"/><path stroke="var(--fedora-secondary, #5B87B7)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.0835 20.6862V15.8945C14.0835 14.5138 15.2028 13.3945 16.5835 13.3945H21.3752"/></g></svg>

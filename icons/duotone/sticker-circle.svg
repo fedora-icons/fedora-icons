@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-32 -2112)"><g>
-<g opacity="0.16">
-<path d="M53.375 2123.31C53.375 2113.94 34.625 2110.81 34.625 2123.31C34.625 2131.64 41.9167 2133.73 46.0833 2132.69L53.375 2125.39V2123.31Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
-</g>
-<path d="M53.375 2123.31C53.375 2113.94 34.625 2110.81 34.625 2123.31C34.625 2131.64 41.9167 2133.73 46.0833 2132.69L53.375 2125.39V2123.31Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M46.084 2132.69V2127.48C46.084 2126.09 46.7784 2125.39 48.1673 2125.39H53.3757" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(0 0)"><path fill="currentColor" fill-rule="evenodd" d="M21.375 11.311C21.375 1.93597 2.625 -1.18903 2.625 11.311C2.625 19.6443 9.91667 21.7276 14.0833 20.686L21.375 13.3943V11.311Z" clip-rule="evenodd" opacity="0.16"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M21.375 11.311C21.375 1.93597 2.625 -1.18903 2.625 11.311C2.625 19.6443 9.91667 21.7276 14.0833 20.686L21.375 13.3943V11.311Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M14.0835 20.6862V15.8945C14.0835 14.5138 15.2028 13.3945 16.5835 13.3945H21.3752"/></g></svg>

@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-64 -32)"><g>
-<g>
-<path d="M68.3 50.7L79.6 39.4C80 39 80.4 39 80.8 39.4L82 40.6C82.4 41 82.4 41.4 82 41.8L70.7 53.1C70.3 53.5 69.9 53.5 69.5 53.1L68.3 51.9C67.9 51.5 67.9 51.1 68.3 50.7Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-<g>
-<path d="M77.5 41.5L79.9 43.9" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="var(--fedora-secondary, #5B87B7)" />
-</g>
-<g>
-<path d="M69.5 34.25C70.0525 36.9475 70.0525 36.9475 72.75 37.5C70.0525 38.0525 70.0525 38.0525 69.5 40.75C68.9475 38.0525 68.9475 38.0525 66.25 37.5C68.9475 36.9475 68.9475 36.9475 69.5 34.25Z" fill-rule="evenodd" clip-rule="evenodd" fill="var(--fedora-secondary, #5B87B7)" />
-</g>
-<g>
-<path d="M83.25 48C83.6325 49.8675 83.6325 49.8675 85.5 50.25C83.6325 50.6325 83.6325 50.6325 83.25 52.5C82.8675 50.6325 82.8675 50.6325 81 50.25C82.8675 49.8675 82.8675 49.8675 83.25 48Z" fill-rule="evenodd" clip-rule="evenodd" fill="var(--fedora-secondary, #5B87B7)" />
-</g>
-<g>
-<path d="M78.4996 34.1C78.7376 35.262 78.7376 35.262 79.8996 35.5C78.7376 35.738 78.7376 35.738 78.4996 36.9C78.2616 35.738 78.2616 35.738 77.0996 35.5C78.2616 35.262 78.2616 35.262 78.4996 34.1Z" fill-rule="evenodd" clip-rule="evenodd" fill="var(--fedora-secondary, #5B87B7)" />
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-64 -32)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M68.3 50.7L79.6 39.4C80 39 80.4 39 80.8 39.4L82 40.6C82.4 41 82.4 41.4 82 41.8L70.7 53.1C70.3 53.5 69.9 53.5 69.5 53.1L68.3 51.9C67.9 51.5 67.9 51.1 68.3 50.7Z"/><path stroke="var(--fedora-secondary, #5B87B7)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M77.5 41.5L79.9 43.9"/><path fill="var(--fedora-secondary, #5B87B7)" fill-rule="evenodd" d="M69.5 34.25C70.0525 36.9475 70.0525 36.9475 72.75 37.5C70.0525 38.0525 70.0525 38.0525 69.5 40.75C68.9475 38.0525 68.9475 38.0525 66.25 37.5C68.9475 36.9475 68.9475 36.9475 69.5 34.25Z" clip-rule="evenodd"/><path fill="var(--fedora-secondary, #5B87B7)" fill-rule="evenodd" d="M83.25 48C83.6325 49.8675 83.6325 49.8675 85.5 50.25C83.6325 50.6325 83.6325 50.6325 83.25 52.5C82.8675 50.6325 82.8675 50.6325 81 50.25C82.8675 49.8675 82.8675 49.8675 83.25 48Z" clip-rule="evenodd"/><path fill="var(--fedora-secondary, #5B87B7)" fill-rule="evenodd" d="M78.4996 34.1C78.7376 35.262 78.7376 35.262 79.8996 35.5C78.7376 35.738 78.7376 35.738 78.4996 36.9C78.2616 35.738 78.2616 35.738 77.0996 35.5C78.2616 35.262 78.2616 35.262 78.4996 34.1Z" clip-rule="evenodd"/></g></svg>

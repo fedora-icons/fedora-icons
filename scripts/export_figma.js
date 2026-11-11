@@ -1,4 +1,13 @@
 // Run in a Figma plugin context; supply the current repository manifest object.
+function countFedoraComponentPairs(pages) {
+  return pages.reduce((count, page) => count + page.findAll(node =>
+    node.type === "COMPONENT_SET" &&
+    node.variantGroupProperties.Size?.values.includes("24") &&
+    node.variantGroupProperties.Style?.values.includes("Regular") &&
+    node.variantGroupProperties.Style?.values.includes("Filled")
+  ).length, 0);
+}
+
 async function exportFedoraIcons(manifest) {
   if (manifest.grid !== 24 || manifest.iconCount !== manifest.icons.length) {
     throw new Error("Invalid 24px manifest");
@@ -74,10 +83,9 @@ async function exportFedoraIcons(manifest) {
       svgIdAttribute: true,
       svgSimplifyStroke: false,
     });
-    const componentPairs = page.findAll(node => node.type === "COMPONENT_SET" &&
-      node.variantGroupProperties.Size?.values.includes("24") &&
-      node.variantGroupProperties.Style?.values.includes("Regular") &&
-      node.variantGroupProperties.Style?.values.includes("Filled")).length;
+    const brandPages = figma.root.children.filter(node => node.name === "Brands");
+    for (const brandPage of brandPages) await brandPage.loadAsync();
+    const componentPairs = countFedoraComponentPairs([page, ...brandPages]);
     return {
       records,
       svg,

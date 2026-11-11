@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-576 -3584)"><g>
-<g>
-<path d="M578.625 3603.32C580.716 3599.49 582.633 3597.4 584.375 3597.05C585.42 3596.77 586.814 3597.47 588.557 3599.14C590.996 3596.7 593.784 3593.22 596.92 3588.69" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M596.886 3594.26C597.526 3592.71 597.537 3590.86 596.92 3588.69C594.67 3588.59 592.866 3589.03 591.509 3590.01" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-576 -3584)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M578.625 3603.32C580.716 3599.49 582.633 3597.4 584.375 3597.05C585.42 3596.77 586.814 3597.47 588.557 3599.14C590.996 3596.7 593.784 3593.22 596.92 3588.69"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M596.886 3594.26C597.526 3592.71 597.537 3590.86 596.92 3588.69C594.67 3588.59 592.866 3589.03 591.509 3590.01"/></g></svg>

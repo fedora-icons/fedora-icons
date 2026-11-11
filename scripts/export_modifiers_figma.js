@@ -76,7 +76,7 @@ async function exportFedoraModifiers() {
     ...["Key", "Lock", "User", "Clip"].map(
       name => [name, extended, "access-identity", null, "VariableID:48:36636"],
     ),
-    ...["PDF", "SVG", "EPS", "PSD"].map(
+    ...Object.keys(files.badges).map(
       name => [name, files, "file-types", "Bottom left", "VariableID:48:36636"],
     ),
     ...Object.entries(presets.glyphVariables).map(
@@ -135,7 +135,10 @@ async function exportFedoraModifiers() {
           }
         }
         const positions = {};
-        for (const position of ["Top left", "Top right", "Bottom left", "Bottom right"]) {
+        const allowed = group === "file-types"
+          ? ["Bottom left"]
+          : ["Top left", "Top right", "Bottom left", "Bottom right"];
+        for (const position of allowed) {
           const wrapper = await figma.getNodeByIdAsync(proof.variants[label][position]);
           const mask = wrapper.findOne(n => n.isMask);
           const badge = wrapper.children.find(n => n.type === "INSTANCE");
@@ -161,6 +164,7 @@ async function exportFedoraModifiers() {
           width: source.width,
           height: source.height,
           defaultPosition: defaultPosition?.toLowerCase().replaceAll(" ", "-") ?? null,
+          ...(group === "file-types" ? { allowedPositions: ["bottom-left"] } : {}),
           clearance: 1.25,
           colors,
           paintRoles,

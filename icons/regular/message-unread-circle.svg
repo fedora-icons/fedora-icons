@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-192 -2496)"><g>
-<path d="M206.163 2499.2C205.313 2499.03 204.851 2498.99 204 2498.99C197.625 2498.99 194.625 2501.64 194.625 2507.28C194.625 2509.49 194.974 2510.57 195.995 2512.18L194.625 2517.01L199.457 2514.49C201.074 2515.34 202.043 2515.57 204 2515.57C210.375 2515.57 213.375 2512.92 213.375 2507.28C213.375 2506.6 213.342 2506.23 213.087 2505.55" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<circle cx="211.211" cy="2500.43" r="1.53846" stroke-width="1.25" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-192 -2496)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M206.163 2499.2C205.313 2499.03 204.851 2498.99 204 2498.99C197.625 2498.99 194.625 2501.64 194.625 2507.28C194.625 2509.49 194.974 2510.57 195.995 2512.18L194.625 2517.01L199.457 2514.49C201.074 2515.34 202.043 2515.57 204 2515.57C210.375 2515.57 213.375 2512.92 213.375 2507.28C213.375 2506.6 213.342 2506.23 213.087 2505.55"/><circle cx="211.211" cy="2500.43" r="1.53846" stroke="currentColor" stroke-width="1.25"/></g></svg>

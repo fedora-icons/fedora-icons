@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-448 -960)"><g>
-<path d="M455.898 967.887C453.965 968.435 452.207 969.806 450.625 972C452.207 974.194 453.965 975.565 455.898 976.113" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M464.102 976.113C466.035 975.565 467.793 974.194 469.375 972C467.793 969.806 466.035 968.435 464.102 967.887" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-448 -960)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M455.898 967.887C453.965 968.435 452.207 969.806 450.625 972C452.207 974.194 453.965 975.565 455.898 976.113"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M464.102 976.113C466.035 975.565 467.793 974.194 469.375 972C467.793 969.806 466.035 968.435 464.102 967.887"/></g></svg>

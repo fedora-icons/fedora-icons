@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "type": "figma",
+    "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
+    "exportedOn": "2026-11-11"
+  },
+  "changes": {
+    "dataflow-vertical": "New top-to-bottom variant; horizontal original retained.",
+    "shopping-bag": "Rounded upper corners and lower body contour.",
+    "shopping-cart": "Rounded basket corners, handle bend, and chassis return.",
+    "coins-stacked": "Three equal 4px intervals with matching ring curvature.",
+    "wallet": "Curved upper flap aligned with the main body; clasp retained."
+  },
+  "audit": {
+    "sourceChecks": 20,
+    "styleSwapChecks": 20,
+    "ringPitch": 4,
+    "tintOpacity": 0.16,
+    "errors": [],
+    "tintInstanceChecks": 4
+  },
+  "records": [
+    {
+      "name": "shopping-bag",
+      "componentSet": "45:41668",
+      "source": {
+        "regular": "33:19295",
+        "filled": "33:39773",
+        "duocolor": "49:88061",
+        "duotone": "49:88067"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 2,
+          "accents": 1,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "shopping-cart",
+      "componentSet": "45:41676",
+      "source": {
+        "regular": "33:19321",
+        "filled": "33:39776",
+        "duocolor": "49:88078",
+        "duotone": "49:88089"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 5,
+          "accents": 4,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "coins-stacked",
+      "componentSet": "45:41345",
+      "source": {
+        "regular": "33:18075",
+        "filled": "33:39580",
+        "duocolor": "49:86815",
+        "duotone": "49:86824"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 2,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "wallet",
+      "componentSet": "45:41684",
+      "source": {
+        "regular": "33:19351",
+        "filled": "33:39781",
+        "duocolor": "49:88110",
+        "duotone": "49:88120"
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 4,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 1,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    },
+    {
+      "name": "dataflow-vertical",
+      "category": "Data & commerce",
+      "tags": [
+        "data",
+        "flow",
+        "vertical",
+        "top-bottom",
+        "diagram"
+      ],
+      "aliases": [
+        "data-flow-vertical"
+      ],
+      "componentSet": "68:53014",
+      "source": {
+        "regular": "68:53015",
+        "filled": "68:53021",
+        "duocolor": "68:53023",
+        "duotone": "68:53030"
+      },
+      "keyline": {
+        "key": "Square",
+        "width": 18,
+        "height": 18,
+        "stroke": 1.25,
+        "margin": 2
+      },
+      "duoAuthoring": {
+        "version": 2,
+        "approvedPrototype": false,
+        "duocolor": {
+          "contours": 6,
+          "accents": 3,
+          "policy": "dominant-contours-and-details"
+        },
+        "duotone": {
+          "regions": 3,
+          "opacity": 0.16,
+          "policy": "explicit-closed-contours"
+        }
+      }
+    }
+  ]
+}

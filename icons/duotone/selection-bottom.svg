@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-608 -3072)"><g>
-<path d="M629.375 3084C629.375 3092.06 628.062 3093.38 620 3093.38C611.938 3093.38 610.625 3092.06 610.625 3084" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M610.625 3084H629.375M610.625 3077.75V3074.99C610.625 3074.79 610.788 3074.62 610.99 3074.62H615.833M620 3074.62H624.167M628.333 3074.62H629.219C629.305 3074.62 629.375 3074.69 629.375 3074.78V3077.75" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(0 0)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M21.375 12C21.375 20.0625 20.0625 21.375 12 21.375C3.9375 21.375 2.625 20.0625 2.625 12"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M2.625 12H21.375M2.625 5.75V5.125C2.625 3.74429 3.74429 2.625 5.125 2.625H7.83333M12 2.625H16.1667M20.3333 2.625H20.5417C21.0019 2.625 21.375 2.9981 21.375 3.45833V5.75"/></g></svg>

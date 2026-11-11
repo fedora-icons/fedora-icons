@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-416 -1472)"><g>
-<g opacity="0.16">
-<path d="M419.625 1489.29V1491.93H436.375V1476.07H433.73L419.625 1489.29Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
-</g>
-<path d="M433.948 1476.07H435.825C436.129 1476.07 436.375 1476.31 436.375 1476.62V1491.38C436.375 1491.69 436.129 1491.93 435.825 1491.93H420.175C419.871 1491.93 419.625 1491.69 419.625 1491.38V1489.53C419.625 1489.38 419.688 1489.23 419.799 1489.13L433.572 1476.21C433.674 1476.12 433.808 1476.07 433.948 1476.07Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M423.151 1486.64H430.536C430.839 1486.64 431.086 1486.4 431.086 1486.09V1478.71M419.625 1484L427.559 1476.07" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(0 0)"><path fill="currentColor" fill-rule="evenodd" d="M3.625 17.2901V19.9348H20.375V4.06641H17.7303L3.625 17.2901Z" clip-rule="evenodd" opacity="0.16"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M17.9478 4.06641H19.825C20.1288 4.06641 20.375 4.31265 20.375 4.61641V19.3848C20.375 19.6886 20.1288 19.9348 19.825 19.9348H4.175C3.87124 19.9348 3.625 19.6886 3.625 19.3848V17.5284C3.625 17.3763 3.68792 17.2311 3.79883 17.1271L17.5716 4.21516C17.6735 4.11959 17.808 4.06641 17.9478 4.06641Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M7.15132 14.6454H12.5855C13.9662 14.6454 15.0855 13.5261 15.0855 12.1454V6.71114M3.625 12.0006L11.5592 4.06641"/></g></svg>

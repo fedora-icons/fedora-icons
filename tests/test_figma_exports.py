@@ -18,6 +18,7 @@ class FigmaExportTests(unittest.TestCase):
                 'export_figma.js': ['exportFedoraIcons'],
                 'export_duo_figma.js': ['exportFedoraDuo'],
                 'export_modifiers_figma.js': ['exportFedoraModifiers', 'exportFedoraPresets'],
+                'expose_modifiers_figma.js': ['exposeFedoraModifierProperties'],
             };
             for (const [file, names] of Object.entries(scripts)) {
                 const context = vm.createContext({});
@@ -57,5 +58,35 @@ class FigmaExportTests(unittest.TestCase):
                         error => error.message === expected);
                 }
             })().catch(error => {console.error(error); process.exitCode = 1;});
+        """], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_component_count_includes_separate_brands_but_not_reference_variants(self):
+        result = subprocess.run(["node", "-e", """
+            const fs = require('node:fs');
+            const vm = require('node:vm');
+            const assert = require('node:assert/strict');
+            const context = vm.createContext({});
+            new vm.Script(fs.readFileSync(
+                'scripts/export_figma.js', 'utf8'
+            )).runInContext(context);
+            const set = (styles, size = '24') => ({
+                type: 'COMPONENT_SET',
+                variantGroupProperties: {
+                    ...(size ? {Size: {values: [size]}} : {}),
+                    Style: {values: styles},
+                },
+            });
+            const page = nodes => ({findAll: predicate => nodes.filter(predicate)});
+            const regularFilled = ['Regular', 'Filled'];
+            assert.equal(context.countFedoraComponentPairs([
+                page([set([...regularFilled, 'Duocolor', 'Duotone'])]),
+                page([
+                    set(regularFilled), set(regularFilled),
+                    set(['Brand', 'Gray', 'White'], null),
+                    set(regularFilled, '16'), set(['Regular']),
+                    {type: 'INSTANCE'},
+                ]),
+            ]), 3);
         """], cwd=ROOT, capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)

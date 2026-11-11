@@ -97,7 +97,7 @@ class ModifierTests(unittest.TestCase):
     def test_composition_matches_all_exported_corners_without_an_opaque_halo(self):
         manifest = json.loads((ROOT / "metadata/modifiers.json").read_text())
         for glyph in manifest["modifiers"]:
-            for position in POSITIONS:
+            for position in glyph.get("allowedPositions", POSITIONS):
                 for style in ("regular", "filled"):
                     with self.subTest(glyph=glyph["name"], position=position, style=style):
                         result = ET.fromstring(compose_svg(
@@ -119,6 +119,49 @@ class ModifierTests(unittest.TestCase):
                         ids = {node.get("id") for node in result.iter() if node.get("id")}
                         self.assertFalse(references(result) - ids)
 
+    def test_import_enforces_explicit_position_restrictions(self):
+        data = snapshot()
+        row = data["records"][0]
+        row["allowedPositions"] = ["bottom-left"]
+        row["defaultPosition"] = "bottom-left"
+        row["positions"] = {"bottom-left": row["positions"]["bottom-left"]}
+        with tempfile.TemporaryDirectory() as directory:
+            imported = import_modifiers(data, Path(directory))
+            self.assertEqual(imported["modifiers"][0]["allowedPositions"], ["bottom-left"])
+        for mutation in ("extra-corner", "default", "unknown", "empty", "duplicate"):
+            bad = copy.deepcopy(data)
+            row = bad["records"][0]
+            if mutation == "extra-corner":
+                row["positions"]["top-right"] = row["positions"]["bottom-left"]
+            elif mutation == "default":
+                row["defaultPosition"] = "top-right"
+            elif mutation == "unknown":
+                row["allowedPositions"] = ["center"]
+            elif mutation == "empty":
+                row["allowedPositions"] = []
+            else:
+                row["allowedPositions"] *= 2
+            with self.subTest(mutation=mutation), tempfile.TemporaryDirectory() as directory:
+                with self.assertRaises(ValueError):
+                    import_modifiers(bad, Path(directory))
+
+    def test_file_type_modifiers_cannot_move_from_bottom_left(self):
+        metadata = json.loads((ROOT / "metadata/modifiers.json").read_text())
+        for glyph in metadata["modifiers"]:
+            if glyph["group"] != "file-types":
+                continue
+            with self.subTest(modifier=glyph["name"]):
+                self.assertEqual(glyph["allowedPositions"], ["bottom-left"])
+                self.assertEqual(
+                    compose_svg("file", glyph["name"], id_prefix="fixed"),
+                    compose_svg(
+                        "file", glyph["name"], position="bottom-left", id_prefix="fixed",
+                    ),
+                )
+                for position in ("top-left", "top-right", "bottom-right"):
+                    with self.assertRaisesRegex(ValueError, "only supports bottom-left"):
+                        compose_svg("file", glyph["name"], position=position)
+
     def test_auto_uses_only_approved_defaults_and_manual_position_overrides(self):
         for glyph, position in (("add", "top-left"), ("delete", "bottom-right"),
                                 ("pdf", "bottom-left")):
@@ -128,6 +171,19 @@ class ModifierTests(unittest.TestCase):
         for glyph in ("warning", "check", "key", "lock", "user", "clip"):
             with self.assertRaisesRegex(ValueError, "explicit corner"):
                 compose_svg("user", glyph)
+
+    def test_sparkle_is_a_solid_modifier_independent_of_base_style(self):
+        for style in ("regular", "filled", "duocolor", "duotone"):
+            with self.subTest(style=style):
+                root = ET.fromstring(compose_svg(
+                    "mail", "sparkle", style=style, position="top-right",
+                ))
+                badge = list(root)[-1]
+                paths = badge.findall(".//s:path", NS)
+                self.assertTrue(paths)
+                self.assertTrue(all(path.get("fill") == "currentColor" for path in paths))
+                self.assertTrue(all(path.get("stroke") in (None, "none") for path in paths))
+                self.assertNotEqual(badge.get("opacity"), "0.16")
 
     def test_theme_and_custom_colors_apply_to_glyph_without_changing_base_paths(self):
         light = ET.fromstring(compose_svg("user", "add", id_prefix="test"))

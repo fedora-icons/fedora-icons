@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-224 -1664)"><g>
-<g opacity="0.16">
-<path d="M227.909 1683.7C226.174 1671.55 233.115 1667.21 244.395 1668.08C243.527 1680.23 238.321 1685.43 227.909 1683.7Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
-</g>
-<path d="M227.909 1683.7C226.202 1671.75 232.891 1667.36 243.846 1668.04C244.148 1668.06 244.378 1668.33 244.352 1668.63C243.368 1680.39 238.163 1685.41 227.909 1683.7ZM227.909 1683.7L240.057 1672.42" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-224 -1664)"><path fill="currentColor" fill-rule="evenodd" d="M227.909 1683.7C226.174 1671.55 233.115 1667.21 244.395 1668.08C243.527 1680.23 238.321 1685.43 227.909 1683.7Z" clip-rule="evenodd" opacity="0.16"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M227.909 1683.7C226.202 1671.75 232.891 1667.36 243.846 1668.04C244.148 1668.06 244.378 1668.33 244.352 1668.63C243.368 1680.39 238.163 1685.41 227.909 1683.7ZM227.909 1683.7L240.057 1672.42"/></g></svg>

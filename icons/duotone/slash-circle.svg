@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="var(--fedora-primary, #245B9E)"><g transform="translate(-160 -128)"><g>
-<g opacity="0.16">
-<path d="M181.375 140C181.375 146.375 178.375 149.375 172 149.375C165.625 149.375 162.625 146.375 162.625 140C162.625 133.625 165.625 130.625 172 130.625C178.375 130.625 181.375 133.625 181.375 140Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" />
-</g>
-<path d="M164.922 132.922L179.078 147.078M181.375 140C181.375 146.375 178.375 149.375 172 149.375C165.625 149.375 162.625 146.375 162.625 140C162.625 133.625 165.625 130.625 172 130.625C178.375 130.625 181.375 133.625 181.375 140Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" color="var(--fedora-primary, #245B9E)" viewBox="0 0 24 24"><g transform="translate(-160 -128)"><path fill="currentColor" fill-rule="evenodd" d="M181.375 140C181.375 146.375 178.375 149.375 172 149.375C165.625 149.375 162.625 146.375 162.625 140C162.625 133.625 165.625 130.625 172 130.625C178.375 130.625 181.375 133.625 181.375 140Z" clip-rule="evenodd" opacity="0.16"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M164.922 132.922L179.078 147.078M181.375 140C181.375 146.375 178.375 149.375 172 149.375C165.625 149.375 162.625 146.375 162.625 140C162.625 133.625 165.625 130.625 172 130.625C178.375 130.625 181.375 133.625 181.375 140Z"/></g></svg>

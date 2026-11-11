@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-512 -2144)"><g>
-<g>
-<path d="M527.83 2147.08C521.782 2145.06 516.743 2150.1 516.743 2156.15C516.743 2162.19 521.279 2166.23 525.814 2165.22C529.845 2164.21 530.853 2159.17 527.83 2157.16C525.612 2155.74 525.612 2154.23 527.93 2152.82C529.845 2151.61 529.845 2148.39 527.83 2147.08Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M527.225 2155.34C530.853 2156.15 530.349 2161.19 531.256 2164.71" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<path d="M523.798 2151.41C519.968 2153.22 520.271 2159.78 523.798 2161.59" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-512 -2144)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M527.83 2147.08C521.782 2145.06 516.743 2150.1 516.743 2156.15C516.743 2162.19 521.279 2166.23 525.814 2165.22C529.845 2164.21 530.853 2159.17 527.83 2157.16C525.612 2155.74 525.612 2154.23 527.93 2152.82C529.845 2151.61 529.845 2148.39 527.83 2147.08Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M527.225 2155.34C530.853 2156.15 530.349 2161.19 531.256 2164.71"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M523.798 2151.41C519.968 2153.22 520.271 2159.78 523.798 2161.59"/></g></svg>

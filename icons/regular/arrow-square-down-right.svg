@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g transform="translate(-192 -256)"><g>
-<g>
-<path d="M204 259.625C211.203 259.625 212.375 260.798 212.375 268C212.375 275.203 211.203 276.375 204 276.375C196.798 276.375 195.625 275.203 195.625 268C195.625 260.798 196.798 259.625 204 259.625Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-<g>
-<g>
-<path d="M200.71 264.71L207.29 271.29M202.355 271.29C203.726 271.016 205.371 271.016 207.29 271.29C207.016 269.371 207.016 267.726 207.29 266.355" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" />
-</g>
-</g>
-</g>
-</g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g transform="translate(-192 -256)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M204 259.625C211.203 259.625 212.375 260.798 212.375 268C212.375 275.203 211.203 276.375 204 276.375C196.798 276.375 195.625 275.203 195.625 268C195.625 260.798 196.798 259.625 204 259.625Z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M200.71 264.71L207.29 271.29M202.355 271.29C203.726 271.016 205.371 271.016 207.29 271.29C207.016 269.371 207.016 267.726 207.29 266.355"/></g></svg>

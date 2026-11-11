@@ -4,10 +4,10 @@
     "type": "figma",
     "fileKey": "5zcUV9E4Bu8FSssDfhyOWw",
     "section": "49:47102",
-    "exportedOn": "2026-11-10"
+    "exportedOn": "2026-11-11"
   },
   "audit": {
-    "presets": 21,
+    "presets": 37,
     "styles": 4,
     "themes": 2,
     "scales": [
@@ -18,13 +18,17 @@
     "bases": [
       "briefcase",
       "user",
-      "users"
+      "users",
+      "credit-card",
+      "settings",
+      "mail",
+      "message-dots-square"
     ],
     "canonicalIdsPreserved": true,
     "modifierSemanticsDistinct": true,
     "automaticConflictHandling": false,
-    "canonicalSourcesChecked": 42,
-    "compositionsChecked": 84,
+    "canonicalSourcesChecked": 148,
+    "compositionsChecked": 148,
     "errors": [],
     "visuallyChecked": [
       "native",
@@ -32,7 +36,45 @@
       "Light",
       "Dark"
     ],
-    "tintBlendMode": "NORMAL"
+    "tintBlendMode": "NORMAL",
+    "inheritedControlsChecked": 148,
+    "refinements": {
+      "date": "2026-11-11",
+      "composedIcons": 16,
+      "redrawnIcons": 1,
+      "styles": 4,
+      "themes": 2,
+      "scales": [
+        1,
+        2
+      ],
+      "newModifierChoices": 21,
+      "propertyChangeChecks": 64,
+      "legacyPropertyChangeChecks": 84,
+      "errors": []
+    },
+    "cardModifierColors": {
+      "date": "2026-11-11",
+      "regular": "icon foreground / monochrome",
+      "filled": "icon foreground / monochrome",
+      "duocolor": "semantic modifier colors",
+      "duotone": "semantic modifier colors",
+      "masters": 26,
+      "monochromeSet": "67:47083",
+      "templateColorChecks": 84,
+      "styleSwapColorChecks": 52,
+      "semanticColorChecks": 26
+    },
+    "paperFamily": {
+      "canonicalMasters": 212,
+      "newPresets": 53,
+      "fileTypes": 27,
+      "fileTypePosition": "bottom-left",
+      "fileTypePositionControl": false,
+      "folderActions": 13,
+      "clipboardActions": 9,
+      "originalSourceIdsPreserved": true
+    }
   },
   "baseSources": {
     "briefcase": {
@@ -52,6 +94,66 @@
       "filled": "33:39985",
       "duocolor": "49:47363",
       "duotone": "49:47367"
+    },
+    "credit-card": {
+      "regular": "33:18145",
+      "filled": "33:39593",
+      "duocolor": "49:86899",
+      "duotone": "49:86909"
+    },
+    "settings": {
+      "regular": "1:1202",
+      "filled": "33:40180",
+      "duocolor": "49:65445",
+      "duotone": "49:65451"
+    },
+    "mail": {
+      "regular": "6:1071",
+      "filled": "33:39817",
+      "duocolor": "49:81267",
+      "duotone": "49:81275"
+    },
+    "message-dots-square": {
+      "regular": "6:1115",
+      "filled": "33:39848",
+      "duocolor": "49:81493",
+      "duotone": "49:81503"
+    },
+    "file": {
+      "regular": "31:5962",
+      "filled": "33:42159",
+      "duocolor": "49:78566",
+      "duotone": "49:78573"
+    },
+    "clipboard": {
+      "regular": "31:5987",
+      "filled": "33:42179",
+      "duocolor": "49:78688",
+      "duotone": "49:78694"
+    },
+    "folder": {
+      "regular": "31:6107",
+      "filled": "33:42278",
+      "duocolor": "49:79258",
+      "duotone": "49:79262"
+    },
+    "file-text": {
+      "regular": "31:6097",
+      "filled": "33:42270",
+      "duocolor": "49:79202",
+      "duotone": "49:79213"
+    },
+    "palette": {
+      "regular": "31:5835",
+      "filled": "33:41266",
+      "duocolor": "49:88711",
+      "duotone": "49:88723"
+    },
+    "scissors": {
+      "regular": "31:5900",
+      "filled": "33:41315",
+      "duocolor": "49:89048",
+      "duotone": "49:89060"
     }
   },
   "presets": [
@@ -74,6 +176,1000 @@
         "duotone": "49:47574"
       },
       "componentSet": "45:40210"
+    },
+    {
+      "name": "clipboard-add",
+      "base": "clipboard",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39898",
+      "source": {
+        "regular": "31:5992",
+        "filled": "33:42183",
+        "duocolor": "49:78710",
+        "duotone": "49:78722"
+      }
+    },
+    {
+      "name": "clipboard-attachment",
+      "base": "clipboard",
+      "modifier": "clip",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43445",
+      "source": {
+        "regular": "33:29234",
+        "filled": "33:42394",
+        "duocolor": "49:80067",
+        "duotone": "49:80076"
+      }
+    },
+    {
+      "name": "clipboard-block",
+      "base": "clipboard",
+      "modifier": "block",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39907",
+      "source": {
+        "regular": "31:5999",
+        "filled": "33:42189",
+        "duocolor": "49:78743",
+        "duotone": "49:78753"
+      }
+    },
+    {
+      "name": "clipboard-check",
+      "base": "clipboard",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39929",
+      "source": {
+        "regular": "31:6018",
+        "filled": "33:42205",
+        "duocolor": "49:78823",
+        "duotone": "49:78831"
+      }
+    },
+    {
+      "name": "clipboard-copy",
+      "base": "clipboard",
+      "modifier": "copy",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39445",
+      "source": {
+        "regular": "31:5661",
+        "filled": "33:42154",
+        "duocolor": "49:78533",
+        "duotone": "49:78545"
+      }
+    },
+    {
+      "name": "clipboard-download",
+      "base": "clipboard",
+      "modifier": "download",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43456",
+      "source": {
+        "regular": "33:29269",
+        "filled": "33:42400",
+        "duocolor": "49:80100",
+        "duotone": "49:80115"
+      }
+    },
+    {
+      "name": "clipboard-list",
+      "base": "clipboard",
+      "modifier": "list",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39953",
+      "source": {
+        "regular": "31:6039",
+        "filled": "33:42223",
+        "duocolor": "49:78914",
+        "duotone": "49:78925"
+      }
+    },
+    {
+      "name": "clipboard-minus",
+      "base": "clipboard",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39945",
+      "source": {
+        "regular": "31:6032",
+        "filled": "33:42217",
+        "duocolor": "49:78885",
+        "duotone": "49:78893"
+      }
+    },
+    {
+      "name": "clipboard-remove",
+      "base": "clipboard",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39937",
+      "source": {
+        "regular": "31:6025",
+        "filled": "33:42211",
+        "duocolor": "49:78852",
+        "duotone": "49:78864"
+      }
+    },
+    {
+      "name": "credit-card-check",
+      "base": "credit-card",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18176",
+        "filled": "33:39598",
+        "duocolor": "49:86930",
+        "duotone": "49:86939"
+      },
+      "componentSet": "45:41372"
+    },
+    {
+      "name": "credit-card-down",
+      "base": "credit-card",
+      "modifier": "arrow-down",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18210",
+        "filled": "33:39604",
+        "duocolor": "49:86963",
+        "duotone": "49:86976"
+      },
+      "componentSet": "45:41382"
+    },
+    {
+      "name": "credit-card-download",
+      "base": "credit-card",
+      "modifier": "download",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18247",
+        "filled": "33:39611",
+        "duocolor": "49:87003",
+        "duotone": "49:87018"
+      },
+      "componentSet": "45:41393"
+    },
+    {
+      "name": "credit-card-edit",
+      "base": "credit-card",
+      "modifier": "edit",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18284",
+        "filled": "33:39619",
+        "duocolor": "49:87050",
+        "duotone": "49:87059"
+      },
+      "componentSet": "45:41402"
+    },
+    {
+      "name": "credit-card-lock",
+      "base": "credit-card",
+      "modifier": "lock",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18318",
+        "filled": "33:38720",
+        "duocolor": "49:87083",
+        "duotone": "49:87094"
+      },
+      "componentSet": "45:41412"
+    },
+    {
+      "name": "credit-card-minus",
+      "base": "credit-card",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18353",
+        "filled": "33:39625",
+        "duocolor": "49:87123",
+        "duotone": "49:87132"
+      },
+      "componentSet": "45:41421"
+    },
+    {
+      "name": "credit-card-plus",
+      "base": "credit-card",
+      "modifier": "add",
+      "position": "top-left",
+      "fit": null,
+      "source": {
+        "regular": "33:18386",
+        "filled": "33:39631",
+        "duocolor": "49:87156",
+        "duotone": "49:87167"
+      },
+      "componentSet": "45:41430"
+    },
+    {
+      "name": "credit-card-refresh",
+      "base": "credit-card",
+      "modifier": "refresh",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18419",
+        "filled": "33:39637",
+        "duocolor": "49:87191",
+        "duotone": "49:87203"
+      },
+      "componentSet": "45:41439"
+    },
+    {
+      "name": "credit-card-search",
+      "base": "credit-card",
+      "modifier": "search",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18453",
+        "filled": "33:39643",
+        "duocolor": "49:87227",
+        "duotone": "49:87238"
+      },
+      "componentSet": "45:41449"
+    },
+    {
+      "name": "credit-card-shield",
+      "base": "credit-card",
+      "modifier": "shield",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18489",
+        "filled": "33:38727",
+        "duocolor": "49:87267",
+        "duotone": "49:87277"
+      },
+      "componentSet": "45:41459"
+    },
+    {
+      "name": "credit-card-up",
+      "base": "credit-card",
+      "modifier": "arrow-up",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18524",
+        "filled": "33:39650",
+        "duocolor": "49:87304",
+        "duotone": "49:87316"
+      },
+      "componentSet": "45:41468"
+    },
+    {
+      "name": "credit-card-upload",
+      "base": "credit-card",
+      "modifier": "upload",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18558",
+        "filled": "33:39656",
+        "duocolor": "49:87340",
+        "duotone": "49:87354"
+      },
+      "componentSet": "45:41478"
+    },
+    {
+      "name": "credit-card-x",
+      "base": "credit-card",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "33:18593",
+        "filled": "33:39663",
+        "duocolor": "49:87383",
+        "duotone": "49:87394"
+      },
+      "componentSet": "45:41487"
+    },
+    {
+      "name": "file-ai",
+      "base": "file",
+      "modifier": "ai",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45721",
+      "source": {
+        "regular": "35:140499",
+        "filled": "35:140500",
+        "duocolor": "49:80989",
+        "duotone": "49:80997"
+      }
+    },
+    {
+      "name": "file-cancel",
+      "base": "file",
+      "modifier": "delete",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:39966",
+      "source": {
+        "regular": "31:6051",
+        "filled": "33:42233",
+        "duocolor": "49:78975",
+        "duotone": "49:78986"
+      }
+    },
+    {
+      "name": "file-css",
+      "base": "file",
+      "modifier": "css",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45585",
+      "source": {
+        "regular": "35:139037",
+        "filled": "35:139038",
+        "duocolor": "49:80496",
+        "duotone": "49:80504"
+      }
+    },
+    {
+      "name": "file-csv",
+      "base": "file",
+      "modifier": "csv",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45553",
+      "source": {
+        "regular": "35:138677",
+        "filled": "35:138678",
+        "duocolor": "49:80409",
+        "duotone": "49:80417"
+      }
+    },
+    {
+      "name": "file-doc",
+      "base": "file",
+      "modifier": "doc",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45521",
+      "source": {
+        "regular": "35:138333",
+        "filled": "35:138334",
+        "duocolor": "49:80293",
+        "duotone": "49:80301"
+      }
+    },
+    {
+      "name": "file-eps",
+      "base": "file",
+      "modifier": "eps",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45633",
+      "source": {
+        "regular": "35:139553",
+        "filled": "35:139554",
+        "duocolor": "49:80670",
+        "duotone": "49:80678"
+      }
+    },
+    {
+      "name": "file-export",
+      "base": "file",
+      "modifier": "arrow-right",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:39993",
+      "source": {
+        "regular": "31:6071",
+        "filled": "33:42249",
+        "duocolor": "49:79072",
+        "duotone": "49:79081"
+      }
+    },
+    {
+      "name": "file-fig",
+      "base": "file",
+      "modifier": "fig",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45649",
+      "source": {
+        "regular": "35:139725",
+        "filled": "35:139726",
+        "duocolor": "49:80728",
+        "duotone": "49:80736"
+      }
+    },
+    {
+      "name": "file-gif",
+      "base": "file",
+      "modifier": "gif",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45673",
+      "source": {
+        "regular": "35:139983",
+        "filled": "35:139984",
+        "duocolor": "49:80815",
+        "duotone": "49:80823"
+      }
+    },
+    {
+      "name": "file-html",
+      "base": "file",
+      "modifier": "html",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45577",
+      "source": {
+        "regular": "35:138935",
+        "filled": "35:138936",
+        "duocolor": "48:37089",
+        "duotone": "48:37123"
+      }
+    },
+    {
+      "name": "file-jpg",
+      "base": "file",
+      "modifier": "jpg",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45665",
+      "source": {
+        "regular": "35:139897",
+        "filled": "35:139898",
+        "duocolor": "49:80786",
+        "duotone": "49:80794"
+      }
+    },
+    {
+      "name": "file-js",
+      "base": "file",
+      "modifier": "js",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45593",
+      "source": {
+        "regular": "35:139123",
+        "filled": "35:139124",
+        "duocolor": "49:80525",
+        "duotone": "49:80533"
+      }
+    },
+    {
+      "name": "file-json",
+      "base": "file",
+      "modifier": "json",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45561",
+      "source": {
+        "regular": "35:138763",
+        "filled": "35:138764",
+        "duocolor": "49:80438",
+        "duotone": "49:80446"
+      }
+    },
+    {
+      "name": "file-md",
+      "base": "file",
+      "modifier": "md",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45609",
+      "source": {
+        "regular": "35:139295",
+        "filled": "35:139296",
+        "duocolor": "49:80583",
+        "duotone": "49:80591"
+      }
+    },
+    {
+      "name": "file-mov",
+      "base": "file",
+      "modifier": "mov",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45713",
+      "source": {
+        "regular": "35:140413",
+        "filled": "35:140414",
+        "duocolor": "49:80960",
+        "duotone": "49:80968"
+      }
+    },
+    {
+      "name": "file-mp3",
+      "base": "file",
+      "modifier": "mp3",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45689",
+      "source": {
+        "regular": "35:140155",
+        "filled": "35:140156",
+        "duocolor": "49:80873",
+        "duotone": "49:80881"
+      }
+    },
+    {
+      "name": "file-mp4",
+      "base": "file",
+      "modifier": "mp4",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45705",
+      "source": {
+        "regular": "35:140327",
+        "filled": "35:140328",
+        "duocolor": "49:80931",
+        "duotone": "49:80939"
+      }
+    },
+    {
+      "name": "file-pdf",
+      "base": "file",
+      "modifier": "pdf",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45513",
+      "source": {
+        "regular": "35:138247",
+        "filled": "35:138248",
+        "duocolor": "49:80264",
+        "duotone": "49:80272"
+      }
+    },
+    {
+      "name": "file-plus-corner",
+      "base": "file",
+      "modifier": "add",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:39869",
+      "source": {
+        "regular": "31:5972",
+        "filled": "33:42167",
+        "duocolor": "49:78613",
+        "duotone": "49:78627"
+      }
+    },
+    {
+      "name": "file-png",
+      "base": "file",
+      "modifier": "png",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45657",
+      "source": {
+        "regular": "35:139811",
+        "filled": "35:139812",
+        "duocolor": "49:80757",
+        "duotone": "49:80765"
+      }
+    },
+    {
+      "name": "file-ppt",
+      "base": "file",
+      "modifier": "ppt",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45537",
+      "source": {
+        "regular": "35:138505",
+        "filled": "35:138506",
+        "duocolor": "49:80351",
+        "duotone": "49:80359"
+      }
+    },
+    {
+      "name": "file-psd",
+      "base": "file",
+      "modifier": "psd",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45641",
+      "source": {
+        "regular": "35:139639",
+        "filled": "35:139640",
+        "duocolor": "49:80699",
+        "duotone": "49:80707"
+      }
+    },
+    {
+      "name": "file-sparkles",
+      "base": "file-text",
+      "modifier": "sparkle",
+      "position": "top-right",
+      "fit": null,
+      "componentSet": "45:43968",
+      "source": {
+        "regular": "34:96156",
+        "filled": "34:96157",
+        "duocolor": "49:80211",
+        "duotone": "49:80221"
+      }
+    },
+    {
+      "name": "file-sql",
+      "base": "file",
+      "modifier": "sql",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45617",
+      "source": {
+        "regular": "35:139381",
+        "filled": "35:139382",
+        "duocolor": "49:80612",
+        "duotone": "49:80620"
+      }
+    },
+    {
+      "name": "file-svg",
+      "base": "file",
+      "modifier": "svg",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45625",
+      "source": {
+        "regular": "35:139467",
+        "filled": "35:139468",
+        "duocolor": "49:80641",
+        "duotone": "49:80649"
+      }
+    },
+    {
+      "name": "file-ts",
+      "base": "file",
+      "modifier": "ts",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45601",
+      "source": {
+        "regular": "35:139209",
+        "filled": "35:139210",
+        "duocolor": "49:80554",
+        "duotone": "49:80562"
+      }
+    },
+    {
+      "name": "file-txt",
+      "base": "file",
+      "modifier": "txt",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45545",
+      "source": {
+        "regular": "35:138591",
+        "filled": "35:138592",
+        "duocolor": "49:80380",
+        "duotone": "49:80388"
+      }
+    },
+    {
+      "name": "file-wav",
+      "base": "file",
+      "modifier": "wav",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45697",
+      "source": {
+        "regular": "35:140241",
+        "filled": "35:140242",
+        "duocolor": "49:80902",
+        "duotone": "49:80910"
+      }
+    },
+    {
+      "name": "file-xls",
+      "base": "file",
+      "modifier": "xls",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45529",
+      "source": {
+        "regular": "35:138419",
+        "filled": "35:138420",
+        "duocolor": "49:80322",
+        "duotone": "49:80330"
+      }
+    },
+    {
+      "name": "file-xml",
+      "base": "file",
+      "modifier": "xml",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45569",
+      "source": {
+        "regular": "35:138849",
+        "filled": "35:138850",
+        "duocolor": "49:80467",
+        "duotone": "49:80475"
+      }
+    },
+    {
+      "name": "file-zip",
+      "base": "file",
+      "modifier": "zip",
+      "position": "bottom-left",
+      "fit": null,
+      "componentSet": "45:45681",
+      "source": {
+        "regular": "35:140069",
+        "filled": "35:140070",
+        "duocolor": "49:80844",
+        "duotone": "49:80852"
+      }
+    },
+    {
+      "name": "folder-add",
+      "base": "folder",
+      "modifier": "add",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:40048",
+      "source": {
+        "regular": "31:6111",
+        "filled": "33:42281",
+        "duocolor": "49:79273",
+        "duotone": "49:79283"
+      }
+    },
+    {
+      "name": "folder-block",
+      "base": "folder",
+      "modifier": "block",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:40056",
+      "source": {
+        "regular": "31:6117",
+        "filled": "33:42286",
+        "duocolor": "49:79299",
+        "duotone": "49:79307"
+      }
+    },
+    {
+      "name": "folder-check",
+      "base": "folder",
+      "modifier": "check",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39914",
+      "source": {
+        "regular": "31:6006",
+        "filled": "33:42195",
+        "duocolor": "49:78779",
+        "duotone": "49:78785"
+      }
+    },
+    {
+      "name": "folder-code",
+      "base": "folder",
+      "modifier": "code",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:41001",
+      "source": {
+        "regular": "33:16786",
+        "filled": "33:42300",
+        "duocolor": "49:79481",
+        "duotone": "49:79491"
+      }
+    },
+    {
+      "name": "folder-download",
+      "base": "folder",
+      "modifier": "download",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43409",
+      "source": {
+        "regular": "33:29100",
+        "filled": "33:42375",
+        "duocolor": "49:79928",
+        "duotone": "49:79941"
+      }
+    },
+    {
+      "name": "folder-hash",
+      "base": "folder",
+      "modifier": "hash",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:40021",
+      "source": {
+        "regular": "31:6092",
+        "filled": "33:42266",
+        "duocolor": "49:79168",
+        "duotone": "49:79186"
+      }
+    },
+    {
+      "name": "folder-lock",
+      "base": "folder",
+      "modifier": "lock",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43418",
+      "source": {
+        "regular": "33:29135",
+        "filled": "33:38943",
+        "duocolor": "49:79968",
+        "duotone": "49:79977"
+      }
+    },
+    {
+      "name": "folder-minus",
+      "base": "folder",
+      "modifier": "remove",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:39921",
+      "source": {
+        "regular": "31:6012",
+        "filled": "33:42200",
+        "duocolor": "49:78801",
+        "duotone": "49:78807"
+      }
+    },
+    {
+      "name": "folder-question",
+      "base": "folder",
+      "modifier": "question",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43427",
+      "source": {
+        "regular": "33:29168",
+        "filled": "33:42382",
+        "duocolor": "49:80001",
+        "duotone": "49:80010"
+      }
+    },
+    {
+      "name": "folder-remove",
+      "base": "folder",
+      "modifier": "delete",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:40014",
+      "source": {
+        "regular": "31:6086",
+        "filled": "33:42261",
+        "duocolor": "49:79142",
+        "duotone": "49:79152"
+      }
+    },
+    {
+      "name": "folder-search",
+      "base": "folder",
+      "modifier": "search",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:43436",
+      "source": {
+        "regular": "33:29201",
+        "filled": "33:42388",
+        "duocolor": "49:80034",
+        "duotone": "49:80043"
+      }
+    },
+    {
+      "name": "folder-shield",
+      "base": "folder",
+      "modifier": "shield",
+      "position": "bottom-right",
+      "fit": null,
+      "componentSet": "45:40700",
+      "source": {
+        "regular": "33:15479",
+        "filled": "33:38679",
+        "duocolor": "49:79419",
+        "duotone": "49:79427"
+      }
+    },
+    {
+      "name": "folder-sparkles",
+      "base": "folder",
+      "modifier": "sparkle",
+      "position": "top-right",
+      "fit": null,
+      "componentSet": "45:43975",
+      "source": {
+        "regular": "34:96239",
+        "filled": "34:96240",
+        "duocolor": "49:80242",
+        "duotone": "49:80248"
+      }
+    },
+    {
+      "name": "mail-sparkles",
+      "base": "mail",
+      "modifier": "sparkle",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "34:96503",
+        "filled": "34:96504",
+        "duocolor": "49:82765",
+        "duotone": "49:82773"
+      },
+      "componentSet": "45:44002"
+    },
+    {
+      "name": "message-sparkles",
+      "base": "message-dots-square",
+      "modifier": "sparkle",
+      "position": "top-right",
+      "fit": null,
+      "source": {
+        "regular": "34:96404",
+        "filled": "34:96405",
+        "duocolor": "49:82722",
+        "duotone": "49:82734"
+      },
+      "componentSet": "45:43994"
+    },
+    {
+      "name": "palette-sparkles",
+      "base": "palette",
+      "modifier": "sparkle",
+      "position": "top-right",
+      "fit": null,
+      "componentSet": "45:44019",
+      "source": {
+        "regular": "34:96658",
+        "filled": "34:96659",
+        "duocolor": "49:91501",
+        "duotone": "49:91513"
+      }
+    },
+    {
+      "name": "scissors-sparkles",
+      "base": "scissors",
+      "modifier": "sparkle",
+      "position": "top-right",
+      "fit": null,
+      "componentSet": "54:71779",
+      "source": {
+        "regular": "54:71747",
+        "filled": "54:71754",
+        "duocolor": "54:71763",
+        "duotone": "54:71770"
+      }
+    },
+    {
+      "name": "settings-user",
+      "base": "settings",
+      "modifier": "user",
+      "position": "bottom-right",
+      "fit": null,
+      "source": {
+        "regular": "31:6144",
+        "filled": "33:40014",
+        "duocolor": "49:82209",
+        "duotone": "49:82219"
+      },
+      "componentSet": "45:40096"
     },
     {
       "name": "user-add",
@@ -445,5 +1541,14 @@
       },
       "componentSet": "45:42207"
     }
-  ]
+  ],
+  "styleSafeFamilyAudit": {
+    "date": "2026-11-11",
+    "presetCount": 92,
+    "added": [
+      "palette-sparkles",
+      "scissors-sparkles"
+    ],
+    "baseStyleIsolation": true
+  }
 }
