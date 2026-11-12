@@ -54198,10 +54198,10 @@
         "duotone": "icons/duotone/thermometer.svg"
       },
       "sha256": {
-        "regular": "074e928847c4a9ac793f9961265d6fc9d821b5e443bc3088ac300e8e57d7987f",
-        "filled": "2898740209fce3b7645dd81eeebc989363109e5e395e5c0d6e7bc65ccaa9dd21",
-        "duocolor": "9579e3c4442951a767a878b3160b41ea131d5f39e2729e6038bbcfaae06cb1e8",
-        "duotone": "cfbebced7509abbe4a8eb529b9090c977c9dfe40fc03c457df11d3ab971a4fc9"
+        "regular": "28a94d851d223e35cffb146a422651407b50bdd0b6a89bbfd58745a24c99bf0e",
+        "filled": "f9807a84e284f1e5c23280ac9866c95caea4737c403a00edc58b3220d8637a76",
+        "duocolor": "6b28c98ad30faa2f1021851819c19715a78780892bc1721faea7af219260db7c",
+        "duotone": "600bac4d02a34d7d2591177d72c342d4e3b738441a3141ae439b477ab170d8a2"
       },
       "duoAuthoring": {
         "version": 2,
@@ -54244,10 +54244,10 @@
         "duotone": "icons/duotone/thermometer-cold.svg"
       },
       "sha256": {
-        "regular": "9e1a07fa0b9c176b7f870645d0673d7d72c7484f57e102bcb49e776ab48db579",
-        "filled": "b4081570a96883e92392493a74ee4b9cfa962dfded9d24a4dd7cff2a76cbba8a",
-        "duocolor": "d95871eda87872235795ac4aa8f276c347aecd8fc7d18550f98e9912dac8d795",
-        "duotone": "40ff24c0e4977497dcdee73a1cbfdfb788d35deab660a1e4d175c29fab6e5c31"
+        "regular": "2641d001afa1e84617a766b92686c1437e30be0b6779e5fd957bfc0d698f9e67",
+        "filled": "3a432a43b7b4c078147e03a8aae48b0b82c2c32c8a16db42a6719ad15871ffcc",
+        "duocolor": "fe0d05ce2edeac09e42628a697f84d06d2960844cb25ab0f77bf21ea371bb1cc",
+        "duotone": "d9f6b829ff09d95b47c0f8fac2e5d888683a19b256f3c3532268f68d6a877b47"
       },
       "duoAuthoring": {
         "version": 2,
@@ -54290,10 +54290,10 @@
         "duotone": "icons/duotone/thermometer-warm.svg"
       },
       "sha256": {
-        "regular": "2a9f421748bd165e81eb7f11661366a3727c3b7f50b63ba8724c2aec79d8bb95",
-        "filled": "d065c49bfcacc022f2628e701b80a4c871b06a73348abfca0739518a7baf3dc3",
-        "duocolor": "768db11f02cfd56835ab774056edbe51af7832ca4b906bebb05ecd66f6bd9d8b",
-        "duotone": "72dd587ff26f8c5b9bd0cc38338b0886ba08fc316fef5327592def2ca4cf7916"
+        "regular": "598a161ad843192b292ac2fce86e1027ea931178b71fa74bf1ebaad51b2cd374",
+        "filled": "dc44948e3a285ed9ccf59893e65b0a1f59fa48b31d3b26bbe53bbb8a97b964c7",
+        "duocolor": "1f5585cd920f55c23d34ada9d3f70fc5171646eae863c7e51ab8970de30b0c91",
+        "duotone": "17f828a1f7e24de121270032b6d13a26f5823be0e8586b79448a97e9a19e0f29"
       },
       "duoAuthoring": {
         "version": 2,
@@ -54654,10 +54654,10 @@
         "duotone": "icons/duotone/tool-crossed.svg"
       },
       "sha256": {
-        "regular": "7cdad99536d0e24e980997afa133388715abf9236a8939abf2747d1014e9f201",
-        "filled": "c65d316903fb442ef7658dfbc933ff10e2bb5c3c75397c41094bfd3dead7bcb0",
-        "duocolor": "484cf2b84549b74f86b8081baaee597dcd2bebbe48699811ff6c096972724a66",
-        "duotone": "83cafa4185b05c066ce5eb4c722811d9890e7e778c88071d3916e7448f5c5bc5"
+        "regular": "44221c8100245b6837d39ae1ab56e2426e3a99d32ab421db3fb6169cdeefcd6c",
+        "filled": "f9386d263203e215ef6dee3b108462bc546d8748340d13ca136012b8a1ad327d",
+        "duocolor": "4e8eb25c1985e52237b6eed8138a99f444acda0f927c4db8255a945a2bd4045f",
+        "duotone": "f4a7c92ec608cf541bdc6badc833426dc1224f5aac135f2b4f1216088575a11b"
       },
       "duoAuthoring": {
         "version": 2,

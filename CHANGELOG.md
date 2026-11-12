@@ -19,6 +19,8 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Changed
 
+- Redrew `thermometer`, `thermometer-cold`, `thermometer-warm`, and
+  `tool-crossed` across all four styles.
 - Curved battery-family terminals to follow their casings and rounded the
   receipt family's upper corners and torn edges across all four styles.
 - Redrew `podcast` with balanced broadcast arcs, `coins-hand` with a cupped
