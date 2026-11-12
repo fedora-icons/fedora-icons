@@ -55,6 +55,10 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Fixed
 
+- Connected the image family's rounded hills to both frame borders in all four
+  styles, including transparent Filled cutouts and the lower-left silhouette.
+- Removed the opaque fill from `head-profile` Duocolor and made the ear its
+  secondary-color accent, preserving the original profile geometry.
 - Restored Filled details and transparent negative space.
 - Preserved solid AI sparkle accents, themed modifier clearances, and modifier
   controls when changing a host icon's Style.
