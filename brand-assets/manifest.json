@@ -1,0 +1,204 @@
+{
+  "collection": "Fedora Icons brand assets",
+  "retrievedAt": "2026-11-12",
+  "retrievalDateAppliesToAllAssets": true,
+  "rights": {
+    "authorizationBasis": "The user explicitly confirmed authorization to redistribute the social and Microsoft marks. This records that confirmation and does not independently verify authority or grant rights on behalf of the owners.",
+    "license": "Third-party artwork is not covered by the Fedora Icons MIT license. Copyright and trademark rights remain with their respective owners; use remains subject to each owner's terms and brand guidelines.",
+    "attribution": "Each mark remains the property of its respective owner. No affiliation or endorsement is implied."
+  },
+  "assets": [
+    {
+      "path": "google/chrome.svg",
+      "owner": "Google LLC",
+      "source": "https://www.google.com/chrome/static/images/chrome-logo-m100.svg",
+      "sha256": "1357dd965397a99cbc937ddd2345a9897d527f7229c8b0f2aeebac97680cc66d"
+    },
+    {
+      "path": "microsoft/edge.svg",
+      "owner": "Microsoft Corporation",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/98/Microsoft_Edge_logo_%282019%29.svg",
+      "sha256": "228f22cc4bf1603374f4a51ccf824377adc04aa0123aed741f32cd5f0899ed81"
+    },
+    {
+      "path": "microsoft/teams.svg",
+      "owner": "Microsoft Corporation",
+      "source": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Teams-Icon-FY26?resMode=sharp2&op_usm=1.5,0.65,15,0&qlt=100",
+      "sha256": "6a33d49f19d1be2bcdf86921935a2171e5c18c3b11abe297ca03d5f4f302ba3a"
+    },
+    {
+      "path": "microsoft/windows.svg",
+      "owner": "Microsoft Corporation",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg",
+      "sha256": "0f6b74d8d8ede1ec0e454b3c6fcdfba65fbe989af9a49ad4ff0c498f4dc3afbb"
+    },
+    {
+      "path": "social/angellist.svg",
+      "owner": "AngelList",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151666" },
+      "sha256": "b34b50d164f53ee05b89c61b2d99e22ca53f6edf48066dca475a472c70318c93"
+    },
+    {
+      "path": "social/apple.svg",
+      "owner": "Apple Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151424" },
+      "sha256": "5b1fac0ec7dea09cbeb4083daaecdb020066205146247c4624dffab1a79dbda4"
+    },
+    {
+      "path": "social/clubhouse.svg",
+      "owner": "Clubhouse",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151464" },
+      "sha256": "69fedbd09fe58fade0eb23983d319369491b1e5320bce083ae6b0f7b0a44b5ff"
+    },
+    {
+      "path": "social/discord.svg",
+      "owner": "Discord",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151452" },
+      "sha256": "2647295c3e0a0ab1486f24aacb8420557960391bdd4fa0620fb98407bee7d864"
+    },
+    {
+      "path": "social/dribbble.svg",
+      "owner": "Dribbble",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151443" },
+      "sha256": "260c5bbacf5817155b933a489c80149973c8f84dbd4bd625eec2a65bb5cc61d8"
+    },
+    {
+      "path": "social/facebook.svg",
+      "owner": "Meta Platforms, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151403" },
+      "sha256": "fae74a7dd880356b717485692dcd81db7f79f814a661bdd5ff1d3588b80465e5"
+    },
+    {
+      "path": "social/github.svg",
+      "owner": "GitHub, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151660" },
+      "sha256": "712b110103d5ae3869203fbf112178e62ec85168e32cbb8eb66b3fc241f96e80"
+    },
+    {
+      "path": "social/google.svg",
+      "owner": "Google LLC",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151414" },
+      "sha256": "1e0cd6692642e15199c5b5b4635e4219c01295bcfdc7c7c0a7c56580527f2d2d"
+    },
+    {
+      "path": "social/instagram.svg",
+      "owner": "Meta Platforms, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151410" },
+      "sha256": "677bdd736d5f8439f8a42cc8091c2da8f316d65e1acc74bff8118c97dfb30c84"
+    },
+    {
+      "path": "social/layers.svg",
+      "owner": "Layers",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151676" },
+      "sha256": "25cb7717e7a4bb4f81e39a732fa7a8a30ef7358398fb47b03242df5d80220e75"
+    },
+    {
+      "path": "social/linkedin.svg",
+      "owner": "LinkedIn Corporation",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151412" },
+      "sha256": "d666efc50a00b46baadec4800683707a48e06206a7bf5cef644ad23c845d2de8"
+    },
+    {
+      "path": "social/notion.svg",
+      "owner": "Notion Labs, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151701" },
+      "sha256": "2bbac1af3a96080adfb0020438d307cf16706e721ca264b23f95895b568afea6"
+    },
+    {
+      "path": "social/paypal.svg",
+      "owner": "PayPal, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151694" },
+      "sha256": "39400cbf15dd9c21f07c77835c5470c91c6f0943c5239c8e2236c350d3c98c45"
+    },
+    {
+      "path": "social/pinterest.svg",
+      "owner": "Pinterest, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151429" },
+      "sha256": "0856c202283d5626b79f206de32cc78cd77b86ee0f3e6aa5113e6a94557d603b"
+    },
+    {
+      "path": "social/reddit.svg",
+      "owner": "Reddit, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151446" },
+      "sha256": "b4258822afac0e30c924a737f9278c011141b0a3e09167c177e280cb77eb760c"
+    },
+    {
+      "path": "social/signal.svg",
+      "owner": "Signal Messenger, LLC",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151466" },
+      "sha256": "ac67b1cbe20652b59ea26c51e7915ae9e49a6e00251f8775772b0bab90c39b3d"
+    },
+    {
+      "path": "social/slack.svg",
+      "owner": "Salesforce, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151683" },
+      "sha256": "55c16c9777aa77c8d25be58466b1d003dd7a081771694c251a7c37d3398e3978"
+    },
+    {
+      "path": "social/snapchat.svg",
+      "owner": "Snap Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151426" },
+      "sha256": "700c610a9e37bb787eaf0f0176674f6630248f3072418636e5339fcac3bccc4f"
+    },
+    {
+      "path": "social/spotify.svg",
+      "owner": "Spotify AB",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151688" },
+      "sha256": "f1146bf711ccb93ee8b899caae37866f3b3ef6b76279980c7b49014b82182a9b"
+    },
+    {
+      "path": "social/stripe.svg",
+      "owner": "Stripe, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151691" },
+      "sha256": "34d6ab306fff71c7f9b3ca49ccce3a1e9374ae819f7b48c81699b2c2d87fe9d7"
+    },
+    {
+      "path": "social/telegram.svg",
+      "owner": "Telegram Messenger LLP",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151461" },
+      "sha256": "1dc7a5ed572349222dfac51deb12b56d103672e11b0da9714c5ccc52cda3f621"
+    },
+    {
+      "path": "social/tiktok.svg",
+      "owner": "ByteDance Ltd.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151455" },
+      "sha256": "114cea9d6bdc1171b451453db03fad1b3c64e024a43bf795b504fc805f863250"
+    },
+    {
+      "path": "social/tumblr.svg",
+      "owner": "Automattic Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151459" },
+      "sha256": "f407da5c9cbb2e8b7c4b6c03c0586600e217434a5c91a59984884a33c777956a"
+    },
+    {
+      "path": "social/twitch.svg",
+      "owner": "Twitch Interactive, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151680" },
+      "sha256": "1c2ffc45fd94c7acf4271c33d370c1fd8f07d6e02231a5919fc01da1e2152e73"
+    },
+    {
+      "path": "social/webflow.svg",
+      "owner": "Webflow, Inc.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151704" },
+      "sha256": "1d7ef5854f996cf93dfba204553ae01a60a89b3dbbc8743d3613ad30b24182a0"
+    },
+    {
+      "path": "social/whatsapp.svg",
+      "owner": "WhatsApp LLC",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151421" },
+      "sha256": "8c1b1cc17c5657336571de5715335d91d3d411890c443d40b7ffcda4c4a77fdb"
+    },
+    {
+      "path": "social/wise.svg",
+      "owner": "Wise Payments Limited",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151698" },
+      "sha256": "9d7ac533a4720cb5f72c0eb75b139175316fce82038fc1b7760b97a90279af60"
+    },
+    {
+      "path": "social/x.svg",
+      "owner": "X Corp.",
+      "source": { "fileKey": "5zcUV9E4Bu8FSssDfhyOWw", "setNodeId": "71:151402", "componentNodeId": "71:151408" },
+      "sha256": "66a71341d3b966a524e9ab988204fce2953d24abf9cf611de5beb9164395550b"
+    }
+  ]
+}

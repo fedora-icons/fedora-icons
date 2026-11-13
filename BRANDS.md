@@ -8,50 +8,51 @@ The page displays: "All brand icons belong to their respective owners."
 
 Its catalog follows the main Regular catalog (`29:4984`): a 1440px frame,
 96px outer margins, the shared header and category styling, and 24px icons on
-a 60px-column, 56px-row grid without individual captions.
+a 60px-column, 56px-row grid without individual captions. The Brands page now
+contains 37 Regular icons and five Solid icons. Third-party marks appear only
+in the Regular row; Solid is limited to marks that already have a Solid source.
 
 The first-party `fedora-icons` mark is adapted from the supplied F Symbol,
 preserving its interlocking contours and proportions. Its native component set
 is `71:151203`, with Regular `71:151173` and Filled `71:151178`. It is a separate
 Figma companion, not a four-style core SVG or React export.
 
-The supplied Social icon set (`71:151402`) is a reference for recognizable
-silhouettes and proportions. Its color and hover variants are not imported into
-the Fedora collection.
+## Brand collection
 
-## Third-party brands
+The 28 social marks use the `Style=Brand, State=Default` variants in the
+Figma Social icon set (`71:151402`). The selected canonical identities are
+Facebook, X, Instagram, LinkedIn, Google, WhatsApp, Apple, Snapchat, Pinterest,
+Dribbble, Reddit, Discord, TikTok, Tumblr, Telegram, Clubhouse, Signal, GitHub,
+AngelList, Layers, Twitch, Slack, Spotify, Stripe, PayPal, Wise, Notion, and
+Webflow. X is used instead of Twitter; one Discord identity is retained.
+Existing Figma, Framer, YouTube, Chromecast, and Fedora icons remain in the
+catalog without duplicating those identities.
 
-No third-party brand SVGs are included in this package.
+Google Chrome, Microsoft Edge, Teams, and Windows are separate brand-only
+components. The new Chrome component is `74:164000`; it replaces only the
+Brands-page Regular instance. The existing shared Chrome masters
+(`33:19672` and `33:38771`) and their uses elsewhere remain unchanged. The old
+Solid Chrome instance was removed because no approved Solid brand source was
+provided.
 
-The Brands page contains five existing third-party drawings, including Figma
-and Framer. Their original masters and linked catalog instances were moved
-without changing their source IDs or artwork. They are
-excluded from the MIT core, not presented as official artwork, and have not been
-replaced or redistributed here:
+Third-party assets are stored under `brand-assets/`, outside `icons/` and the
+core package. `brand-assets/manifest.json` records each asset's owner, source,
+and SHA-256 digest, with a collection retrieval date and shared rights and
+attribution notes that apply to every entry. The collection contains 32 SVGs:
+28 social marks and four Google/Microsoft product marks.
 
-| Canonical name | Figma Regular source |
-| --- | --- |
-| `chrome-cast` | `33:21822` |
-| `figma` | `33:26832` |
-| `framer` | `33:26858` |
-| `google-chrome` | `33:19672` |
-| `youtube` | `33:25429` |
+## Rights and attribution
 
-The requested unmodified social and Microsoft logo collection, including Teams,
-Edge, Windows, and an official replacement for Chrome, is **not yet imported**.
-Its exact brand list, authoritative source assets, and applicable redistribution
-terms remain to be established. Do not copy these older drawings into the core
-or assume that the repository's MIT license covers a logo.
+The user explicitly confirmed authorization to redistribute the social and
+Microsoft marks. This records that confirmation; it is not an independent
+verification or a license from the owners. The repository's MIT license does
+not cover third-party marks. Copyright and trademark rights remain with their
+respective owners; follow each owner's current terms and brand guidelines.
+No affiliation or endorsement is implied.
 
-Future brand assets should remain separate from `icons/`, retain their original
-artwork and colours, and record their owner, official source, retrieval date,
-asset digest, terms, and any required attribution. An ownership disclaimer is
-not a substitute for the applicable permissions.
-
-Official resources:
+Official guidance:
 
 - [Microsoft Trademark and Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks)
 - [Google Brand Resource Center: products and services](https://about.google/brand-resource-center/products-and-services/)
 
 All third-party names and marks are the property of their respective owners.
-No affiliation or endorsement is implied.
