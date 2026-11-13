@@ -16,6 +16,9 @@ Changes are recorded under Unreleased until a release is tagged.
   presets and preserved source metadata.
 - Added the first-party Fedora Icons mark to a separate Figma Brands page in
   Regular and Filled only; it is not part of the four-style core exports.
+- `brand-assets/`: 32 third-party marks (28 social, plus Google Chrome and
+  Microsoft Edge, Teams, and Windows) with a manifest of owners, sources, and
+  SHA-256 digests. They sit outside `icons/` and the MIT core; see `BRANDS.md`.
 
 ### Changed
 
@@ -57,6 +60,9 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ### Fixed
 
+- Duotone `tool-crossed` tints only the wrench and screwdriver handle; the
+  extra 2.5px tint strokes on the shaft and crossguard broke the 1.25px
+  Duotone stroke rule.
 - Connected the image family's rounded hills to both frame borders in all four
   styles, including transparent Filled cutouts and the lower-left silhouette.
 - Removed the opaque fill from `head-profile` Duocolor and made the ear its
