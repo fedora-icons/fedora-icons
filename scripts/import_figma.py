@@ -145,7 +145,7 @@ def import_sheet(payload, output):
     sheet = ET.fromstring(payload["svg"])
     manifest = {
         "schemaVersion": 1,
-        "name": "fedora-icons",
+        "name": "fos-icons",
         "license": "MIT",
         "grid": 24,
         "regularStrokeWidth": 1.25,

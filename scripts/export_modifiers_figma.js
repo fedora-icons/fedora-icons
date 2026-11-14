@@ -1,4 +1,4 @@
-async function exportFedoraPresets() {
+async function exportFosPresets() {
   const section = await figma.getNodeByIdAsync("49:47102");
   if (!section) throw new Error("Missing named preset section");
   const state = JSON.parse(section.getPluginData("namedPresetMigration"));
@@ -40,8 +40,8 @@ async function exportFedoraPresets() {
   };
 }
 
-// Run in the Fedora Icons plugin context, then save the returned JSON snapshot.
-async function exportFedoraModifiers() {
+// Run in the Fos Icons plugin context, then save the returned JSON snapshot.
+async function exportFosModifiers() {
   const sections = {
     actions: "48:40523",
     extended: "48:45301",

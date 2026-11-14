@@ -19,7 +19,7 @@
     { "id": "54:77142", "name": "Guide footer" }
   ],
   "verification": {
-    "originalFedoraContent": true,
+    "originalFosContent": true,
     "linkedInstances": 35,
     "stylePageLinks": 4,
     "liveWarmThemeSamples": 6,
@@ -28,7 +28,7 @@
     "visualInspection": true
   },
   "notes": [
-    "Uses the existing Funnel Display / Asta Sans typography and Fedora color variables.",
+    "Uses the existing Funnel Display / Asta Sans typography and Fos color variables.",
     "Stroke examples remain 24px to distinguish stroke presets from actual optical sizes.",
     "Reference prose and branding were not reused.",
     "No React instructions or placeholder sections."

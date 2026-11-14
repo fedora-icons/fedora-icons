@@ -197,7 +197,7 @@ class ModifierTests(unittest.TestCase):
         self.assertEqual(custom.get("color"), "#123456")
         self.assertEqual(list(custom)[-1].get("color"), "#abcdef")
         self.assertIn('stroke="#f0f"', ET.tostring(custom, encoding="unicode"))
-        self.assertNotIn("--fedora-glyph-color", ET.tostring(custom, encoding="unicode"))
+        self.assertNotIn("--fos-glyph-color", ET.tostring(custom, encoding="unicode"))
 
     def test_inline_compositions_have_disjoint_ids(self):
         first = ET.fromstring(compose_svg("file", "pdf"))

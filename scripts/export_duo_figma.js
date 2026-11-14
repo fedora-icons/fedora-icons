@@ -1,5 +1,5 @@
-// Run in the source file's plugin context, then save exportFedoraDuo() as JSON.
-async function exportFedoraDuo() {
+// Run in the source file's plugin context, then save exportFosDuo() as JSON.
+async function exportFosDuo() {
   const core = await figma.getNodeByIdAsync("45:36965");
   const state = JSON.parse((await figma.getNodeByIdAsync("48:36638")).getPluginData("duoProof"));
   const presetState = JSON.parse((await figma.getNodeByIdAsync("49:47102")).getPluginData("namedPresetMigration"));

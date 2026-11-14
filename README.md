@@ -1,4 +1,4 @@
-# Fedora Icons
+# Fos Icons
 
 1,252 icons in Regular, Filled, Duocolor, and Duotone styles: **5,008 SVGs**,
 drawn on a 24 x 24 grid. Line styles default to 1.25px strokes. Negative space and
@@ -6,7 +6,7 @@ modifier clearances are transparent.
 
 See [CHANGELOG.md](CHANGELOG.md) for unreleased changes.
 
-Fedora's goal is to help people find the right icon quickly and ship it
+The goal of Fos Icons is to help people find the right icon quickly and ship it
 consistently, from design to code. Icon count is not the success metric.
 
 ## Product principles
@@ -37,14 +37,14 @@ or a claim that every planned capability has shipped.
 ## Planned workflow
 
 The React component package is maintained separately in
-`fedora-icons/react-fedora`; a searchable website is planned. The core SVG
+`fos-icons/react-fos`; a searchable website is planned. The core SVG
 package contains all four styles, with reusable modifiers and a Python
 composition tool.
 The versioned core source release is `v0.1.0`.
 
 The duo styles default to blue, with 12 editable Figma color presets:
 Slate, Blue, Sky, Cyan, Teal, Green, Lime, Yellow, Amber, Orange, Red, and Rose.
-Each preset has Light/Dark primary and secondary variables in **Fedora / Theme**.
+Each preset has Light/Dark primary and secondary variables in **Fos / Theme**.
 Alias `color/duo-primary` and `color/duo-secondary` to a matching
 `color/palette/{name}` pair to change the library's duo colors. For arbitrary
 colors, edit `color/custom/primary` and `color/custom/secondary` and alias the
@@ -53,12 +53,12 @@ the palette variables. Duotone retains its 16% interior fill.
 
 Optional full warm-neutral themes are available in Figma: **Ivory, Sand, and
 Stone**, with backgrounds, surfaces, borders, text, and matching icon colors.
-Select **Warm Light** or **Warm Dark** in **Fedora / Theme**, then choose the
-palette in **Fedora / Warm palette**. Original Light/Dark values and blue
+Select **Warm Light** or **Warm Dark** in **Fos / Theme**, then choose the
+palette in **Fos / Warm palette**. Original Light/Dark values and blue
 defaults are unchanged. `metadata/warm-themes.json` records the editable
 variables, native mode IDs, colors, and contrast verification. These are Figma
 theme presets; SVG defaults remain blue. For warm inline SVGs, use the matching
-primary/secondary values with `--fedora-primary` and `--fedora-secondary`.
+primary/secondary values with `--fos-primary` and `--fos-secondary`.
 
 Duocolor accents separate details. Single-contour icons without a separate
 detail stay primary-only; continuous outlines are not split just to force
@@ -122,7 +122,7 @@ instances, style-page navigation, live warm-theme samples, and editable stroke
 examples. It covers styles, instances, themes, modifiers, and native exports.
 The supplied reference guide remains alongside it.
 
-**Fedora / Stroke** exposes the FLOAT variable `icon/stroke-width` for Regular,
+**Fos / Stroke** exposes the FLOAT variable `icon/stroke-width` for Regular,
 Duocolor, and Duotone. Select a frame or instance and apply a collection mode:
 
 | Stroke preset | Default value |
@@ -171,10 +171,10 @@ on decorative inline SVGs and give icon-only controls an accessible name. For
 meaningful standalone inline SVGs, use `role="img"` and an accessible label.
 Do not globally override path fills: Filled icons use real transparent cutouts.
 
-Duo SVGs use `--fedora-primary` and `--fedora-secondary` with blue defaults.
+Duo SVGs use `--fos-primary` and `--fos-secondary` with blue defaults.
 Set these CSS custom properties on an inline SVG or its ancestor; a CSS
 `color` rule can also override the root's primary default. Named duo presets
-add `--fedora-modifier` for their solid glyph. `metadata/colors.json` records
+add `--fos-modifier` for their solid glyph. `metadata/colors.json` records
 the twelve Light/Dark Figma palette pairs. Standalone SVGs default to Light;
 use the composer with `--theme dark` for dark-theme exports.
 
@@ -210,7 +210,7 @@ Use `--cutout` for transparent stencil marks rather than a theme-colored glyph.
 The exported SVG uses a contour-matched clip path, not a background-colored halo,
 and unique internal IDs for safe inline reuse. Each composition verifies source
 SHA-256 digests before using the assets. The raw files in `modifiers/` use
-`currentColor` and `--fedora-glyph-color` (white fallback); the composer resolves
+`currentColor` and `--fos-glyph-color` (white fallback); the composer resolves
 the selected theme or custom colors into the output.
 
 `metadata/modifiers.json` is the shared source contract for downstream generators:
@@ -274,14 +274,14 @@ print(matches)
 
 ## Figma source
 
-The Fedora Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) contains 1,258 native
+The Fos Icons design file (`5zcUV9E4Bu8FSssDfhyOWw`) contains 1,258 native
 icon component sets. The 1,252 core sets on the Components page have
 `Style=Regular/Filled/Duocolor/Duotone` and `Size=24`, with original
 Regular/Filled component IDs preserved. The separate Brands page contains the
-Fedora Icons mark and five existing third-party sets, with Regular/Filled only
+Fos Icons mark and five existing third-party sets, with Regular/Filled only
 and an ownership disclaimer. Brand drawings remain outside the four-style SVG
 core. Source catalogs and native/4x validation tiles remain
-linked. Select a catalog or verification board and change its **Fedora / Theme**
+linked. Select a catalog or verification board and change its **Fos / Theme**
 mode to switch Light/Dark.
 
 The SVG core excludes five third-party brand drawings still present in the
@@ -306,7 +306,7 @@ line-style stroke widths, internal references, unique source IDs, searchable
 metadata, SHA-256 digests, and unmanifested SVGs.
 
 For updates, run `scripts/export_figma.js` in a Figma plugin context and call
-`exportFedoraIcons(manifest)` with the current manifest object. Save the returned
+`exportFosIcons(manifest)` with the current manifest object. Save the returned
 snapshot JSON (including `styles` and `paintRoles`) outside the repository, then run:
 
 ```sh
@@ -325,13 +325,13 @@ Add or remove icons in the manifest
 deliberately before exporting; unmanifested files are not silently deleted.
 
 For a duo-only refresh, run `scripts/export_duo_figma.js` and call
-`exportFedoraDuo()`, then import its snapshot with
+`exportFosDuo()`, then import its snapshot with
 `python3 scripts/import_duo.py /path/to/duo-export.json`. This stages and validates
 the complete expansion, refreshes the twelve live palette pairs, and refuses
 to rewrite Regular/Filled files or their original source IDs.
 
 For modifier updates, run `scripts/export_modifiers_figma.js` in the same live
-plugin context and call `exportFedoraModifiers()`. Save its returned snapshot
+plugin context and call `exportFosModifiers()`. Save its returned snapshot
 outside the repository, then run:
 
 ```sh
@@ -342,7 +342,7 @@ python3 -m unittest discover -s tests
 ```
 
 The modifier importer preserves the core; the preset builder updates only the
-92 declared named compositions. `exportFedoraPresets()` in the same JavaScript
+92 declared named compositions. `exportFosPresets()` in the same JavaScript
 file exports the live preset definitions after checking their nested sources.
 Import an updated preset snapshot with
 `python3 scripts/build_presets.py --snapshot /path/to/preset-export.json`.
@@ -377,8 +377,8 @@ Finish the pipeline by synchronizing the separate React checkout from these
 optimized assets, then run its tests and package build:
 
 ```sh
-cd ../react-fedora
-npm run sync -- --source ../fedora-icons
+cd ../react-fos
+npm run sync -- --source ../fos-icons
 npm test
 npm pack --silent
 ```
@@ -388,7 +388,7 @@ The November 10, 2026 source audit is recorded in
 
 ## License
 
-Fedora's core artwork and repository tooling are available under the
+The Fos Icons core artwork and repository tooling are available under the
 [MIT License](LICENSE). Third-party brand artwork is **not included** in this
 grant or SVG package. Product names and trademarks belong to their respective
 owners; this project does not imply affiliation or endorsement.

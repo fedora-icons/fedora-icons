@@ -56,7 +56,7 @@ class DuoTests(unittest.TestCase):
             "fixture", style="duotone", paint_roles=data["paintRoles"],
         )
         self.assertIn('fill="white"', result)
-        self.assertIn("var(--fedora-secondary, #5B87B7)", result)
+        self.assertIn("var(--fos-secondary, #5B87B7)", result)
         self.assertIn('opacity="0.16"', result)
         self.assertEqual(validate_svg(result, "duotone"), [])
         for roles in (None, {"primary": "#123456", "secondary": "#123456"}):
@@ -116,7 +116,7 @@ class DuoTests(unittest.TestCase):
             custom = compose_svg("home-smile", "add", style=style, cutout=True,
                                  color="#123456", secondary_color="#ABCDEF")
             self.assertIn('color="#123456"', custom)
-            self.assertNotIn("--fedora-secondary", custom)
+            self.assertNotIn("--fos-secondary", custom)
             if style == "duocolor":
                 self.assertIn("#ABCDEF", custom)
         with self.assertRaises(ValueError):

@@ -1,5 +1,5 @@
 // Run in a Figma plugin context; supply the current repository manifest object.
-function countFedoraComponentPairs(pages) {
+function countFosComponentPairs(pages) {
   return pages.reduce((count, page) => count + page.findAll(node =>
     node.type === "COMPONENT_SET" &&
     node.variantGroupProperties.Size?.values.includes("24") &&
@@ -8,13 +8,13 @@ function countFedoraComponentPairs(pages) {
   ).length, 0);
 }
 
-async function exportFedoraIcons(manifest) {
+async function exportFosIcons(manifest) {
   if (manifest.grid !== 24 || manifest.iconCount !== manifest.icons.length) {
     throw new Error("Invalid 24px manifest");
   }
   const page = await figma.getNodeByIdAsync("35:142772");
   if (!page || page.type !== "PAGE") {
-    throw new Error("Open the Fedora Icons source file");
+    throw new Error("Open the Fos Icons source file");
   }
   const rightEdge = Math.max(0, ...page.children.map(node => node.x + node.width));
   const section = figma.createSection();
@@ -85,7 +85,7 @@ async function exportFedoraIcons(manifest) {
     });
     const brandPages = figma.root.children.filter(node => node.name === "Brands");
     for (const brandPage of brandPages) await brandPage.loadAsync();
-    const componentPairs = countFedoraComponentPairs([page, ...brandPages]);
+    const componentPairs = countFosComponentPairs([page, ...brandPages]);
     return {
       records,
       svg,

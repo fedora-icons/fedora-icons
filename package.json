@@ -1,5 +1,5 @@
 {
-  "name": "fedora-icons-tooling",
+  "name": "fos-icons-tooling",
   "private": true,
   "type": "module",
   "scripts": {

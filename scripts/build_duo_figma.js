@@ -1,5 +1,5 @@
-// Run in the source file's plugin context, then call buildFedoraDuoBatch().
-async function buildFedoraDuoBatch(limit = 50) {
+// Run in the source file's plugin context, then call buildFosDuoBatch().
+async function buildFosDuoBatch(limit = 50) {
   const core = await figma.getNodeByIdAsync("45:36965");
   const proof = JSON.parse((await figma.getNodeByIdAsync("48:36638")).getPluginData("duoProof"));
   const presets = JSON.parse((await figma.getNodeByIdAsync("49:47102")).getPluginData("namedPresetMigration"));

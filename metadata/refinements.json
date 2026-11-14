@@ -79,7 +79,7 @@
     }
   ],
   "descriptions": {
-    "format": "Keyword: fedora-icon;\nMetaphor: <name>, <relevant synonyms>.",
+    "format": "Keyword: fos-icon;\nMetaphor: <name>, <relevant synonyms>.",
     "sets": 1239,
     "componentsAndSets": 6185,
     "synonyms": {

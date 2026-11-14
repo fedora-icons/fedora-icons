@@ -4,6 +4,14 @@ Changes are recorded under Unreleased until a release is tagged.
 
 ## Unreleased
 
+### Breaking
+
+- Renamed the project from Fedora Icons to **Fos Icons** (`fos-icons`,
+  fosicons.com). The SVG color variables are now `--fos-primary`,
+  `--fos-secondary`, `--fos-modifier`, and `--fos-glyph-color`, and definition
+  IDs use the `fos-` prefix. The previous `--fedora-*` names are no longer read.
+  Only names changed: geometry, paints, and fallback colors are identical.
+
 ### Added
 
 - Eighteen icons in all four styles, bringing the library to 1,252 icons and
@@ -14,7 +22,7 @@ Changes are recorded under Unreleased until a release is tagged.
   - `music-clef-treble`, `music-note-half`, `music-note-single`, and `music-sharp`.
 - Expanded reusable modifier assets and style-safe compositions, with 92 named
   presets and preserved source metadata.
-- Added the first-party Fedora Icons mark to a separate Figma Brands page in
+- Added the first-party Fos Icons mark to a separate Figma Brands page in
   Regular and Filled only; it is not part of the four-style core exports.
 - `brand-assets/`: 32 third-party marks (28 social, plus Google Chrome and
   Microsoft Edge, Teams, and Windows) with a manifest of owners, sources, and

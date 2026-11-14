@@ -11,7 +11,7 @@ function resolvePaints(svg, theme) {
   svg = svg.replace(/<\?xml[\s\S]*?\?>/g, '');
   // resvg does not resolve CSS custom properties; exercise every public role.
   while (svg.includes('var(')) {
-    const next = svg.replace(/var\(--fedora-([\w-]+),\s*([^()]*)\)/g,
+    const next = svg.replace(/var\(--fos-([\w-]+),\s*([^()]*)\)/g,
       (match, role, fallback) => colors[role] ?? fallback.trim());
     if (next === svg) throw new Error('Unresolved CSS variable in render fixture');
     svg = next;

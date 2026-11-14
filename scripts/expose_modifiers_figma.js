@@ -1,4 +1,4 @@
-async function exposeFedoraModifierProperties() {
+async function exposeFosModifierProperties() {
   const section = await figma.getNodeByIdAsync("49:47102");
   const state = JSON.parse(section.getPluginData("namedPresetMigration"));
   const updated = [];
@@ -31,4 +31,4 @@ async function exposeFedoraModifierProperties() {
   return updated;
 }
 
-// Run in the Fedora Icons plugin context.
+// Run in the Fos Icons plugin context.

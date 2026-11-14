@@ -12,7 +12,7 @@ a 60px-column, 56px-row grid without individual captions. The Brands page now
 contains 37 Regular icons and five Solid icons. Third-party marks appear only
 in the Regular row; Solid is limited to marks that already have a Solid source.
 
-The first-party `fedora-icons` mark is adapted from the supplied F Symbol,
+The first-party `fos-icons` mark is adapted from the supplied F Symbol,
 preserving its interlocking contours and proportions. Its native component set
 is `71:151203`, with Regular `71:151173` and Filled `71:151178`. It is a separate
 Figma companion, not a four-style core SVG or React export.
@@ -25,7 +25,7 @@ Facebook, X, Instagram, LinkedIn, Google, WhatsApp, Apple, Snapchat, Pinterest,
 Dribbble, Reddit, Discord, TikTok, Tumblr, Telegram, Clubhouse, Signal, GitHub,
 AngelList, Layers, Twitch, Slack, Spotify, Stripe, PayPal, Wise, Notion, and
 Webflow. X is used instead of Twitter; one Discord identity is retained.
-Existing Figma, Framer, YouTube, Chromecast, and Fedora icons remain in the
+Existing Figma, Framer, YouTube, Chromecast, and Fos icons remain in the
 catalog without duplicating those identities.
 
 Google Chrome, Microsoft Edge, Teams, and Windows are separate brand-only

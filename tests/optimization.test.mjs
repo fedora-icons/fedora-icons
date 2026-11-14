@@ -11,14 +11,14 @@ const fixture = `<?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 <!-- removable metadata -->
 <defs>
-  <mask id="fedora-fixture-mask" mask-type="luminance">
+  <mask id="fos-fixture-mask" mask-type="luminance">
     <rect width="24" height="24" fill="white"/>
     <circle cx="12" cy="12" r="4" fill="black"/>
   </mask>
-  <clipPath id="fedora-fixture-clip"><rect width="24" height="24"/></clipPath>
+  <clipPath id="fos-fixture-clip"><rect width="24" height="24"/></clipPath>
 </defs>
-<g><g mask="url(#fedora-fixture-mask)" clip-path="url(#fedora-fixture-clip)">
-  <g opacity="0.16"><path d="M2 2H22V22H2Z" fill="var(--fedora-secondary, #5B87B7)"/></g>
+<g><g mask="url(#fos-fixture-mask)" clip-path="url(#fos-fixture-clip)">
+  <g opacity="0.16"><path d="M2 2H22V22H2Z" fill="var(--fos-secondary, #5B87B7)"/></g>
 </g></g>
 <svg x="2" y="2" width="20" height="20" viewBox="0 0 24 24" fill="none">
   <path d="M2 2H22V22H2Z" stroke="currentColor" stroke-width="1.5"/>
@@ -32,10 +32,10 @@ test('optimization preserves masks, cutouts, roles, tints, and optical viewports
   assert.doesNotMatch(optimized, /removable metadata/);
   for (const fragment of [
     'viewBox="0 0 24 24"', 'width="24"', 'height="24"',
-    'id="fedora-fixture-mask"', 'mask="url(#fedora-fixture-mask)"',
-    'clip-path="url(#fedora-fixture-clip)"', 'mask-type="luminance"',
+    'id="fos-fixture-mask"', 'mask="url(#fos-fixture-mask)"',
+    'clip-path="url(#fos-fixture-clip)"', 'mask-type="luminance"',
     'fill="white"', 'fill="black"', 'opacity="0.16"',
-    'var(--fedora-secondary, #5B87B7)', 'stroke="currentColor"',
+    'var(--fos-secondary, #5B87B7)', 'stroke="currentColor"',
     'stroke-width="1.5"', 'width="20"', 'height="20"', 'd="M2 2H22V22H2Z"',
   ]) assert.ok(optimized.includes(fragment), fragment);
   assertVisualParity(fixture, optimized, 'semantic fixture');
@@ -52,7 +52,7 @@ test('pixel parity gate detects geometry and tint regressions', () => {
 });
 
 test('library optimization refreshes both hash contracts; check mode never writes', async t => {
-  const root = await mkdtemp(join(tmpdir(), 'fedora-svgo-'));
+  const root = await mkdtemp(join(tmpdir(), 'fos-svgo-'));
   t.after(() => rm(root, { recursive: true, force: true }));
   await mkdir(join(root, 'icons/regular'), { recursive: true });
   await mkdir(join(root, 'modifiers'));

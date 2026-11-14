@@ -15,10 +15,10 @@ class FigmaExportTests(unittest.TestCase):
             const vm = require('node:vm');
             const assert = require('node:assert/strict');
             const scripts = {
-                'export_figma.js': ['exportFedoraIcons'],
-                'export_duo_figma.js': ['exportFedoraDuo'],
-                'export_modifiers_figma.js': ['exportFedoraModifiers', 'exportFedoraPresets'],
-                'expose_modifiers_figma.js': ['exposeFedoraModifierProperties'],
+                'export_figma.js': ['exportFosIcons'],
+                'export_duo_figma.js': ['exportFosDuo'],
+                'export_modifiers_figma.js': ['exportFosModifiers', 'exportFosPresets'],
+                'expose_modifiers_figma.js': ['exposeFosModifierProperties'],
             };
             for (const [file, names] of Object.entries(scripts)) {
                 const context = vm.createContext({});
@@ -54,7 +54,7 @@ class FigmaExportTests(unittest.TestCase):
                     new vm.Script(fs.readFileSync(
                         'scripts/export_duo_figma.js', 'utf8'
                     )).runInContext(context);
-                    await assert.rejects(context.exportFedoraDuo(),
+                    await assert.rejects(context.exportFosDuo(),
                         error => error.message === expected);
                 }
             })().catch(error => {console.error(error); process.exitCode = 1;});
@@ -79,7 +79,7 @@ class FigmaExportTests(unittest.TestCase):
             });
             const page = nodes => ({findAll: predicate => nodes.filter(predicate)});
             const regularFilled = ['Regular', 'Filled'];
-            assert.equal(context.countFedoraComponentPairs([
+            assert.equal(context.countFosComponentPairs([
                 page([set([...regularFilled, 'Duocolor', 'Duotone'])]),
                 page([
                     set(regularFilled), set(regularFilled),

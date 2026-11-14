@@ -72,7 +72,7 @@ def validate_svg(text, style):
                     errors.append("External href")
             if attr in {"fill", "stroke"} and not definition:
                 secondary = style in DUO_STYLES and re.fullmatch(
-                    r"var\(--fedora-secondary, #[0-9A-Fa-f]{6}\)", value,
+                    r"var\(--fos-secondary, #[0-9A-Fa-f]{6}\)", value,
                 )
                 if value not in {"none", "currentColor"} and not secondary:
                     errors.append(f"Non-themable {attr}: {value}")

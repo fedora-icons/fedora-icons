@@ -41,12 +41,12 @@ def build_presets(root=ROOT, snapshot=None):
                 base, preset["modifier"], style=style,
                 position=preset["position"], base_fit=preset.get("fit"),
                 cutout=True, modifier_color=None if style in DUO_STYLES else "currentColor", root=root,
-                id_prefix=f"fedora-{name}-{style}",
+                id_prefix=f"fos-{name}-{style}",
             )
             if style in DUO_STYLES:
                 document = ET.fromstring(svg)
                 badge = list(document)[-1]
-                badge.set("color", f"var(--fedora-modifier, {badge.get('color')})")
+                badge.set("color", f"var(--fos-modifier, {badge.get('color')})")
                 svg = ET.tostring(document, encoding="unicode") + "\n"
             failures = validate_svg(svg, style)
             if failures:

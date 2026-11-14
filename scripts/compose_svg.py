@@ -132,7 +132,7 @@ def compose_svg(
     glyph_color = color_value(
         glyph["colors"][theme]["glyph"] if glyph_color is None else glyph_color,
     )
-    prefix = id_prefix or f"fedora-{uuid.uuid4().hex}"
+    prefix = id_prefix or f"fos-{uuid.uuid4().hex}"
     if not re.fullmatch(r"[a-zA-Z_][a-zA-Z0-9_-]*", prefix):
         raise ValueError("Invalid SVG ID prefix")
     base = read_asset(root, icon["files"][style], icon["sha256"][style])

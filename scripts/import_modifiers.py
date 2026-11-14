@@ -12,7 +12,7 @@ from import_figma import SVG
 
 ROOT = Path(__file__).resolve().parents[1]
 POSITIONS = ("top-left", "top-right", "bottom-left", "bottom-right")
-GLYPH_PAINT = "var(--fedora-glyph-color, #FFFFFF)"
+GLYPH_PAINT = "var(--fos-glyph-color, #FFFFFF)"
 ET.register_namespace("", SVG)
 
 
@@ -61,7 +61,7 @@ def normalize_modifier(record):
                 node.set(attr, GLYPH_PAINT)
             elif color not in ("", "none"):
                 raise ValueError(f"Unmapped modifier paint: {color}")
-    namespace_ids(root, f"fedora-modifier-{record['name']}")
+    namespace_ids(root, f"fos-modifier-{record['name']}")
     return ET.tostring(root, encoding="unicode") + "\n"
 
 
